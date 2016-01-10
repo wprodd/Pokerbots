@@ -43,6 +43,7 @@ class Player:
                 myBank = dataList[7]
                 oppBank = dataList[8]
                 timeRemaining = dataList[9]
+                handValue = handEvaluator(myHand)
                 print myHand
 
             # When appropriate, reply to the engine with a legal action.
@@ -52,19 +53,23 @@ class Player:
             # When sending responses, terminate each response with a newline
             # character (\n) or your bot will hang!
             if dataType == "GETACTION":
-                # Currently CHECK on every move. You'll want to change this.
                 pot = dataList[1]
+                #Reads board cards into a list
                 boardCards = []
                 numCards = int(dataList[2])
                 for card in range(3,numCards+3):
                     boardCards.append(dataList[card])
                 print boardCards
+
+                #Read lastActions into a list
                 lastActions = []
                 numLastActionsIndex = int(dataList[2])+3
                 numLastActions = int(dataList[numLastActionsIndex])
                 for action in range(numLastActionsIndex+1,numLastActionsIndex+numLastActions+1):
                     lastActions.append(dataList[action])
                 print lastActions
+
+                #Read legalActions into a list
                 legalActions = []
                 numLegalActionsIndex = numLastActionsIndex+numLastActions+1
                 numLegalActions = int(dataList[numLegalActionsIndex])
@@ -73,7 +78,8 @@ class Player:
                     legalActions.append(dataList[action])
                 print legalActions
                 timeRemaining = dataList[-1]
-
+                if (not button and handEvaluator(myHand)>outThreshold) or (handEvaluator(myHand)>inThreshold):
+                    
                 s.send("FOLD\n")
             elif dataType == "REQUESTKEYVALUES":
                 # At the end, the engine will allow your bot save key/value pairs.
