@@ -12,7 +12,7 @@ It is meant as an example of how a pokerbot should communicate with the engine.
 class Player:
     def handEvaluator(hand):
         points = 0
-        numRanks = [] //counts number of cards of a particular rank
+        numRanks = [] #counts number of cards of a particular rank
         for i in range(0, 13):
             numRanks.append(0)
         for s in hand:
@@ -29,7 +29,7 @@ class Player:
             else:
                 numRanks[int(s[0]) - 2] = numRanks[int(s[0]) - 2] + 1
                 
-        //counting pairs
+        #counting pairs
         if(numRanks[12] == 2):
             points = points + 10000
         if(numRanks[11] == 2):
@@ -39,17 +39,17 @@ class Player:
         if(numRanks[9] == 2):
             points = points + 2
             
-        //counting triples
+        #counting triples
         if(numRanks[12] == 3):
             points = points + 4
         if(numRanks[11] == 3):
             points = points + 1
         
-        //counting four of a kind
+        #counting four of a kind
         if(numRanks[12] == 4):
             points = points + 1
             
-        //counting consecutive numbers
+        #counting consecutive numbers
         for i in range(0, 13):
             if(numRanks[i] > 0 and numRanks[(i + 1)%13] > 0):
                 points = points + 5*(min(numRanks[i], numRanks[(i + 1)%13])
@@ -67,7 +67,7 @@ class Player:
             else:
                 numSuits[3] = numSuits[3] + 1
                 
-        //counting suits
+        #counting suits
         for i in range(0, 4):
             if(numSuits[i] >= 2):
                 points = points + 9 - 2*numSuits[i]
