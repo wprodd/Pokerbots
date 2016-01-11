@@ -192,7 +192,7 @@ class Player:
                     if can["CHECK"]:
                         s.send("CHECK\n")
                     else:
-                        s.send("CALL\n")
+                        s.send("FOLD\n")
 
             elif dataType == "REQUESTKEYVALUES":
                 # At the end, the engine will allow your bot save key/value pairs.

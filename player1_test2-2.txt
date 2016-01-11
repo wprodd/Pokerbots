@@ -2,898 +2,756 @@
 Hand #1, test22 (0), player12 (0)
 test22 posts the blind of 1
 player12 posts the blind of 2
-Dealt to test22 [3d Td 9d Th]
-Dealt to player12 [2h 2c 6h 3s]
+Dealt to test22 [Ah Tc 9s 3d]
+Dealt to player12 [6h 6s 8h Kc]
+test22 calls
+player12 checks
+*** FLOP *** (4) [4s 8d 7d]
+player12 checks
+test22 checks
+*** TURN *** (4) [4s 8d 7d] [3h]
+player12 checks
+test22 checks
+*** RIVER *** (4) [4s 8d 7d 3h] [4d]
+player12 checks
+test22 checks
+test22 shows [Ah Tc 9s 3d]
+player12 shows [6h 6s 8h Kc]
+player12 wins the pot (4)
+
+Hand #2, player12 (2), test22 (-2)
+player12 posts the blind of 1
+test22 posts the blind of 2
+Dealt to player12 [Jh 6h 7s Td]
+Dealt to test22 [9d 8d 4h Qs]
+player12 raises to 6
+test22 folds
+Uncalled bet of 4 returned to player12
+player12 wins the pot (4)
+
+Hand #3, test22 (-4), player12 (4)
+test22 posts the blind of 1
+player12 posts the blind of 2
+Dealt to test22 [Jc Ac 4h 3s]
+Dealt to player12 [Ts 6s 3d 5c]
+test22 calls
+player12 raises to 6
+test22 folds
+Uncalled bet of 4 returned to player12
+player12 wins the pot (4)
+
+Hand #4, player12 (6), test22 (-6)
+player12 posts the blind of 1
+test22 posts the blind of 2
+Dealt to player12 [8d 2c Ts Qh]
+Dealt to test22 [9s 7s 9c Td]
+player12 folds
+test22 wins the pot (3)
+
+Hand #5, test22 (-5), player12 (5)
+test22 posts the blind of 1
+player12 posts the blind of 2
+Dealt to test22 [9s 8d Ks 2h]
+Dealt to player12 [9d Ts 8h Jh]
 test22 raises to 5
 player12 raises to 15
 test22 folds
 Uncalled bet of 10 returned to player12
 player12 wins the pot (10)
 
-Hand #2, player12 (5), test22 (-5)
+Hand #6, player12 (10), test22 (-10)
 player12 posts the blind of 1
 test22 posts the blind of 2
-Dealt to player12 [4d 9h 2c 4c]
-Dealt to test22 [Tc 9d 6h Kh]
-player12 calls
-test22 checks
-*** FLOP *** (4) [8d 2d Th]
-test22 bets 2
-player12 calls
-*** TURN *** (8) [8d 2d Th] [6s]
-test22 checks
-player12 checks
-*** RIVER *** (8) [8d 2d Th 6s] [Jc]
-test22 bets 7
-player12 calls
-player12 shows [4d 9h 2c 4c]
-test22 shows [Tc 9d 6h Kh]
-test22 wins the pot (22)
+Dealt to player12 [8d Kc Qs 6c]
+Dealt to test22 [Qd 5d 3s 4s]
+player12 raises to 6
+test22 folds
+Uncalled bet of 4 returned to player12
+player12 wins the pot (4)
 
-Hand #3, test22 (6), player12 (-6)
+Hand #7, test22 (-12), player12 (12)
 test22 posts the blind of 1
 player12 posts the blind of 2
-Dealt to test22 [4c 7h Js 7s]
-Dealt to player12 [2h 5d 8c 6c]
+Dealt to test22 [4d 3h Qd Kh]
+Dealt to player12 [Kc 9d 5h 2c]
+test22 calls
+player12 checks
+*** FLOP *** (4) [Qh 3s Tc]
+player12 checks
+test22 bets 3
+player12 calls
+*** TURN *** (10) [Qh 3s Tc] [9c]
+player12 checks
+test22 checks
+*** RIVER *** (10) [Qh 3s Tc 9c] [As]
+player12 checks
+test22 checks
+test22 shows [4d 3h Qd Kh]
+player12 shows [Kc 9d 5h 2c]
+test22 wins the pot (10)
+
+Hand #8, player12 (7), test22 (-7)
+player12 posts the blind of 1
+test22 posts the blind of 2
+Dealt to player12 [5d 4d 9h 3h]
+Dealt to test22 [6s Kh Jd 8h]
+player12 raises to 6
+test22 folds
+Uncalled bet of 4 returned to player12
+player12 wins the pot (4)
+
+Hand #9, test22 (-9), player12 (9)
+test22 posts the blind of 1
+player12 posts the blind of 2
+Dealt to test22 [9d Ac Jc Kh]
+Dealt to player12 [2c 9h 6s Ts]
 test22 folds
 player12 wins the pot (3)
 
-Hand #4, player12 (-5), test22 (5)
+Hand #10, player12 (10), test22 (-10)
 player12 posts the blind of 1
 test22 posts the blind of 2
-Dealt to player12 [7s Ks Ts 8h]
-Dealt to test22 [7d Ac 6c 2c]
-player12 calls
-test22 raises to 4
-player12 calls
-*** FLOP *** (8) [2s 9d 5d]
-test22 bets 6
-player12 calls
-*** TURN *** (20) [2s 9d 5d] [2h]
-test22 checks
-player12 checks
-*** RIVER *** (20) [2s 9d 5d 2h] [6s]
-test22 checks
-player12 checks
-player12 shows [7s Ks Ts 8h]
-test22 shows [7d Ac 6c 2c]
-test22 wins the pot (20)
+Dealt to player12 [5h 7s 6d 8d]
+Dealt to test22 [Kd Qd Ad 3s]
+player12 raises to 6
+test22 folds
+Uncalled bet of 4 returned to player12
+player12 wins the pot (4)
 
-Hand #5, test22 (15), player12 (-15)
+Hand #11, test22 (-12), player12 (12)
 test22 posts the blind of 1
 player12 posts the blind of 2
-Dealt to test22 [2c 7d Kd 9d]
-Dealt to player12 [5d 8s 5c Kh]
+Dealt to test22 [Ah Qh 3c 9c]
+Dealt to player12 [8h 2h 5d 6h]
 test22 raises to 4
 player12 calls
-*** FLOP *** (8) [8h 7s 3c]
+*** FLOP *** (8) [2d Jc Kd]
+player12 checks
+test22 checks
+*** TURN *** (8) [2d Jc Kd] [8s]
+player12 checks
+test22 bets 2
+player12 calls
+*** RIVER *** (12) [2d Jc Kd 8s] [Ks]
+player12 checks
+test22 bets 2
+player12 calls
+test22 shows [Ah Qh 3c 9c]
+player12 shows [8h 2h 5d 6h]
+player12 wins the pot (16)
+
+Hand #12, player12 (20), test22 (-20)
+player12 posts the blind of 1
+test22 posts the blind of 2
+Dealt to player12 [9s Ks Qs 5h]
+Dealt to test22 [Th 3h Js Ah]
+player12 calls
+test22 checks
+*** FLOP *** (4) [5s Jd Qc]
+test22 checks
+player12 checks
+*** TURN *** (4) [5s Jd Qc] [Jh]
+test22 checks
+player12 checks
+*** RIVER *** (4) [5s Jd Qc Jh] [Kh]
+test22 checks
+player12 checks
+player12 shows [9s Ks Qs 5h]
+test22 shows [Th 3h Js Ah]
+test22 wins the pot (4)
+
+Hand #13, test22 (-18), player12 (18)
+test22 posts the blind of 1
+player12 posts the blind of 2
+Dealt to test22 [Kh 9s 2c Ks]
+Dealt to player12 [Th 4s Kd Ts]
+test22 folds
+player12 wins the pot (3)
+
+Hand #14, player12 (19), test22 (-19)
+player12 posts the blind of 1
+test22 posts the blind of 2
+Dealt to player12 [Kc 8h Js 9c]
+Dealt to test22 [7s As 4d 5h]
+player12 raises to 6
+test22 folds
+Uncalled bet of 4 returned to player12
+player12 wins the pot (4)
+
+Hand #15, test22 (-21), player12 (21)
+test22 posts the blind of 1
+player12 posts the blind of 2
+Dealt to test22 [7c 9h Tc 2d]
+Dealt to player12 [Ah 7d 3c 9c]
+test22 raises to 5
+player12 calls
+*** FLOP *** (10) [Th 9d 2s]
+player12 checks
+test22 checks
+*** TURN *** (10) [Th 9d 2s] [Qd]
+player12 checks
+test22 bets 2
+player12 calls
+*** RIVER *** (14) [Th 9d 2s Qd] [5d]
+player12 checks
+test22 checks
+test22 shows [7c 9h Tc 2d]
+player12 shows [Ah 7d 3c 9c]
+test22 wins the pot (14)
+
+Hand #16, player12 (14), test22 (-14)
+player12 posts the blind of 1
+test22 posts the blind of 2
+Dealt to player12 [5s 9s 9c Qs]
+Dealt to test22 [Kd Ks Ad 9h]
+player12 calls
+test22 raises to 4
+player12 calls
+*** FLOP *** (8) [2s 4d 2d]
+test22 checks
+player12 checks
+*** TURN *** (8) [2s 4d 2d] [6s]
+test22 checks
+player12 checks
+*** RIVER *** (8) [2s 4d 2d 6s] [6c]
+test22 checks
+player12 checks
+player12 shows [5s 9s 9c Qs]
+test22 shows [Kd Ks Ad 9h]
+test22 wins the pot (8)
+
+Hand #17, test22 (-10), player12 (10)
+test22 posts the blind of 1
+player12 posts the blind of 2
+Dealt to test22 [Qd 8d 6d As]
+Dealt to player12 [2c Ah 9c Ks]
+test22 calls
+player12 raises to 6
+test22 calls
+*** FLOP *** (12) [Jc 8h Kh]
+player12 checks
+test22 bets 3
+player12 calls
+*** TURN *** (18) [Jc 8h Kh] [3c]
 player12 checks
 test22 bets 4
 player12 calls
-*** TURN *** (16) [8h 7s 3c] [6s]
+*** RIVER *** (26) [Jc 8h Kh 3c] [Tc]
 player12 checks
 test22 checks
-*** RIVER *** (16) [8h 7s 3c 6s] [3h]
-player12 checks
-test22 bets 9
-player12 calls
-test22 shows [2c 7d Kd 9d]
-player12 shows [5d 8s 5c Kh]
-player12 wins the pot (34)
+test22 shows [Qd 8d 6d As]
+player12 shows [2c Ah 9c Ks]
+player12 wins the pot (26)
 
-Hand #6, player12 (2), test22 (-2)
+Hand #18, player12 (23), test22 (-23)
 player12 posts the blind of 1
 test22 posts the blind of 2
-Dealt to player12 [9d Jh 9s 6d]
-Dealt to test22 [9c As 8h 3s]
+Dealt to player12 [7h 7s As 3c]
+Dealt to test22 [Ad 9h 9d 3d]
 player12 calls
 test22 checks
-*** FLOP *** (4) [7h 4s 8s]
+*** FLOP *** (4) [8d 7c Ks]
 test22 bets 3
 player12 calls
-*** TURN *** (10) [7h 4s 8s] [Qh]
-test22 bets 6
-player12 calls
-*** RIVER *** (22) [7h 4s 8s Qh] [Jd]
-test22 bets 5
-player12 calls
-player12 shows [9d Jh 9s 6d]
-test22 shows [9c As 8h 3s]
-player12 wins the pot (32)
+*** TURN *** (10) [8d 7c Ks] [Kd]
+test22 checks
+player12 checks
+*** RIVER *** (10) [8d 7c Ks Kd] [6s]
+test22 checks
+player12 checks
+player12 shows [7h 7s As 3c]
+test22 shows [Ad 9h 9d 3d]
+player12 wins the pot (10)
 
-Hand #7, test22 (-18), player12 (18)
+Hand #19, test22 (-28), player12 (28)
 test22 posts the blind of 1
 player12 posts the blind of 2
-Dealt to test22 [6c 9h 4d 2c]
-Dealt to player12 [8h Qh 6s 8d]
-test22 raises to 5
+Dealt to test22 [4c Qd 6h Kc]
+Dealt to player12 [Jh Td 8h Ah]
+test22 folds
+player12 wins the pot (3)
+
+Hand #20, player12 (29), test22 (-29)
+player12 posts the blind of 1
+test22 posts the blind of 2
+Dealt to player12 [5s 9h Jc Kd]
+Dealt to test22 [Th 8c 6c Tc]
+player12 folds
+test22 wins the pot (3)
+
+Hand #21, test22 (-28), player12 (28)
+test22 posts the blind of 1
+player12 posts the blind of 2
+Dealt to test22 [Qh Th 4d 6s]
+Dealt to player12 [As 7d Jc Qs]
+test22 folds
+player12 wins the pot (3)
+
+Hand #22, player12 (29), test22 (-29)
+player12 posts the blind of 1
+test22 posts the blind of 2
+Dealt to player12 [Ks 8d 3d 5d]
+Dealt to test22 [7s Qd 7h 6s]
 player12 calls
-*** FLOP *** (10) [7h Qd Td]
+test22 raises to 4
+player12 calls
+*** FLOP *** (8) [Th 9d 4d]
+test22 checks
+player12 checks
+*** TURN *** (8) [Th 9d 4d] [8c]
+test22 bets 3
+player12 calls
+*** RIVER *** (14) [Th 9d 4d 8c] [2c]
+test22 checks
+player12 checks
+player12 shows [Ks 8d 3d 5d]
+test22 shows [7s Qd 7h 6s]
+test22 wins the pot (14)
+
+Hand #23, test22 (-22), player12 (22)
+test22 posts the blind of 1
+player12 posts the blind of 2
+Dealt to test22 [Kh 5c 5s 6c]
+Dealt to player12 [2d Qd 6h 4d]
+test22 calls
+player12 checks
+*** FLOP *** (4) [Tc Jh 2s]
+player12 checks
+test22 bets 2
+player12 calls
+*** TURN *** (8) [Tc Jh 2s] [9h]
+player12 checks
+test22 checks
+*** RIVER *** (8) [Tc Jh 2s 9h] [3h]
+player12 checks
+test22 bets 6
+player12 calls
+test22 shows [Kh 5c 5s 6c]
+player12 shows [2d Qd 6h 4d]
+test22 wins the pot (20)
+
+Hand #24, player12 (12), test22 (-12)
+player12 posts the blind of 1
+test22 posts the blind of 2
+Dealt to player12 [Kh 6s 2d Ks]
+Dealt to test22 [Tc Ad Ac 8d]
+player12 raises to 6
+test22 calls
+*** FLOP *** (12) [9s 8s 3h]
+test22 bets 10
+player12 calls
+*** TURN *** (32) [9s 8s 3h] [5s]
+test22 bets 3
+player12 calls
+*** RIVER *** (38) [9s 8s 3h 5s] [Js]
+test22 bets 28
+player12 calls
+player12 shows [Kh 6s 2d Ks]
+test22 shows [Tc Ad Ac 8d]
+player12 wins the pot (94)
+
+Hand #25, test22 (-59), player12 (59)
+test22 posts the blind of 1
+player12 posts the blind of 2
+Dealt to test22 [3h 2d 4h 6d]
+Dealt to player12 [4c 7d 4d Ks]
+test22 calls
+player12 checks
+*** FLOP *** (4) [7h Ad Jc]
+player12 checks
+test22 bets 3
+player12 calls
+*** TURN *** (10) [7h Ad Jc] [8c]
+player12 checks
+test22 checks
+*** RIVER *** (10) [7h Ad Jc 8c] [9s]
 player12 checks
 test22 bets 8
 player12 calls
-*** TURN *** (26) [7h Qd Td] [3s]
-player12 checks
-test22 bets 22
-player12 calls
-*** RIVER *** (70) [7h Qd Td 3s] [5c]
-player12 checks
-test22 checks
-test22 shows [6c 9h 4d 2c]
-player12 shows [8h Qh 6s 8d]
-test22 wins the pot (70)
+test22 shows [3h 2d 4h 6d]
+player12 shows [4c 7d 4d Ks]
+player12 wins the pot (26)
 
-Hand #8, player12 (-17), test22 (17)
+Hand #26, player12 (72), test22 (-72)
 player12 posts the blind of 1
 test22 posts the blind of 2
-Dealt to player12 [Kh 7c 2h 2d]
-Dealt to test22 [Qd Qs Qc 9c]
+Dealt to player12 [6h Ks Jh 7h]
+Dealt to test22 [7s 8c 7c 9d]
 player12 calls
-test22 raises to 4
+test22 raises to 5
 player12 calls
-*** FLOP *** (8) [2s 5c 6s]
+*** FLOP *** (10) [3s Qs 5d]
+test22 bets 2
+player12 calls
+*** TURN *** (14) [3s Qs 5d] [4d]
 test22 checks
 player12 checks
-*** TURN *** (8) [2s 5c 6s] [5s]
-test22 checks
-player12 checks
-*** RIVER *** (8) [2s 5c 6s 5s] [6d]
-test22 checks
-player12 checks
-player12 shows [Kh 7c 2h 2d]
-test22 shows [Qd Qs Qc 9c]
-player12 wins the pot (8)
+*** RIVER *** (14) [3s Qs 5d 4d] [9s]
+test22 bets 6
+player12 calls
+player12 shows [6h Ks Jh 7h]
+test22 shows [7s 8c 7c 9d]
+player12 wins the pot (26)
 
-Hand #9, test22 (13), player12 (-13)
+Hand #27, test22 (-85), player12 (85)
 test22 posts the blind of 1
 player12 posts the blind of 2
-Dealt to test22 [Kd 8s 7h Qs]
-Dealt to player12 [Qc 6h Js Ah]
-test22 calls
-player12 raises to 4
-test22 calls
-*** FLOP *** (8) [7s 4s Jc]
-player12 checks
-test22 checks
-*** TURN *** (8) [7s 4s Jc] [6s]
-player12 checks
-test22 bets 4
-player12 calls
-*** RIVER *** (16) [7s 4s Jc 6s] [Th]
-player12 checks
-test22 checks
-test22 shows [Kd 8s 7h Qs]
-player12 shows [Qc 6h Js Ah]
-test22 wins the pot (16)
-
-Hand #10, player12 (-21), test22 (21)
-player12 posts the blind of 1
-test22 posts the blind of 2
-Dealt to player12 [Jc 5s Td As]
-Dealt to test22 [Ts 9h 3d 6d]
-player12 raises to 6
-test22 raises to 10
-player12 raises to 30
-test22 raises to 86
-player12 raises to 258
-test22 calls
-*** FLOP *** (516) [3c 9s 8h]
-test22 bets 236
-player12 calls
-*** TURN *** (988) [3c 9s 8h] [2d]
-test22 bets -15
-player12 calls
-*** RIVER *** (958) [3c 9s 8h 2d] [8c]
-test22 checks
-player12 checks
-player12 shows [Jc 5s Td As]
-test22 shows [Ts 9h 3d 6d]
-test22 wins the pot (958)
-
-Hand #11, test22 (500), player12 (-500)
-test22 posts the blind of 1
-player12 posts the blind of 2
-Dealt to test22 [6d Qc 7h 3s]
-Dealt to player12 [8c 5c 8d 6c]
-test22 calls
-player12 checks
-*** FLOP *** (4) [Jh 4d 7d]
-player12 checks
-test22 checks
-*** TURN *** (4) [Jh 4d 7d] [3h]
-player12 checks
-test22 bets 3
-player12 calls
-*** RIVER *** (10) [Jh 4d 7d 3h] [2d]
-player12 checks
-test22 checks
-test22 shows [6d Qc 7h 3s]
-player12 shows [8c 5c 8d 6c]
+Dealt to test22 [3s Ks Qs Jh]
+Dealt to player12 [7s 9s 2c 8s]
+test22 raises to 5
+player12 raises to 15
+test22 folds
+Uncalled bet of 10 returned to player12
 player12 wins the pot (10)
 
-Hand #12, player12 (-495), test22 (495)
+Hand #28, player12 (90), test22 (-90)
 player12 posts the blind of 1
 test22 posts the blind of 2
-Dealt to player12 [5h 6c 6h 8s]
-Dealt to test22 [4s Td Ts 6s]
-player12 raises to 6
-test22 raises to 10
-player12 raises to 30
-test22 calls
-*** FLOP *** (60) [4h 7h 8d]
-test22 bets 34
-player12 calls
-*** TURN *** (128) [4h 7h 8d] [2d]
-test22 bets 38
-player12 calls
-*** RIVER *** (204) [4h 7h 8d 2d] [As]
-test22 checks
-player12 checks
-player12 shows [5h 6c 6h 8s]
-test22 shows [4s Td Ts 6s]
-player12 wins the pot (204)
+Dealt to player12 [2s 7d 2c Jh]
+Dealt to test22 [4s 6d 3s Ad]
+player12 folds
+test22 wins the pot (3)
 
-Hand #13, test22 (393), player12 (-393)
+Hand #29, test22 (-89), player12 (89)
 test22 posts the blind of 1
 player12 posts the blind of 2
-Dealt to test22 [2s 3d 5h As]
-Dealt to player12 [9h Jc 4c 8c]
+Dealt to test22 [Td Qc Tc 6s]
+Dealt to player12 [Jc 8s 2h 7s]
+test22 calls
+player12 raises to 6
+test22 raises to 15
+player12 raises to 45
+test22 calls
+*** FLOP *** (90) [5s Js 3h]
+player12 checks
+test22 checks
+*** TURN *** (90) [5s Js 3h] [5h]
+player12 checks
+test22 bets 55
+player12 calls
+*** RIVER *** (200) [5s Js 3h 5h] [8h]
+player12 checks
+test22 checks
+test22 shows [Td Qc Tc 6s]
+player12 shows [Jc 8s 2h 7s]
+player12 wins the pot (200)
+
+Hand #30, player12 (189), test22 (-189)
+player12 posts the blind of 1
+test22 posts the blind of 2
+Dealt to player12 [5s 2h 8h Ks]
+Dealt to test22 [Kc Qs Jc Ah]
+player12 raises to 6
+test22 calls
+*** FLOP *** (12) [7s Tc Ac]
+test22 checks
+player12 checks
+*** TURN *** (12) [7s Tc Ac] [5h]
+test22 checks
+player12 checks
+*** RIVER *** (12) [7s Tc Ac 5h] [Jh]
+test22 bets 11
+player12 calls
+player12 shows [5s 2h 8h Ks]
+test22 shows [Kc Qs Jc Ah]
+test22 wins the pot (34)
+
+Hand #31, test22 (-172), player12 (172)
+test22 posts the blind of 1
+player12 posts the blind of 2
+Dealt to test22 [Ac Kc 4c Kh]
+Dealt to player12 [3d As Jd 9h]
 test22 folds
 player12 wins the pot (3)
 
-Hand #14, player12 (-392), test22 (392)
+Hand #32, player12 (173), test22 (-173)
 player12 posts the blind of 1
 test22 posts the blind of 2
-Dealt to player12 [Jd Kc Ah Kh]
-Dealt to test22 [9h 7d 3h Js]
-player12 raises to 6
-test22 raises to 12
-player12 raises to 36
-test22 calls
-*** FLOP *** (72) [As Qd 4d]
-test22 bets 22
-player12 calls
-*** TURN *** (116) [As Qd 4d] [Ts]
-test22 bets 28
-player12 calls
-*** RIVER *** (172) [As Qd 4d Ts] [2s]
-test22 checks
-player12 checks
-player12 shows [Jd Kc Ah Kh]
-test22 shows [9h 7d 3h Js]
-player12 wins the pot (172)
-
-Hand #15, test22 (306), player12 (-306)
-test22 posts the blind of 1
-player12 posts the blind of 2
-Dealt to test22 [Kd Kc Ts 4s]
-Dealt to player12 [Ah 2c 4d Qs]
-test22 calls
-player12 checks
-*** FLOP *** (4) [Kh 6c 2s]
-player12 checks
-test22 checks
-*** TURN *** (4) [Kh 6c 2s] [4c]
-player12 checks
-test22 bets 3
-player12 calls
-*** RIVER *** (10) [Kh 6c 2s 4c] [3h]
-player12 checks
-test22 checks
-test22 shows [Kd Kc Ts 4s]
-player12 shows [Ah 2c 4d Qs]
-test22 wins the pot (10)
-
-Hand #16, player12 (-311), test22 (311)
-player12 posts the blind of 1
-test22 posts the blind of 2
-Dealt to player12 [Jh 5h 4s Qs]
-Dealt to test22 [8c 2d 7h 3d]
+Dealt to player12 [7c Th Tc Ah]
+Dealt to test22 [5h 9s 6s Qh]
 player12 raises to 6
 test22 folds
 Uncalled bet of 4 returned to player12
 player12 wins the pot (4)
 
-Hand #17, test22 (309), player12 (-309)
+Hand #33, test22 (-175), player12 (175)
 test22 posts the blind of 1
 player12 posts the blind of 2
-Dealt to test22 [3d 9c 5s 7c]
-Dealt to player12 [6s 8d Ks 2s]
+Dealt to test22 [4c 4d 2c 3c]
+Dealt to player12 [Qd Jh 5s 4s]
 test22 folds
 player12 wins the pot (3)
 
-Hand #18, player12 (-308), test22 (308)
+Hand #34, player12 (176), test22 (-176)
 player12 posts the blind of 1
 test22 posts the blind of 2
-Dealt to player12 [9c Kd Th 2s]
-Dealt to test22 [Js 4s 7d 6c]
-player12 calls
-test22 raises to 4
-player12 calls
-*** FLOP *** (8) [Ts Ah 7s]
-test22 bets 3
-player12 calls
-*** TURN *** (14) [Ts Ah 7s] [2h]
-test22 checks
-player12 checks
-*** RIVER *** (14) [Ts Ah 7s 2h] [5h]
-test22 bets 3
-player12 calls
-player12 shows [9c Kd Th 2s]
-test22 shows [Js 4s 7d 6c]
-player12 wins the pot (20)
+Dealt to player12 [Tc 6d 4s 2h]
+Dealt to test22 [Jd 4d 7s 3c]
+player12 folds
+test22 wins the pot (3)
 
-Hand #19, test22 (298), player12 (-298)
+Hand #35, test22 (-175), player12 (175)
 test22 posts the blind of 1
 player12 posts the blind of 2
-Dealt to test22 [2s Qd 9c 7h]
-Dealt to player12 [Jd 6d Ah Qs]
+Dealt to test22 [5c Ad Jd Tc]
+Dealt to player12 [3s Ah 3d 7s]
 test22 raises to 4
-player12 raises to 12
-test22 calls
-*** FLOP *** (24) [6h 2h 3c]
+player12 calls
+*** FLOP *** (8) [9h 6d Qs]
 player12 checks
-test22 checks
-*** TURN *** (24) [6h 2h 3c] [Ks]
-player12 checks
-test22 checks
-*** RIVER *** (24) [6h 2h 3c Ks] [9s]
+test22 bets 3
+player12 calls
+*** TURN *** (14) [9h 6d Qs] [6s]
 player12 checks
 test22 bets 10
 player12 calls
-test22 shows [2s Qd 9c 7h]
-player12 shows [Jd 6d Ah Qs]
-test22 wins the pot (44)
-
-Hand #20, player12 (-320), test22 (320)
-player12 posts the blind of 1
-test22 posts the blind of 2
-Dealt to player12 [8c 3h Ad Qc]
-Dealt to test22 [4s Tc Ks 2d]
-player12 calls
-test22 checks
-*** FLOP *** (4) [4d 8d Js]
-test22 bets 2
-player12 calls
-*** TURN *** (8) [4d 8d Js] [8h]
-test22 bets 2
-player12 calls
-*** RIVER *** (12) [4d 8d Js 8h] [9h]
-test22 bets 5
-player12 calls
-player12 shows [8c 3h Ad Qc]
-test22 shows [4s Tc Ks 2d]
-player12 wins the pot (22)
-
-Hand #21, test22 (309), player12 (-309)
-test22 posts the blind of 1
-player12 posts the blind of 2
-Dealt to test22 [5s Kh 2h 9s]
-Dealt to player12 [Th 3s Jc 7d]
-test22 folds
-player12 wins the pot (3)
-
-Hand #22, player12 (-308), test22 (308)
-player12 posts the blind of 1
-test22 posts the blind of 2
-Dealt to player12 [Qh Td Qc 3s]
-Dealt to test22 [Th Ts 2s Kd]
-player12 calls
-test22 checks
-*** FLOP *** (4) [3h Ks 3c]
-test22 bets 3
-player12 calls
-*** TURN *** (10) [3h Ks 3c] [Js]
-test22 checks
+*** RIVER *** (34) [9h 6d Qs 6s] [4s]
 player12 checks
-*** RIVER *** (10) [3h Ks 3c Js] [7c]
-test22 checks
-player12 checks
-player12 shows [Qh Td Qc 3s]
-test22 shows [Th Ts 2s Kd]
-player12 wins the pot (10)
-
-Hand #23, test22 (303), player12 (-303)
-test22 posts the blind of 1
-player12 posts the blind of 2
-Dealt to test22 [Qd 6s 4s 8d]
-Dealt to player12 [5s Ac Kd Td]
-test22 raises to 5
-player12 raises to 15
-test22 folds
-Uncalled bet of 10 returned to player12
-player12 wins the pot (10)
-
-Hand #24, player12 (-298), test22 (298)
-player12 posts the blind of 1
-test22 posts the blind of 2
-Dealt to player12 [2d 9c 3s As]
-Dealt to test22 [Jd 8d Kd Qh]
-player12 raises to 6
-test22 calls
-*** FLOP *** (12) [9d Jc 6h]
-test22 checks
-player12 checks
-*** TURN *** (12) [9d Jc 6h] [Qs]
-test22 checks
-player12 checks
-*** RIVER *** (12) [9d Jc 6h Qs] [6c]
-test22 checks
-player12 checks
-player12 shows [2d 9c 3s As]
-test22 shows [Jd 8d Kd Qh]
-test22 wins the pot (12)
-
-Hand #25, test22 (304), player12 (-304)
-test22 posts the blind of 1
-player12 posts the blind of 2
-Dealt to test22 [2s 5h 6d 8d]
-Dealt to player12 [Js Tc Ac 4s]
-test22 folds
-player12 wins the pot (3)
-
-Hand #26, player12 (-303), test22 (303)
-player12 posts the blind of 1
-test22 posts the blind of 2
-Dealt to player12 [Qh 8c 4h 2d]
-Dealt to test22 [8d 8s 6c 4d]
+test22 bets 8
 player12 calls
-test22 raises to 4
-player12 calls
-*** FLOP *** (8) [Jd 5s Js]
-test22 checks
-player12 checks
-*** TURN *** (8) [Jd 5s Js] [5d]
-test22 checks
-player12 checks
-*** RIVER *** (8) [Jd 5s Js 5d] [Ks]
-test22 bets 4
-player12 calls
-player12 shows [Qh 8c 4h 2d]
-test22 shows [8d 8s 6c 4d]
-test22 wins the pot (16)
-
-Hand #27, test22 (311), player12 (-311)
-test22 posts the blind of 1
-player12 posts the blind of 2
-Dealt to test22 [Td 2d 3d Qh]
-Dealt to player12 [7s 6c 3c Ac]
-test22 raises to 5
-player12 calls
-*** FLOP *** (10) [As 6s 8h]
-player12 checks
-test22 bets 5
-player12 calls
-*** TURN *** (20) [As 6s 8h] [4c]
-player12 checks
-test22 bets 18
-player12 calls
-*** RIVER *** (56) [As 6s 8h 4c] [Jh]
-player12 checks
-test22 bets 44
-player12 calls
-test22 shows [Td 2d 3d Qh]
-player12 shows [7s 6c 3c Ac]
-player12 wins the pot (144)
-
-Hand #28, player12 (-239), test22 (239)
-player12 posts the blind of 1
-test22 posts the blind of 2
-Dealt to player12 [5h 7c Ad 8d]
-Dealt to test22 [7h Qs 9c Jc]
-player12 raises to 6
-test22 calls
-*** FLOP *** (12) [4c 6d 5s]
-test22 bets 7
-player12 calls
-*** TURN *** (26) [4c 6d 5s] [Kh]
-test22 bets 6
-player12 calls
-*** RIVER *** (38) [4c 6d 5s Kh] [Ac]
-test22 checks
-player12 checks
-player12 shows [5h 7c Ad 8d]
-test22 shows [7h Qs 9c Jc]
-player12 wins the pot (38)
-
-Hand #29, test22 (220), player12 (-220)
-test22 posts the blind of 1
-player12 posts the blind of 2
-Dealt to test22 [Jc 7h 6h Kh]
-Dealt to player12 [Qh Js 8s Td]
-test22 raises to 4
-player12 raises to 12
-test22 raises to 21
-player12 raises to 63
-test22 raises to 121
-player12 raises to 363
-test22 folds
-Uncalled bet of 242 returned to player12
-player12 wins the pot (242)
-
-Hand #30, player12 (-99), test22 (99)
-player12 posts the blind of 1
-test22 posts the blind of 2
-Dealt to player12 [Qc 3d Kc Qs]
-Dealt to test22 [As 8d Th 8h]
-player12 raises to 6
-test22 calls
-*** FLOP *** (12) [Kh 5h 4h]
-test22 checks
-player12 checks
-*** TURN *** (12) [Kh 5h 4h] [8s]
-test22 checks
-player12 checks
-*** RIVER *** (12) [Kh 5h 4h 8s] [6s]
-test22 checks
-player12 checks
-player12 shows [Qc 3d Kc Qs]
-test22 shows [As 8d Th 8h]
-test22 wins the pot (12)
-
-Hand #31, test22 (105), player12 (-105)
-test22 posts the blind of 1
-player12 posts the blind of 2
-Dealt to test22 [9s Ks 8h Jc]
-Dealt to player12 [2d As 6c Th]
-test22 raises to 5
-player12 calls
-*** FLOP *** (10) [7c 5c 7d]
-player12 checks
-test22 bets 4
-player12 calls
-*** TURN *** (18) [7c 5c 7d] [5h]
-player12 checks
-test22 bets 4
-player12 calls
-*** RIVER *** (26) [7c 5c 7d 5h] [Jd]
-player12 checks
-test22 checks
-test22 shows [9s Ks 8h Jc]
-player12 shows [2d As 6c Th]
-test22 wins the pot (26)
-
-Hand #32, player12 (-118), test22 (118)
-player12 posts the blind of 1
-test22 posts the blind of 2
-Dealt to player12 [6s 2c Th Jh]
-Dealt to test22 [Qd Td 5d 2h]
-player12 raises to 6
-test22 raises to 17
-player12 raises to 51
-test22 calls
-*** FLOP *** (102) [Qh 2d 9c]
-test22 bets 65
-player12 calls
-*** TURN *** (232) [Qh 2d 9c] [8d]
-test22 checks
-player12 checks
-*** RIVER *** (232) [Qh 2d 9c 8d] [As]
-test22 bets 27
-player12 calls
-player12 shows [6s 2c Th Jh]
-test22 shows [Qd Td 5d 2h]
-player12 wins the pot (286)
-
-Hand #33, test22 (-25), player12 (25)
-test22 posts the blind of 1
-player12 posts the blind of 2
-Dealt to test22 [7h Kh Kd 3s]
-Dealt to player12 [6c 7c 6s 6d]
-test22 raises to 5
-player12 raises to 15
-test22 folds
-Uncalled bet of 10 returned to player12
-player12 wins the pot (10)
-
-Hand #34, player12 (30), test22 (-30)
-player12 posts the blind of 1
-test22 posts the blind of 2
-Dealt to player12 [6h Js Ad 3h]
-Dealt to test22 [9s 4s 7s Qc]
-player12 calls
-test22 raises to 4
-player12 calls
-*** FLOP *** (8) [3c Tc 9d]
-test22 checks
-player12 checks
-*** TURN *** (8) [3c Tc 9d] [8s]
-test22 checks
-player12 checks
-*** RIVER *** (8) [3c Tc 9d 8s] [Kc]
-test22 checks
-player12 checks
-player12 shows [6h Js Ad 3h]
-test22 shows [9s 4s 7s Qc]
-test22 wins the pot (8)
-
-Hand #35, test22 (-26), player12 (26)
-test22 posts the blind of 1
-player12 posts the blind of 2
-Dealt to test22 [Kh 5h Qs Tc]
-Dealt to player12 [3d 3h 4h 4c]
-test22 calls
-player12 raises to 4
-test22 raises to 8
-player12 raises to 24
-test22 raises to 56
-player12 raises to 168
-test22 calls
-*** FLOP *** (336) [Ts 3c 6d]
-player12 checks
-test22 bets 192
-player12 calls
-*** TURN *** (720) [Ts 3c 6d] [9c]
-player12 checks
-test22 checks
-*** RIVER *** (720) [Ts 3c 6d 9c] [Kc]
-player12 checks
-test22 checks
-test22 shows [Kh 5h Qs Tc]
-player12 shows [3d 3h 4h 4c]
-player12 wins the pot (720)
-
-Hand #36, player12 (386), test22 (-386)
-player12 posts the blind of 1
-test22 posts the blind of 2
-Dealt to player12 [5s 4s 3c Jd]
-Dealt to test22 [6d Kh Qs 3h]
-player12 raises to 6
-test22 folds
-Uncalled bet of 4 returned to player12
-player12 wins the pot (4)
-
-Hand #37, test22 (-388), player12 (388)
-test22 posts the blind of 1
-player12 posts the blind of 2
-Dealt to test22 [4d 7s As Ad]
-Dealt to player12 [8d 4h 3s Qc]
-test22 raises to 5
-player12 calls
-*** FLOP *** (10) [6h 9d Kh]
-player12 checks
-test22 checks
-*** TURN *** (10) [6h 9d Kh] [2d]
-player12 checks
-test22 bets 3
-player12 calls
-*** RIVER *** (16) [6h 9d Kh 2d] [2s]
-player12 checks
-test22 bets 6
-player12 calls
-test22 shows [4d 7s As Ad]
-player12 shows [8d 4h 3s Qc]
-test22 wins the pot (28)
-
-Hand #38, player12 (374), test22 (-374)
-player12 posts the blind of 1
-test22 posts the blind of 2
-Dealt to player12 [Td 2s Ah 8h]
-Dealt to test22 [7h 3s Qc 7d]
-player12 raises to 6
-test22 calls
-*** FLOP *** (12) [2c 4h Tc]
-test22 checks
-player12 checks
-*** TURN *** (12) [2c 4h Tc] [Jd]
-test22 checks
-player12 checks
-*** RIVER *** (12) [2c 4h Tc Jd] [6h]
-test22 bets 7
-player12 calls
-player12 shows [Td 2s Ah 8h]
-test22 shows [7h 3s Qc 7d]
-player12 wins the pot (26)
-
-Hand #39, test22 (-387), player12 (387)
-test22 posts the blind of 1
-player12 posts the blind of 2
-Dealt to test22 [Ad Qc 2c 9d]
-Dealt to player12 [Kc 6c 7c Ks]
-test22 calls
-player12 raises to 4
-test22 folds
-Uncalled bet of 2 returned to player12
-player12 wins the pot (4)
-
-Hand #40, player12 (389), test22 (-389)
-player12 posts the blind of 1
-test22 posts the blind of 2
-Dealt to player12 [4s 3s 8s 2h]
-Dealt to test22 [Ts As 6h 5s]
-player12 raises to 6
-test22 calls
-*** FLOP *** (12) [Ad 9h 6c]
-test22 bets 6
-player12 calls
-*** TURN *** (24) [Ad 9h 6c] [Th]
-test22 checks
-player12 checks
-*** RIVER *** (24) [Ad 9h 6c Th] [Qd]
-test22 bets 18
-player12 calls
-player12 shows [4s 3s 8s 2h]
-test22 shows [Ts As 6h 5s]
-test22 wins the pot (60)
-
-Hand #41, test22 (-359), player12 (359)
-test22 posts the blind of 1
-player12 posts the blind of 2
-Dealt to test22 [9s Td 8c Qc]
-Dealt to player12 [6s 2h 9h 5d]
-test22 calls
-player12 raises to 4
-test22 folds
-Uncalled bet of 2 returned to player12
-player12 wins the pot (4)
-
-Hand #42, player12 (361), test22 (-361)
-player12 posts the blind of 1
-test22 posts the blind of 2
-Dealt to player12 [Js 9c 4d 7h]
-Dealt to test22 [Ts Jc Jh Th]
-player12 calls
-test22 checks
-*** FLOP *** (4) [6s Ah 2h]
-test22 checks
-player12 checks
-*** TURN *** (4) [6s Ah 2h] [7s]
-test22 checks
-player12 checks
-*** RIVER *** (4) [6s Ah 2h 7s] [7d]
-test22 bets 3
-player12 calls
-player12 shows [Js 9c 4d 7h]
-test22 shows [Ts Jc Jh Th]
-player12 wins the pot (10)
-
-Hand #43, test22 (-366), player12 (366)
-test22 posts the blind of 1
-player12 posts the blind of 2
-Dealt to test22 [6h Ah 5s 7c]
-Dealt to player12 [Js 3h 4c 8h]
-test22 calls
-player12 raises to 4
-test22 calls
-*** FLOP *** (8) [7h Jh 7s]
-player12 checks
-test22 bets 2
-player12 calls
-*** TURN *** (12) [7h Jh 7s] [7d]
-player12 checks
-test22 bets 9
-player12 calls
-*** RIVER *** (30) [7h Jh 7s 7d] [8d]
-player12 checks
-test22 checks
-test22 shows [6h Ah 5s 7c]
-player12 shows [Js 3h 4c 8h]
-test22 wins the pot (30)
-
-Hand #44, player12 (351), test22 (-351)
-player12 posts the blind of 1
-test22 posts the blind of 2
-Dealt to player12 [Jd Ah 2s 6s]
-Dealt to test22 [7s 4d 6h 4h]
-player12 raises to 6
-test22 folds
-Uncalled bet of 4 returned to player12
-player12 wins the pot (4)
-
-Hand #45, test22 (-353), player12 (353)
-test22 posts the blind of 1
-player12 posts the blind of 2
-Dealt to test22 [2d 6c Kc Ts]
-Dealt to player12 [2s Tc Ad 2h]
-test22 calls
-player12 checks
-*** FLOP *** (4) [Jd 6s 6h]
-player12 checks
-test22 checks
-*** TURN *** (4) [Jd 6s 6h] [Qc]
-player12 checks
-test22 bets 3
-player12 calls
-*** RIVER *** (10) [Jd 6s 6h Qc] [3s]
-player12 checks
-test22 bets 5
-player12 calls
-test22 shows [2d 6c Kc Ts]
-player12 shows [2s Tc Ad 2h]
-test22 wins the pot (20)
-
-Hand #46, player12 (343), test22 (-343)
-player12 posts the blind of 1
-test22 posts the blind of 2
-Dealt to player12 [8d 2s Kc Jc]
-Dealt to test22 [2h 9d Tc Ts]
-player12 calls
-test22 raises to 4
-player12 calls
-*** FLOP *** (8) [Kh 7c Jh]
-test22 checks
-player12 checks
-*** TURN *** (8) [Kh 7c Jh] [4c]
-test22 bets 2
-player12 calls
-*** RIVER *** (12) [Kh 7c Jh 4c] [Qs]
-test22 bets 11
-player12 calls
-player12 shows [8d 2s Kc Jc]
-test22 shows [2h 9d Tc Ts]
-test22 wins the pot (34)
-
-Hand #47, test22 (-326), player12 (326)
-test22 posts the blind of 1
-player12 posts the blind of 2
-Dealt to test22 [Js 4s 6c 9h]
-Dealt to player12 [2h 4c Ac Jc]
-test22 raises to 5
-player12 calls
-*** FLOP *** (10) [Kc 2c 7c]
-player12 checks
-test22 checks
-*** TURN *** (10) [Kc 2c 7c] [2s]
-player12 checks
-test22 bets 3
-player12 calls
-*** RIVER *** (16) [Kc 2c 7c 2s] [8s]
-player12 checks
-test22 bets 2
-player12 calls
-test22 shows [Js 4s 6c 9h]
-player12 shows [2h 4c Ac Jc]
-player12 wins the pot (20)
-
-Hand #48, player12 (336), test22 (-336)
-player12 posts the blind of 1
-test22 posts the blind of 2
-Dealt to player12 [6s 5h 8c 5d]
-Dealt to test22 [Ts 9d 3h 8d]
-player12 calls
-test22 raises to 4
-player12 calls
-*** FLOP *** (8) [7h 2s 4s]
-test22 checks
-player12 checks
-*** TURN *** (8) [7h 2s 4s] [Qh]
-test22 bets 7
-player12 calls
-*** RIVER *** (22) [7h 2s 4s Qh] [3c]
-test22 bets 14
-player12 calls
-player12 shows [6s 5h 8c 5d]
-test22 shows [Ts 9d 3h 8d]
+test22 shows [5c Ad Jd Tc]
+player12 shows [3s Ah 3d 7s]
 player12 wins the pot (50)
 
-Hand #49, test22 (-361), player12 (361)
-test22 posts the blind of 1
-player12 posts the blind of 2
-Dealt to test22 [2s 5h Tc 7d]
-Dealt to player12 [3c 8h 5d 7c]
-test22 calls
-player12 raises to 4
-test22 calls
-*** FLOP *** (8) [As Js Kc]
-player12 checks
-test22 bets 7
-player12 calls
-*** TURN *** (22) [As Js Kc] [Th]
-player12 checks
-test22 bets 18
-player12 calls
-*** RIVER *** (58) [As Js Kc Th] [4d]
-player12 checks
-test22 checks
-test22 shows [2s 5h Tc 7d]
-player12 shows [3c 8h 5d 7c]
-test22 wins the pot (58)
-
-Hand #50, player12 (332), test22 (-332)
+Hand #36, player12 (200), test22 (-200)
 player12 posts the blind of 1
 test22 posts the blind of 2
-Dealt to player12 [Qc 6d 5h 2h]
-Dealt to test22 [6h 2d 5c 4h]
+Dealt to player12 [3h Kh Ah 8h]
+Dealt to test22 [Td 8s Jh 4d]
+player12 calls
+test22 checks
+*** FLOP *** (4) [7s 6d 3c]
+test22 checks
+player12 checks
+*** TURN *** (4) [7s 6d 3c] [5d]
+test22 checks
+player12 checks
+*** RIVER *** (4) [7s 6d 3c 5d] [9s]
+test22 checks
+player12 checks
+player12 shows [3h Kh Ah 8h]
+test22 shows [Td 8s Jh 4d]
+test22 wins the pot (4)
+
+Hand #37, test22 (-198), player12 (198)
+test22 posts the blind of 1
+player12 posts the blind of 2
+Dealt to test22 [Ks Jd Kc Qc]
+Dealt to player12 [7c 2d 5s Qs]
+test22 raises to 5
+player12 calls
+*** FLOP *** (10) [8s Jh Ad]
+player12 checks
+test22 bets 5
+player12 calls
+*** TURN *** (20) [8s Jh Ad] [Ts]
+player12 checks
+test22 checks
+*** RIVER *** (20) [8s Jh Ad Ts] [6s]
+player12 checks
+test22 bets 8
+player12 calls
+test22 shows [Ks Jd Kc Qc]
+player12 shows [7c 2d 5s Qs]
+player12 wins the pot (36)
+
+Hand #38, player12 (216), test22 (-216)
+player12 posts the blind of 1
+test22 posts the blind of 2
+Dealt to player12 [2s 7h Qh Kc]
+Dealt to test22 [7s Ts 6c 2h]
+player12 raises to 6
+test22 raises to 12
+player12 raises to 36
+test22 folds
+Uncalled bet of 24 returned to player12
+player12 wins the pot (24)
+
+Hand #39, test22 (-228), player12 (228)
+test22 posts the blind of 1
+player12 posts the blind of 2
+Dealt to test22 [7s 6d 8s Js]
+Dealt to player12 [Kc 9h 8c Qd]
+test22 raises to 4
+player12 raises to 12
+test22 folds
+Uncalled bet of 8 returned to player12
+player12 wins the pot (8)
+
+Hand #40, player12 (232), test22 (-232)
+player12 posts the blind of 1
+test22 posts the blind of 2
+Dealt to player12 [Qd 9s 8c Jd]
+Dealt to test22 [Qc 3d 5d Qs]
+player12 raises to 6
+test22 calls
+*** FLOP *** (12) [8s Tc 7d]
+test22 checks
+player12 checks
+*** TURN *** (12) [8s Tc 7d] [Ah]
+test22 checks
+player12 checks
+*** RIVER *** (12) [8s Tc 7d Ah] [Kc]
+test22 bets 2
+player12 calls
+player12 shows [Qd 9s 8c Jd]
+test22 shows [Qc 3d 5d Qs]
+player12 wins the pot (16)
+
+Hand #41, test22 (-240), player12 (240)
+test22 posts the blind of 1
+player12 posts the blind of 2
+Dealt to test22 [Qs Qc 9c Ac]
+Dealt to player12 [2c 7s 8s 4s]
+test22 calls
+player12 checks
+*** FLOP *** (4) [2s 3d Qh]
+player12 checks
+test22 checks
+*** TURN *** (4) [2s 3d Qh] [6d]
+player12 checks
+test22 checks
+*** RIVER *** (4) [2s 3d Qh 6d] [7c]
+player12 checks
+test22 checks
+test22 shows [Qs Qc 9c Ac]
+player12 shows [2c 7s 8s 4s]
+test22 wins the pot (4)
+
+Hand #42, player12 (238), test22 (-238)
+player12 posts the blind of 1
+test22 posts the blind of 2
+Dealt to player12 [Ad Js 9c 6c]
+Dealt to test22 [8h 7d 5c 4s]
+player12 calls
+test22 raises to 4
+player12 calls
+*** FLOP *** (8) [Td Ac 9s]
+test22 checks
+player12 checks
+*** TURN *** (8) [Td Ac 9s] [Ks]
+test22 checks
+player12 checks
+*** RIVER *** (8) [Td Ac 9s Ks] [Qc]
+test22 bets 3
+player12 calls
+player12 shows [Ad Js 9c 6c]
+test22 shows [8h 7d 5c 4s]
+player12 wins the pot (14)
+
+Hand #43, test22 (-245), player12 (245)
+test22 posts the blind of 1
+player12 posts the blind of 2
+Dealt to test22 [2c Kc 7s Qh]
+Dealt to player12 [7d 5c 6c Jc]
+test22 raises to 4
+player12 raises to 12
+test22 folds
+Uncalled bet of 8 returned to player12
+player12 wins the pot (8)
+
+Hand #44, player12 (249), test22 (-249)
+player12 posts the blind of 1
+test22 posts the blind of 2
+Dealt to player12 [4d Kc As 3s]
+Dealt to test22 [Ks 3c 7h 3h]
+player12 raises to 6
+test22 calls
+*** FLOP *** (12) [Kd 9d 4s]
+test22 bets 7
+player12 calls
+*** TURN *** (26) [Kd 9d 4s] [2h]
+test22 bets 9
+player12 calls
+*** RIVER *** (44) [Kd 9d 4s 2h] [Qd]
+test22 checks
+player12 checks
+player12 shows [4d Kc As 3s]
+test22 shows [Ks 3c 7h 3h]
+player12 wins the pot (44)
+
+Hand #45, test22 (-271), player12 (271)
+test22 posts the blind of 1
+player12 posts the blind of 2
+Dealt to test22 [5d Th 2c 4s]
+Dealt to player12 [Ac 3h 3c 4d]
+test22 raises to 4
+player12 raises to 12
+test22 folds
+Uncalled bet of 8 returned to player12
+player12 wins the pot (8)
+
+Hand #46, player12 (275), test22 (-275)
+player12 posts the blind of 1
+test22 posts the blind of 2
+Dealt to player12 [9d 3c 8s 8c]
+Dealt to test22 [8h 6s 8d 7s]
+player12 raises to 6
+test22 raises to 15
+player12 raises to 45
+test22 folds
+Uncalled bet of 30 returned to player12
+player12 wins the pot (30)
+
+Hand #47, test22 (-290), player12 (290)
+test22 posts the blind of 1
+player12 posts the blind of 2
+Dealt to test22 [7d 7h Ad 2h]
+Dealt to player12 [9h 2c Jc 4c]
+test22 raises to 5
+player12 calls
+*** FLOP *** (10) [Kd Js 9d]
+player12 checks
+test22 bets 6
+player12 calls
+*** TURN *** (22) [Kd Js 9d] [5d]
+player12 checks
+test22 bets 11
+player12 calls
+*** RIVER *** (44) [Kd Js 9d 5d] [6d]
+player12 checks
+test22 checks
+test22 shows [7d 7h Ad 2h]
+player12 shows [9h 2c Jc 4c]
+test22 wins the pot (44)
+
+Hand #48, player12 (268), test22 (-268)
+player12 posts the blind of 1
+test22 posts the blind of 2
+Dealt to player12 [Ah 6h Kc 2h]
+Dealt to test22 [Jd Ad 4d 6s]
+player12 raises to 6
+test22 folds
+Uncalled bet of 4 returned to player12
+player12 wins the pot (4)
+
+Hand #49, test22 (-270), player12 (270)
+test22 posts the blind of 1
+player12 posts the blind of 2
+Dealt to test22 [2d 9s Th 5s]
+Dealt to player12 [7d 2s 5d 8h]
+test22 raises to 5
+player12 raises to 15
+test22 calls
+*** FLOP *** (30) [3s Tc 7h]
+player12 checks
+test22 checks
+*** TURN *** (30) [3s Tc 7h] [3d]
+player12 checks
+test22 checks
+*** RIVER *** (30) [3s Tc 7h 3d] [7c]
+player12 checks
+test22 bets 27
+player12 calls
+test22 shows [2d 9s Th 5s]
+player12 shows [7d 2s 5d 8h]
+player12 wins the pot (84)
+
+Hand #50, player12 (312), test22 (-312)
+player12 posts the blind of 1
+test22 posts the blind of 2
+Dealt to player12 [2c 6d Tc Qd]
+Dealt to test22 [Jd Td 4h 5s]
 player12 raises to 6
 test22 raises to 17
 player12 raises to 51
@@ -901,514 +759,473 @@ test22 folds
 Uncalled bet of 34 returned to player12
 player12 wins the pot (34)
 
-Hand #51, test22 (-349), player12 (349)
+Hand #51, test22 (-329), player12 (329)
 test22 posts the blind of 1
 player12 posts the blind of 2
-Dealt to test22 [Ts 6s Td Th]
-Dealt to player12 [7h 3c 9c Ad]
+Dealt to test22 [6s 6c Kh 7h]
+Dealt to player12 [8s Ad 8h As]
 test22 folds
 player12 wins the pot (3)
 
-Hand #52, player12 (350), test22 (-350)
+Hand #52, player12 (330), test22 (-330)
 player12 posts the blind of 1
 test22 posts the blind of 2
-Dealt to player12 [9h Td As 2s]
-Dealt to test22 [Qs 4c 3h 4s]
-player12 raises to 6
-test22 folds
-Uncalled bet of 4 returned to player12
-player12 wins the pot (4)
-
-Hand #53, test22 (-352), player12 (352)
-test22 posts the blind of 1
-player12 posts the blind of 2
-Dealt to test22 [Kc 9c 5h 8s]
-Dealt to player12 [2c As Jc Ad]
-test22 folds
-player12 wins the pot (3)
-
-Hand #54, player12 (353), test22 (-353)
-player12 posts the blind of 1
-test22 posts the blind of 2
-Dealt to player12 [Qd Kh 9d 4h]
-Dealt to test22 [Ah Ac 6c 7c]
-player12 raises to 6
-test22 calls
-*** FLOP *** (12) [3h Ad 5s]
-test22 checks
-player12 checks
-*** TURN *** (12) [3h Ad 5s] [8h]
-test22 bets 11
+Dealt to player12 [9h 3s 3d Qd]
+Dealt to test22 [5s Ks 2s 3h]
 player12 calls
-*** RIVER *** (34) [3h Ad 5s 8h] [9c]
-test22 bets 33
-player12 calls
-player12 shows [Qd Kh 9d 4h]
-test22 shows [Ah Ac 6c 7c]
-test22 wins the pot (100)
-
-Hand #55, test22 (-303), player12 (303)
-test22 posts the blind of 1
-player12 posts the blind of 2
-Dealt to test22 [8c Jc 8d 8s]
-Dealt to player12 [6d 5s 3s Ad]
 test22 raises to 5
-player12 raises to 15
+player12 calls
+*** FLOP *** (10) [9d 7h Kd]
+test22 bets 9
+player12 calls
+*** TURN *** (28) [9d 7h Kd] [8d]
+test22 bets 3
+player12 calls
+*** RIVER *** (34) [9d 7h Kd 8d] [Ah]
+test22 bets 24
+player12 calls
+player12 shows [9h 3s 3d Qd]
+test22 shows [5s Ks 2s 3h]
+player12 wins the pot (82)
+
+Hand #53, test22 (-371), player12 (371)
+test22 posts the blind of 1
+player12 posts the blind of 2
+Dealt to test22 [Ks 5c Tc Kh]
+Dealt to player12 [6c 4c 8d Js]
 test22 calls
-*** FLOP *** (30) [6s 9c Kh]
+player12 checks
+*** FLOP *** (4) [3s Th Td]
+player12 checks
+test22 bets 2
+player12 calls
+*** TURN *** (8) [3s Th Td] [4s]
 player12 checks
 test22 bets 6
 player12 calls
-*** TURN *** (42) [6s 9c Kh] [Ts]
+*** RIVER *** (20) [3s Th Td 4s] [Ad]
 player12 checks
 test22 checks
-*** RIVER *** (42) [6s 9c Kh Ts] [6h]
-player12 checks
-test22 checks
-test22 shows [8c Jc 8d 8s]
-player12 shows [6d 5s 3s Ad]
-player12 wins the pot (42)
+test22 shows [Ks 5c Tc Kh]
+player12 shows [6c 4c 8d Js]
+test22 wins the pot (20)
 
-Hand #56, player12 (324), test22 (-324)
+Hand #54, player12 (361), test22 (-361)
 player12 posts the blind of 1
 test22 posts the blind of 2
-Dealt to player12 [Ah 9s 8s 3d]
-Dealt to test22 [Td 3h 7d Qh]
-player12 raises to 6
-test22 raises to 16
-player12 raises to 48
-test22 calls
-*** FLOP *** (96) [3c Tc As]
-test22 checks
-player12 checks
-*** TURN *** (96) [3c Tc As] [Kc]
-test22 checks
-player12 checks
-*** RIVER *** (96) [3c Tc As Kc] [Ks]
-test22 checks
-player12 checks
-player12 shows [Ah 9s 8s 3d]
-test22 shows [Td 3h 7d Qh]
-player12 wins the pot (96)
-
-Hand #57, test22 (-372), player12 (372)
-test22 posts the blind of 1
-player12 posts the blind of 2
-Dealt to test22 [Jd 5c Td 6d]
-Dealt to player12 [Qs Kc 2s 5h]
-test22 calls
-player12 raises to 4
-test22 raises to 7
-player12 raises to 21
-test22 raises to 50
-player12 raises to 150
-test22 folds
-Uncalled bet of 100 returned to player12
-player12 wins the pot (100)
-
-Hand #58, player12 (422), test22 (-422)
-player12 posts the blind of 1
-test22 posts the blind of 2
-Dealt to player12 [5c 4s Jd 7s]
-Dealt to test22 [As 7d 2d Ts]
+Dealt to player12 [2d Jc 3c 4c]
+Dealt to test22 [2s 3s 3h 7s]
 player12 raises to 6
 test22 folds
 Uncalled bet of 4 returned to player12
 player12 wins the pot (4)
 
-Hand #59, test22 (-424), player12 (424)
+Hand #55, test22 (-363), player12 (363)
 test22 posts the blind of 1
 player12 posts the blind of 2
-Dealt to test22 [3d 2h 5h 6h]
-Dealt to player12 [5s Js Ah Kc]
+Dealt to test22 [As 2c Ac Th]
+Dealt to player12 [3c 5s 2h Qd]
 test22 raises to 5
-player12 raises to 15
-test22 calls
-*** FLOP *** (30) [Th 6c Qc]
-player12 checks
-test22 checks
-*** TURN *** (30) [Th 6c Qc] [Ts]
-player12 checks
-test22 checks
-*** RIVER *** (30) [Th 6c Qc Ts] [8h]
-player12 checks
-test22 bets 22
 player12 calls
-test22 shows [3d 2h 5h 6h]
-player12 shows [5s Js Ah Kc]
-test22 wins the pot (74)
+*** FLOP *** (10) [6d 4h 5d]
+player12 checks
+test22 bets 6
+player12 calls
+*** TURN *** (22) [6d 4h 5d] [2s]
+player12 checks
+test22 checks
+*** RIVER *** (22) [6d 4h 5d 2s] [Kc]
+player12 checks
+test22 bets 17
+player12 calls
+test22 shows [As 2c Ac Th]
+player12 shows [3c 5s 2h Qd]
+player12 wins the pot (56)
 
-Hand #60, player12 (387), test22 (-387)
+Hand #56, player12 (391), test22 (-391)
 player12 posts the blind of 1
 test22 posts the blind of 2
-Dealt to player12 [Jd 7d 5c 9s]
-Dealt to test22 [Js Qd 5d Jh]
-player12 calls
-test22 checks
-*** FLOP *** (4) [Kc 4d 6h]
-test22 checks
-player12 checks
-*** TURN *** (4) [Kc 4d 6h] [6d]
-test22 bets 2
-player12 calls
-*** RIVER *** (8) [Kc 4d 6h 6d] [Kh]
-test22 checks
-player12 checks
-player12 shows [Jd 7d 5c 9s]
-test22 shows [Js Qd 5d Jh]
-test22 wins the pot (8)
-
-Hand #61, test22 (-383), player12 (383)
-test22 posts the blind of 1
-player12 posts the blind of 2
-Dealt to test22 [3s 7h 6h As]
-Dealt to player12 [7c Kd Td 5h]
-test22 folds
-player12 wins the pot (3)
-
-Hand #62, player12 (384), test22 (-384)
-player12 posts the blind of 1
-test22 posts the blind of 2
-Dealt to player12 [3s Ac 4c Jd]
-Dealt to test22 [Qh Td 9d 2s]
+Dealt to player12 [Js 7c 6h 7s]
+Dealt to test22 [As 6d 8d 4h]
 player12 raises to 6
 test22 calls
-*** FLOP *** (12) [4d Jh Kc]
-test22 checks
-player12 checks
-*** TURN *** (12) [4d Jh Kc] [Qc]
-test22 bets 2
-player12 calls
-*** RIVER *** (16) [4d Jh Kc Qc] [3h]
-test22 checks
-player12 checks
-player12 shows [3s Ac 4c Jd]
-test22 shows [Qh Td 9d 2s]
-test22 wins the pot (16)
-
-Hand #63, test22 (-376), player12 (376)
-test22 posts the blind of 1
-player12 posts the blind of 2
-Dealt to test22 [Qh Ts 5h Ah]
-Dealt to player12 [7h 3d 5c 5s]
-test22 raises to 4
-player12 calls
-*** FLOP *** (8) [4c 2c 3h]
-player12 checks
-test22 bets 5
-player12 calls
-*** TURN *** (18) [4c 2c 3h] [7d]
-player12 checks
-test22 bets 13
-player12 calls
-*** RIVER *** (44) [4c 2c 3h 7d] [9c]
-player12 checks
-test22 checks
-test22 shows [Qh Ts 5h Ah]
-player12 shows [7h 3d 5c 5s]
-test22 wins the pot (44)
-
-Hand #64, player12 (354), test22 (-354)
-player12 posts the blind of 1
-test22 posts the blind of 2
-Dealt to player12 [2d 5s 6h 4c]
-Dealt to test22 [Ts Kh 7d 4d]
-player12 raises to 6
-test22 raises to 13
-player12 raises to 39
-test22 raises to 72
-player12 raises to 216
-test22 raises to 298
-player12 raises to 714
-test22 raises to 324
-player12 raises to 972
-test22 raises to 1024
-player12 raises to 2196
-test22 calls
-*** FLOP *** (4392) [Qc 3d 6s]
-test22 checks
-player12 checks
-*** TURN *** (4392) [Qc 3d 6s] [9h]
-test22 bets 4175
-player12 calls
-*** RIVER *** (12742) [Qc 3d 6s 9h] [Ks]
-test22 bets 10943
-player12 calls
-player12 shows [2d 5s 6h 4c]
-test22 shows [Ts Kh 7d 4d]
-test22 wins the pot (34628)
-
-Hand #65, test22 (16960), player12 (-16960)
-test22 posts the blind of 1
-player12 posts the blind of 2
-Dealt to test22 [4s 9s Ac 5s]
-Dealt to player12 [6h Ts 4c 8d]
-test22 calls
-player12 checks
-*** FLOP *** (4) [6c Qc Js]
-player12 checks
-test22 checks
-*** TURN *** (4) [6c Qc Js] [3s]
-player12 checks
-test22 checks
-*** RIVER *** (4) [6c Qc Js 3s] [6d]
-player12 checks
-test22 checks
-test22 shows [4s 9s Ac 5s]
-player12 shows [6h Ts 4c 8d]
-player12 wins the pot (4)
-
-Hand #66, player12 (-16958), test22 (16958)
-player12 posts the blind of 1
-test22 posts the blind of 2
-Dealt to player12 [9d Kd 9h Ah]
-Dealt to test22 [Td 3d 5d 5c]
-player12 raises to 6
-test22 folds
-Uncalled bet of 4 returned to player12
-player12 wins the pot (4)
-
-Hand #67, test22 (16956), player12 (-16956)
-test22 posts the blind of 1
-player12 posts the blind of 2
-Dealt to test22 [Jh Qh Ad 9d]
-Dealt to player12 [6d Qs Ts 8h]
-test22 calls
-player12 checks
-*** FLOP *** (4) [6h Qd Tc]
-player12 checks
-test22 bets 2
-player12 calls
-*** TURN *** (8) [6h Qd Tc] [4d]
-player12 checks
+*** FLOP *** (12) [Qc Th 7h]
 test22 bets 4
 player12 calls
-*** RIVER *** (16) [6h Qd Tc 4d] [3d]
+*** TURN *** (20) [Qc Th 7h] [2c]
+test22 checks
+player12 checks
+*** RIVER *** (20) [Qc Th 7h 2c] [Kc]
+test22 checks
+player12 checks
+player12 shows [Js 7c 6h 7s]
+test22 shows [As 6d 8d 4h]
+player12 wins the pot (20)
+
+Hand #57, test22 (-401), player12 (401)
+test22 posts the blind of 1
+player12 posts the blind of 2
+Dealt to test22 [Qc 6s 6h 2h]
+Dealt to player12 [5s Qd 3h Js]
+test22 calls
+player12 raises to 6
+test22 calls
+*** FLOP *** (12) [9d 3c 8d]
+player12 checks
+test22 checks
+*** TURN *** (12) [9d 3c 8d] [Kd]
+player12 checks
+test22 bets 7
+player12 calls
+*** RIVER *** (26) [9d 3c 8d Kd] [8h]
+player12 checks
+test22 checks
+test22 shows [Qc 6s 6h 2h]
+player12 shows [5s Qd 3h Js]
+test22 wins the pot (26)
+
+Hand #58, player12 (388), test22 (-388)
+player12 posts the blind of 1
+test22 posts the blind of 2
+Dealt to player12 [Qc Kd Jc Qh]
+Dealt to test22 [4d 2s Td 5c]
+player12 raises to 6
+test22 folds
+Uncalled bet of 4 returned to player12
+player12 wins the pot (4)
+
+Hand #59, test22 (-390), player12 (390)
+test22 posts the blind of 1
+player12 posts the blind of 2
+Dealt to test22 [3d Qc 7s 4d]
+Dealt to player12 [5s 3h 8c 5h]
+test22 calls
+player12 checks
+*** FLOP *** (4) [6h 8d 6s]
 player12 checks
 test22 bets 3
 player12 calls
-test22 shows [Jh Qh Ad 9d]
-player12 shows [6d Qs Ts 8h]
-test22 wins the pot (22)
+*** TURN *** (10) [6h 8d 6s] [Ad]
+player12 checks
+test22 bets 9
+player12 calls
+*** RIVER *** (28) [6h 8d 6s Ad] [6d]
+player12 checks
+test22 checks
+test22 shows [3d Qc 7s 4d]
+player12 shows [5s 3h 8c 5h]
+player12 wins the pot (28)
 
-Hand #68, player12 (-16967), test22 (16967)
+Hand #60, player12 (404), test22 (-404)
 player12 posts the blind of 1
 test22 posts the blind of 2
-Dealt to player12 [7s 5c 6c 6s]
-Dealt to test22 [Js Td Jh Jc]
-player12 raises to 6
-test22 folds
-Uncalled bet of 4 returned to player12
-player12 wins the pot (4)
+Dealt to player12 [3s 2d 8s Ks]
+Dealt to test22 [Js 5d 7h 5s]
+player12 calls
+test22 raises to 4
+player12 calls
+*** FLOP *** (8) [Kh Jd As]
+test22 bets 2
+player12 calls
+*** TURN *** (12) [Kh Jd As] [Kc]
+test22 checks
+player12 checks
+*** RIVER *** (12) [Kh Jd As Kc] [4c]
+test22 bets 2
+player12 calls
+player12 shows [3s 2d 8s Ks]
+test22 shows [Js 5d 7h 5s]
+player12 wins the pot (16)
 
-Hand #69, test22 (16965), player12 (-16965)
+Hand #61, test22 (-412), player12 (412)
 test22 posts the blind of 1
 player12 posts the blind of 2
-Dealt to test22 [3c 9h 4d Jc]
-Dealt to player12 [Jd Ac Kh As]
+Dealt to test22 [2c 6s Jc 9s]
+Dealt to player12 [Ac 8d 8h 8c]
+test22 raises to 5
+player12 calls
+*** FLOP *** (10) [Qd 3s 9h]
+player12 checks
+test22 bets 3
+player12 calls
+*** TURN *** (16) [Qd 3s 9h] [9c]
+player12 checks
+test22 checks
+*** RIVER *** (16) [Qd 3s 9h 9c] [Qc]
+player12 checks
+test22 bets 13
+player12 calls
+test22 shows [2c 6s Jc 9s]
+player12 shows [Ac 8d 8h 8c]
+test22 wins the pot (42)
+
+Hand #62, player12 (391), test22 (-391)
+player12 posts the blind of 1
+test22 posts the blind of 2
+Dealt to player12 [6d 4s 4d 8d]
+Dealt to test22 [9s Td Kd 5h]
+player12 calls
+test22 raises to 5
+player12 calls
+*** FLOP *** (10) [6s 3c Ts]
+test22 bets 4
+player12 calls
+*** TURN *** (18) [6s 3c Ts] [2d]
+test22 bets 3
+player12 calls
+*** RIVER *** (24) [6s 3c Ts 2d] [Qc]
+test22 checks
+player12 checks
+player12 shows [6d 4s 4d 8d]
+test22 shows [9s Td Kd 5h]
+test22 wins the pot (24)
+
+Hand #63, test22 (-379), player12 (379)
+test22 posts the blind of 1
+player12 posts the blind of 2
+Dealt to test22 [2c Td 6s 6c]
+Dealt to player12 [7d Ts Qh 8h]
 test22 raises to 4
 player12 raises to 12
 test22 folds
 Uncalled bet of 8 returned to player12
 player12 wins the pot (8)
 
-Hand #70, player12 (-16961), test22 (16961)
+Hand #64, player12 (383), test22 (-383)
 player12 posts the blind of 1
 test22 posts the blind of 2
-Dealt to player12 [9s 9h Tc 3s]
-Dealt to test22 [5h Kc 9d Th]
+Dealt to player12 [2c 6h 7h Js]
+Dealt to test22 [7s Ad 5h 8c]
 player12 raises to 6
-test22 raises to 14
-player12 raises to 42
 test22 calls
-*** FLOP *** (84) [8c 3c 6c]
-test22 bets 78
-player12 calls
-*** TURN *** (240) [8c 3c 6c] [3d]
-test22 checks
-player12 checks
-*** RIVER *** (240) [8c 3c 6c 3d] [6d]
-test22 bets 151
-player12 calls
-player12 shows [9s 9h Tc 3s]
-test22 shows [5h Kc 9d Th]
-player12 wins the pot (542)
-
-Hand #71, test22 (16690), player12 (-16690)
-test22 posts the blind of 1
-player12 posts the blind of 2
-Dealt to test22 [5h Kh 6h 2s]
-Dealt to player12 [Jd 3s 7s 2c]
-test22 calls
-player12 raises to 4
-test22 calls
-*** FLOP *** (8) [Jh 4c 5s]
-player12 checks
-test22 checks
-*** TURN *** (8) [Jh 4c 5s] [5c]
-player12 checks
-test22 bets 6
-player12 calls
-*** RIVER *** (20) [Jh 4c 5s 5c] [Tc]
-player12 checks
-test22 bets 10
-player12 calls
-test22 shows [5h Kh 6h 2s]
-player12 shows [Jd 3s 7s 2c]
-test22 wins the pot (40)
-
-Hand #72, player12 (-16710), test22 (16710)
-player12 posts the blind of 1
-test22 posts the blind of 2
-Dealt to player12 [Qd 5s 7s 4s]
-Dealt to test22 [2s 8d 2h Ah]
-player12 calls
-test22 checks
-*** FLOP *** (4) [2c 2d Th]
-test22 checks
-player12 checks
-*** TURN *** (4) [2c 2d Th] [8c]
+*** FLOP *** (12) [Tc Qc Ks]
 test22 bets 2
 player12 calls
-*** RIVER *** (8) [2c 2d Th 8c] [Ad]
-test22 checks
-player12 checks
-player12 shows [Qd 5s 7s 4s]
-test22 shows [2s 8d 2h Ah]
-test22 wins the pot (8)
+*** TURN *** (16) [Tc Qc Ks] [9d]
+test22 bets 11
+player12 calls
+*** RIVER *** (38) [Tc Qc Ks 9d] [Kh]
+test22 bets 26
+player12 calls
+player12 shows [2c 6h 7h Js]
+test22 shows [7s Ad 5h 8c]
+test22 wins the pot (90)
 
-Hand #73, test22 (16714), player12 (-16714)
+Hand #65, test22 (-338), player12 (338)
 test22 posts the blind of 1
 player12 posts the blind of 2
-Dealt to test22 [7h 5s 9d 4d]
-Dealt to player12 [Ah Tc 2d 3c]
-test22 raises to 5
-player12 raises to 15
-test22 raises to 30
-player12 raises to 90
-test22 calls
-*** FLOP *** (180) [3d 8h Ad]
-player12 checks
-test22 checks
-*** TURN *** (180) [3d 8h Ad] [7s]
-player12 checks
-test22 bets 6
-player12 calls
-*** RIVER *** (192) [3d 8h Ad 7s] [Ts]
-player12 checks
-test22 checks
-test22 shows [7h 5s 9d 4d]
-player12 shows [Ah Tc 2d 3c]
-player12 wins the pot (192)
-
-Hand #74, player12 (-16618), test22 (16618)
-player12 posts the blind of 1
-test22 posts the blind of 2
-Dealt to player12 [Ac 4s 2s 4d]
-Dealt to test22 [3h Jd 5c Qs]
-player12 raises to 6
-test22 raises to 12
-player12 raises to 36
-test22 calls
-*** FLOP *** (72) [8c 5h Jh]
-test22 checks
-player12 checks
-*** TURN *** (72) [8c 5h Jh] [9h]
-test22 checks
-player12 checks
-*** RIVER *** (72) [8c 5h Jh 9h] [Js]
-test22 checks
-player12 checks
-player12 shows [Ac 4s 2s 4d]
-test22 shows [3h Jd 5c Qs]
-test22 wins the pot (72)
-
-Hand #75, test22 (16654), player12 (-16654)
-test22 posts the blind of 1
-player12 posts the blind of 2
-Dealt to test22 [Js Kh Th 5c]
-Dealt to player12 [Tc 7c 8c 7h]
-test22 calls
-player12 checks
-*** FLOP *** (4) [6d 4d 5s]
-player12 checks
-test22 checks
-*** TURN *** (4) [6d 4d 5s] [2c]
-player12 checks
-test22 checks
-*** RIVER *** (4) [6d 4d 5s 2c] [Qs]
-player12 checks
-test22 bets 3
-player12 calls
-test22 shows [Js Kh Th 5c]
-player12 shows [Tc 7c 8c 7h]
-player12 wins the pot (10)
-
-Hand #76, player12 (-16649), test22 (16649)
-player12 posts the blind of 1
-test22 posts the blind of 2
-Dealt to player12 [Qh 9h 2c 5d]
-Dealt to test22 [8s Ah 6d 7h]
-player12 calls
-test22 checks
-*** FLOP *** (4) [9c 7d Jh]
-test22 bets 3
-player12 calls
-*** TURN *** (10) [9c 7d Jh] [3d]
-test22 bets 9
-player12 calls
-*** RIVER *** (28) [9c 7d Jh 3d] [Jd]
-test22 checks
-player12 checks
-player12 shows [Qh 9h 2c 5d]
-test22 shows [8s Ah 6d 7h]
-player12 wins the pot (28)
-
-Hand #77, test22 (16635), player12 (-16635)
-test22 posts the blind of 1
-player12 posts the blind of 2
-Dealt to test22 [Ah 8c 8h Td]
-Dealt to player12 [8d 3d 6h 9d]
+Dealt to test22 [Qc 9d 7c Js]
+Dealt to player12 [Td 5s Qs 4d]
 test22 folds
 player12 wins the pot (3)
 
-Hand #78, player12 (-16634), test22 (16634)
+Hand #66, player12 (339), test22 (-339)
 player12 posts the blind of 1
 test22 posts the blind of 2
-Dealt to player12 [Js 2h 4s 3c]
-Dealt to test22 [5d 7d 5h 2d]
+Dealt to player12 [Jd 8d Jc Kc]
+Dealt to test22 [5h Qc 3h 6s]
+player12 raises to 6
+test22 calls
+*** FLOP *** (12) [8h 4c Qs]
+test22 bets 3
+player12 calls
+*** TURN *** (18) [8h 4c Qs] [6d]
+test22 bets 8
+player12 calls
+*** RIVER *** (34) [8h 4c Qs 6d] [4d]
+test22 bets 17
+player12 calls
+player12 shows [Jd 8d Jc Kc]
+test22 shows [5h Qc 3h 6s]
+test22 wins the pot (68)
+
+Hand #67, test22 (-305), player12 (305)
+test22 posts the blind of 1
+player12 posts the blind of 2
+Dealt to test22 [7c 8h Ad 5h]
+Dealt to player12 [2s Qc Qh Jc]
+test22 folds
+player12 wins the pot (3)
+
+Hand #68, player12 (306), test22 (-306)
+player12 posts the blind of 1
+test22 posts the blind of 2
+Dealt to player12 [Qh 8d As 6c]
+Dealt to test22 [5s 2d Jd 4s]
+player12 folds
+test22 wins the pot (3)
+
+Hand #69, test22 (-305), player12 (305)
+test22 posts the blind of 1
+player12 posts the blind of 2
+Dealt to test22 [7h Th 5c 5h]
+Dealt to player12 [Kd 8c 7c 3h]
+test22 calls
+player12 raises to 6
+test22 calls
+*** FLOP *** (12) [4h 8d 9d]
+player12 checks
+test22 checks
+*** TURN *** (12) [4h 8d 9d] [4d]
+player12 checks
+test22 bets 4
+player12 calls
+*** RIVER *** (20) [4h 8d 9d 4d] [Tc]
+player12 checks
+test22 bets 18
+player12 calls
+test22 shows [7h Th 5c 5h]
+player12 shows [Kd 8c 7c 3h]
+test22 wins the pot (56)
+
+Hand #70, player12 (277), test22 (-277)
+player12 posts the blind of 1
+test22 posts the blind of 2
+Dealt to player12 [Tc Qs Ah Ks]
+Dealt to test22 [Jc 6s 7s 5h]
+player12 raises to 6
+test22 calls
+*** FLOP *** (12) [Jh 3s Th]
+test22 checks
+player12 checks
+*** TURN *** (12) [Jh 3s Th] [Td]
+test22 bets 2
+player12 calls
+*** RIVER *** (16) [Jh 3s Th Td] [Js]
+test22 checks
+player12 checks
+player12 shows [Tc Qs Ah Ks]
+test22 shows [Jc 6s 7s 5h]
+test22 wins the pot (16)
+
+Hand #71, test22 (-269), player12 (269)
+test22 posts the blind of 1
+player12 posts the blind of 2
+Dealt to test22 [9d 3c Ad Js]
+Dealt to player12 [8s Td Tc Kc]
+test22 folds
+player12 wins the pot (3)
+
+Hand #72, player12 (270), test22 (-270)
+player12 posts the blind of 1
+test22 posts the blind of 2
+Dealt to player12 [6h 5c 3d 5d]
+Dealt to test22 [Qh 6s 5s Qs]
+player12 raises to 6
+test22 raises to 13
+player12 raises to 39
+test22 raises to 108
+player12 raises to 161
+test22 raises to 92
+player12 raises to 39
+test22 calls
+*** FLOP *** (78) [4s 9s 8h]
+test22 bets 69
+player12 calls
+*** TURN *** (216) [4s 9s 8h] [8c]
+test22 checks
+player12 checks
+*** RIVER *** (216) [4s 9s 8h 8c] [8d]
+test22 bets 90
+player12 calls
+player12 shows [6h 5c 3d 5d]
+test22 shows [Qh 6s 5s Qs]
+test22 wins the pot (396)
+
+Hand #73, test22 (-72), player12 (72)
+test22 posts the blind of 1
+player12 posts the blind of 2
+Dealt to test22 [5d 2s 7h 8d]
+Dealt to player12 [8s Jh Ah 6d]
+test22 raises to 4
+player12 calls
+*** FLOP *** (8) [6h 4c Jd]
+player12 checks
+test22 checks
+*** TURN *** (8) [6h 4c Jd] [3c]
+player12 checks
+test22 bets 7
+player12 calls
+*** RIVER *** (22) [6h 4c Jd 3c] [Qs]
+player12 checks
+test22 checks
+test22 shows [5d 2s 7h 8d]
+player12 shows [8s Jh Ah 6d]
+test22 wins the pot (22)
+
+Hand #74, player12 (61), test22 (-61)
+player12 posts the blind of 1
+test22 posts the blind of 2
+Dealt to player12 [4s Qh 7d Ad]
+Dealt to test22 [4d 6h Jh Qc]
+player12 calls
+test22 raises to 4
+player12 calls
+*** FLOP *** (8) [Ks 5h Kc]
+test22 bets 7
+player12 calls
+*** TURN *** (22) [Ks 5h Kc] [Ah]
+test22 checks
+player12 checks
+*** RIVER *** (22) [Ks 5h Kc Ah] [3h]
+test22 checks
+player12 checks
+player12 shows [4s Qh 7d Ad]
+test22 shows [4d 6h Jh Qc]
+test22 wins the pot (22)
+
+Hand #75, test22 (-50), player12 (50)
+test22 posts the blind of 1
+player12 posts the blind of 2
+Dealt to test22 [6s 8s 5s 3d]
+Dealt to player12 [8h Jd Tc 7d]
+test22 calls
+player12 raises to 6
+test22 raises to 16
+player12 raises to 48
+test22 raises to 141
+player12 raises to 152
+test22 folds
+Uncalled bet of 11 returned to player12
+player12 wins the pot (282)
+
+Hand #76, player12 (191), test22 (-191)
+player12 posts the blind of 1
+test22 posts the blind of 2
+Dealt to player12 [8h Qc Jd Qd]
+Dealt to test22 [4s 5s 7d 2c]
 player12 raises to 6
 test22 folds
 Uncalled bet of 4 returned to player12
 player12 wins the pot (4)
 
-Hand #79, test22 (16632), player12 (-16632)
+Hand #77, test22 (-193), player12 (193)
 test22 posts the blind of 1
 player12 posts the blind of 2
-Dealt to test22 [Jd Ad 5c Ac]
-Dealt to player12 [Qd Jh 6d 9h]
-test22 calls
-player12 raises to 4
-test22 calls
-*** FLOP *** (8) [5h 3s Kd]
-player12 checks
-test22 checks
-*** TURN *** (8) [5h 3s Kd] [8s]
-player12 checks
-test22 bets 4
+Dealt to test22 [Qd 7d Qh 8h]
+Dealt to player12 [Th 5d 4h Ah]
+test22 raises to 5
 player12 calls
-*** RIVER *** (16) [5h 3s Kd 8s] [9d]
+*** FLOP *** (10) [5c 8d Qs]
+player12 checks
+test22 bets 7
+player12 calls
+*** TURN *** (24) [5c 8d Qs] [Kd]
 player12 checks
 test22 checks
-test22 shows [Jd Ad 5c Ac]
-player12 shows [Qd Jh 6d 9h]
-test22 wins the pot (16)
+*** RIVER *** (24) [5c 8d Qs Kd] [Jc]
+player12 checks
+test22 bets 17
+player12 calls
+test22 shows [Qd 7d Qh 8h]
+player12 shows [Th 5d 4h Ah]
+player12 wins the pot (58)
 
-Hand #80, player12 (-16640), test22 (16640)
+Hand #78, player12 (222), test22 (-222)
 player12 posts the blind of 1
 test22 posts the blind of 2
-Dealt to player12 [8h 3s 7h 4s]
-Dealt to test22 [7c Ts 5d Jc]
+Dealt to player12 [Kc 6c 7h 3d]
+Dealt to test22 [2d 2h 3h 5s]
 player12 raises to 6
 test22 raises to 14
 player12 raises to 42
@@ -1416,366 +1233,435 @@ test22 folds
 Uncalled bet of 28 returned to player12
 player12 wins the pot (28)
 
-Hand #81, test22 (16626), player12 (-16626)
+Hand #79, test22 (-236), player12 (236)
 test22 posts the blind of 1
 player12 posts the blind of 2
-Dealt to test22 [2d Td 9c 4s]
-Dealt to player12 [8s 7d 9d Kh]
-test22 raises to 4
-player12 raises to 12
+Dealt to test22 [9c 5h 8c Kc]
+Dealt to player12 [Jh 8h 6d 6c]
+test22 raises to 5
+player12 calls
+*** FLOP *** (10) [4s Ah 8d]
+player12 checks
+test22 bets 8
+player12 calls
+*** TURN *** (26) [4s Ah 8d] [As]
+player12 checks
+test22 checks
+*** RIVER *** (26) [4s Ah 8d As] [3h]
+player12 checks
+test22 checks
+test22 shows [9c 5h 8c Kc]
+player12 shows [Jh 8h 6d 6c]
+test22 wins the pot (26)
+
+Hand #80, player12 (223), test22 (-223)
+player12 posts the blind of 1
+test22 posts the blind of 2
+Dealt to player12 [Ah Jh Td 3h]
+Dealt to test22 [2d 7c 9c 3c]
+player12 calls
+test22 checks
+*** FLOP *** (4) [Th As 2s]
+test22 checks
+player12 checks
+*** TURN *** (4) [Th As 2s] [5s]
+test22 checks
+player12 checks
+*** RIVER *** (4) [Th As 2s 5s] [Qs]
+test22 bets 2
+player12 calls
+player12 shows [Ah Jh Td 3h]
+test22 shows [2d 7c 9c 3c]
+player12 wins the pot (8)
+
+Hand #81, test22 (-227), player12 (227)
+test22 posts the blind of 1
+player12 posts the blind of 2
+Dealt to test22 [Kc 5s Qc Ac]
+Dealt to player12 [Jd 2c Qs 7d]
 test22 calls
-*** FLOP *** (24) [Qd 3s 5c]
-player12 checks
-test22 bets 4
-player12 calls
-*** TURN *** (32) [Qd 3s 5c] [Qh]
-player12 checks
-test22 bets 7
-player12 calls
-*** RIVER *** (46) [Qd 3s 5c Qh] [8d]
-player12 checks
-test22 bets 41
-player12 calls
-test22 shows [2d Td 9c 4s]
-player12 shows [8s 7d 9d Kh]
-player12 wins the pot (128)
-
-Hand #82, player12 (-16562), test22 (16562)
-player12 posts the blind of 1
-test22 posts the blind of 2
-Dealt to player12 [6s 6d Ah Qc]
-Dealt to test22 [7s Kc 5d Ts]
-player12 calls
-test22 raises to 4
-player12 calls
-*** FLOP *** (8) [7h 4d 2c]
-test22 bets 2
-player12 calls
-*** TURN *** (12) [7h 4d 2c] [8c]
-test22 bets 11
-player12 calls
-*** RIVER *** (34) [7h 4d 2c 8c] [8h]
-test22 checks
-player12 checks
-player12 shows [6s 6d Ah Qc]
-test22 shows [7s Kc 5d Ts]
-test22 wins the pot (34)
-
-Hand #83, test22 (16579), player12 (-16579)
-test22 posts the blind of 1
-player12 posts the blind of 2
-Dealt to test22 [2s 4c Qc 4s]
-Dealt to player12 [9s As Jh 4d]
-test22 raises to 4
-player12 calls
-*** FLOP *** (8) [Js 8c Qs]
-player12 checks
-test22 bets 2
-player12 calls
-*** TURN *** (12) [Js 8c Qs] [Qd]
-player12 checks
-test22 bets 2
-player12 calls
-*** RIVER *** (16) [Js 8c Qs Qd] [5c]
-player12 checks
-test22 checks
-test22 shows [2s 4c Qc 4s]
-player12 shows [9s As Jh 4d]
-test22 wins the pot (16)
-
-Hand #84, player12 (-16587), test22 (16587)
-player12 posts the blind of 1
-test22 posts the blind of 2
-Dealt to player12 [3s 5c 2s 5d]
-Dealt to test22 [3d 6s Qd Qc]
 player12 raises to 6
 test22 raises to 13
 player12 raises to 39
-test22 raises to 75
-player12 raises to 225
-test22 calls
-*** FLOP *** (450) [8c Jh 3c]
-test22 bets 149
-player12 calls
-*** TURN *** (748) [8c Jh 3c] [9h]
-test22 bets 418
-player12 calls
-*** RIVER *** (1584) [8c Jh 3c 9h] [5h]
-test22 checks
-player12 checks
-player12 shows [3s 5c 2s 5d]
-test22 shows [3d 6s Qd Qc]
-player12 wins the pot (1584)
-
-Hand #85, test22 (15795), player12 (-15795)
-test22 posts the blind of 1
-player12 posts the blind of 2
-Dealt to test22 [Ac 6c 9d Jd]
-Dealt to player12 [4s Tc 4c Qd]
 test22 folds
-player12 wins the pot (3)
+Uncalled bet of 26 returned to player12
+player12 wins the pot (26)
 
-Hand #86, player12 (-15794), test22 (15794)
+Hand #82, player12 (240), test22 (-240)
 player12 posts the blind of 1
 test22 posts the blind of 2
-Dealt to player12 [Kh 4d 8d 9d]
-Dealt to test22 [9h Qh Qd Ad]
-player12 calls
-test22 raises to 4
-player12 calls
-*** FLOP *** (8) [Ts Js 6s]
-test22 bets 6
-player12 calls
-*** TURN *** (20) [Ts Js 6s] [Ah]
-test22 checks
-player12 checks
-*** RIVER *** (20) [Ts Js 6s Ah] [Kd]
-test22 checks
-player12 checks
-player12 shows [Kh 4d 8d 9d]
-test22 shows [9h Qh Qd Ad]
-test22 wins the pot (20)
+Dealt to player12 [7s 6d Jh 5c]
+Dealt to test22 [8s 8h 3s 3d]
+player12 raises to 6
+test22 raises to 17
+player12 raises to 51
+test22 raises to 116
+player12 raises to 149
+test22 folds
+Uncalled bet of 33 returned to player12
+player12 wins the pot (232)
 
-Hand #87, test22 (15804), player12 (-15804)
+Hand #83, test22 (-356), player12 (356)
 test22 posts the blind of 1
 player12 posts the blind of 2
-Dealt to test22 [Ks 8s 3d 4c]
-Dealt to player12 [4s Kh 6c Js]
+Dealt to test22 [6s Qc 2h Tc]
+Dealt to player12 [3c Js 3d Kc]
 test22 raises to 5
 player12 calls
-*** FLOP *** (10) [7h 8c Qh]
-player12 checks
-test22 checks
-*** TURN *** (10) [7h 8c Qh] [8h]
-player12 checks
-test22 checks
-*** RIVER *** (10) [7h 8c Qh 8h] [7s]
-player12 checks
-test22 checks
-test22 shows [Ks 8s 3d 4c]
-player12 shows [4s Kh 6c Js]
-test22 wins the pot (10)
-
-Hand #88, player12 (-15809), test22 (15809)
-player12 posts the blind of 1
-test22 posts the blind of 2
-Dealt to player12 [Td 8c Kh 2s]
-Dealt to test22 [4c 9h Jd 6s]
-player12 calls
-test22 raises to 4
-player12 calls
-*** FLOP *** (8) [Ts Qd 4h]
-test22 checks
-player12 checks
-*** TURN *** (8) [Ts Qd 4h] [9s]
-test22 checks
-player12 checks
-*** RIVER *** (8) [Ts Qd 4h 9s] [7c]
-test22 bets 2
-player12 calls
-player12 shows [Td 8c Kh 2s]
-test22 shows [4c 9h Jd 6s]
-test22 wins the pot (12)
-
-Hand #89, test22 (15815), player12 (-15815)
-test22 posts the blind of 1
-player12 posts the blind of 2
-Dealt to test22 [7c Qd Ks 3s]
-Dealt to player12 [2s 6c Ts Th]
-test22 raises to 4
-player12 calls
-*** FLOP *** (8) [7s 8d Kh]
-player12 checks
-test22 checks
-*** TURN *** (8) [7s 8d Kh] [6h]
+*** FLOP *** (10) [Th 5h Jh]
 player12 checks
 test22 bets 6
 player12 calls
-*** RIVER *** (20) [7s 8d Kh 6h] [Js]
+*** TURN *** (22) [Th 5h Jh] [9s]
 player12 checks
 test22 checks
-test22 shows [7c Qd Ks 3s]
-player12 shows [2s 6c Ts Th]
-test22 wins the pot (20)
+*** RIVER *** (22) [Th 5h Jh 9s] [Ac]
+player12 checks
+test22 bets 20
+player12 calls
+test22 shows [6s Qc 2h Tc]
+player12 shows [3c Js 3d Kc]
+player12 wins the pot (62)
 
-Hand #90, player12 (-15825), test22 (15825)
+Hand #84, player12 (387), test22 (-387)
 player12 posts the blind of 1
 test22 posts the blind of 2
-Dealt to player12 [Kh Qd 5c 2d]
-Dealt to test22 [4s 5s 6s 7h]
-player12 raises to 6
-test22 calls
-*** FLOP *** (12) [Jh 4d Ts]
-test22 checks
-player12 checks
-*** TURN *** (12) [Jh 4d Ts] [As]
-test22 checks
-player12 checks
-*** RIVER *** (12) [Jh 4d Ts As] [7d]
-test22 checks
-player12 checks
-player12 shows [Kh Qd 5c 2d]
-test22 shows [4s 5s 6s 7h]
-player12 wins the pot (12)
-
-Hand #91, test22 (15819), player12 (-15819)
-test22 posts the blind of 1
-player12 posts the blind of 2
-Dealt to test22 [3h Kd 9c Kh]
-Dealt to player12 [7c 2s 5c 9h]
-test22 folds
-player12 wins the pot (3)
-
-Hand #92, player12 (-15818), test22 (15818)
-player12 posts the blind of 1
-test22 posts the blind of 2
-Dealt to player12 [Qd 3h 5s 7c]
-Dealt to test22 [6c Th Qc Ac]
+Dealt to player12 [3d 3s 8c Kd]
+Dealt to test22 [Qd Kc 5c Qs]
 player12 calls
 test22 raises to 4
 player12 calls
-*** FLOP *** (8) [Kd 8h Js]
-test22 bets 3
-player12 calls
-*** TURN *** (14) [Kd 8h Js] [6s]
+*** FLOP *** (8) [3c 9s 8d]
 test22 checks
 player12 checks
-*** RIVER *** (14) [Kd 8h Js 6s] [Kh]
-test22 bets 13
+*** TURN *** (8) [3c 9s 8d] [Jc]
+test22 checks
+player12 checks
+*** RIVER *** (8) [3c 9s 8d Jc] [Jh]
+test22 bets 6
 player12 calls
-player12 shows [Qd 3h 5s 7c]
-test22 shows [6c Th Qc Ac]
-test22 wins the pot (40)
+player12 shows [3d 3s 8c Kd]
+test22 shows [Qd Kc 5c Qs]
+player12 wins the pot (20)
 
-Hand #93, test22 (15838), player12 (-15838)
+Hand #85, test22 (-397), player12 (397)
 test22 posts the blind of 1
 player12 posts the blind of 2
-Dealt to test22 [2d 9d 9s 4h]
-Dealt to player12 [5s 4s 5h 9c]
+Dealt to test22 [3c 2c Qc 5h]
+Dealt to player12 [Jc Ah Ad 6d]
 test22 folds
 player12 wins the pot (3)
 
-Hand #94, player12 (-15837), test22 (15837)
+Hand #86, player12 (398), test22 (-398)
 player12 posts the blind of 1
 test22 posts the blind of 2
-Dealt to player12 [Qd 4s 5h 4c]
-Dealt to test22 [3c 5s 3h 2h]
-player12 calls
-test22 checks
-*** FLOP *** (4) [6h 9c Qc]
-test22 checks
-player12 checks
-*** TURN *** (4) [6h 9c Qc] [6c]
-test22 checks
-player12 checks
-*** RIVER *** (4) [6h 9c Qc 6c] [9s]
-test22 checks
-player12 checks
-player12 shows [Qd 4s 5h 4c]
-test22 shows [3c 5s 3h 2h]
-player12 wins the pot (4)
-
-Hand #95, test22 (15835), player12 (-15835)
-test22 posts the blind of 1
-player12 posts the blind of 2
-Dealt to test22 [Th Qh Kd Qd]
-Dealt to player12 [9s 5h Jd As]
-test22 raises to 5
-player12 calls
-*** FLOP *** (10) [6h Ts Ks]
-player12 checks
-test22 bets 3
-player12 calls
-*** TURN *** (16) [6h Ts Ks] [Js]
-player12 checks
-test22 checks
-*** RIVER *** (16) [6h Ts Ks Js] [2d]
-player12 checks
-test22 bets 15
-player12 calls
-test22 shows [Th Qh Kd Qd]
-player12 shows [9s 5h Jd As]
-player12 wins the pot (46)
-
-Hand #96, player12 (-15812), test22 (15812)
-player12 posts the blind of 1
-test22 posts the blind of 2
-Dealt to player12 [5d Kh Jc 6d]
-Dealt to test22 [3c 7c Ks 9c]
-player12 raises to 6
-test22 folds
-Uncalled bet of 4 returned to player12
-player12 wins the pot (4)
-
-Hand #97, test22 (15810), player12 (-15810)
-test22 posts the blind of 1
-player12 posts the blind of 2
-Dealt to test22 [8s 8d 9h 4d]
-Dealt to player12 [9d As Kd 3s]
-test22 folds
-player12 wins the pot (3)
-
-Hand #98, player12 (-15809), test22 (15809)
-player12 posts the blind of 1
-test22 posts the blind of 2
-Dealt to player12 [3d 7d 5s Td]
-Dealt to test22 [Th Qc 2s Kc]
+Dealt to player12 [6d 8s Td 3d]
+Dealt to test22 [Jc 6s Ad Kd]
 player12 calls
 test22 raises to 4
 player12 calls
-*** FLOP *** (8) [8s 7h Kh]
-test22 checks
-player12 checks
-*** TURN *** (8) [8s 7h Kh] [5h]
-test22 bets 7
-player12 calls
-*** RIVER *** (22) [8s 7h Kh 5h] [Ah]
-test22 bets 18
-player12 calls
-player12 shows [3d 7d 5s Td]
-test22 shows [Th Qc 2s Kc]
-player12 wins the pot (58)
-
-Hand #99, test22 (15780), player12 (-15780)
-test22 posts the blind of 1
-player12 posts the blind of 2
-Dealt to test22 [Jc 4s Jd 4h]
-Dealt to player12 [7h 3h 9h Td]
-test22 calls
-player12 checks
-*** FLOP *** (4) [9c 6s Qh]
-player12 checks
-test22 checks
-*** TURN *** (4) [9c 6s Qh] [5s]
-player12 checks
+*** FLOP *** (8) [Ac Js 2c]
 test22 bets 3
 player12 calls
-*** RIVER *** (10) [9c 6s Qh 5s] [As]
+*** TURN *** (14) [Ac Js 2c] [Qc]
+test22 checks
 player12 checks
+*** RIVER *** (14) [Ac Js 2c Qc] [3h]
+test22 bets 10
+player12 calls
+player12 shows [6d 8s Td 3d]
+test22 shows [Jc 6s Ad Kd]
+test22 wins the pot (34)
+
+Hand #87, test22 (-381), player12 (381)
+test22 posts the blind of 1
+player12 posts the blind of 2
+Dealt to test22 [6c 4d 3d 9c]
+Dealt to player12 [4s 9s Ac 5h]
+test22 raises to 4
+player12 raises to 12
+test22 raises to 26
+player12 raises to 78
+test22 raises to 159
+player12 raises to 122
+test22 raises to 41
+player12 raises to 78
+test22 raises to 123
+player12 raises to 122
+test22 folds
+Uncalled bet of -1 returned to player12
+player12 wins the pot (246)
+
+Hand #88, player12 (504), test22 (-504)
+player12 posts the blind of 1
+test22 posts the blind of 2
+Dealt to player12 [3d Qs 6c Qd]
+Dealt to test22 [5h Ac 3c 6d]
+player12 calls
+test22 raises to 4
+player12 calls
+*** FLOP *** (8) [5c Qc Ad]
 test22 bets 4
 player12 calls
-test22 shows [Jc 4s Jd 4h]
-player12 shows [7h 3h 9h Td]
-test22 wins the pot (18)
+*** TURN *** (16) [5c Qc Ad] [2h]
+test22 checks
+player12 checks
+*** RIVER *** (16) [5c Qc Ad 2h] [4s]
+test22 bets 10
+player12 calls
+player12 shows [3d Qs 6c Qd]
+test22 shows [5h Ac 3c 6d]
+player12 ties for the pot (18)
+test22 ties for the pot (18)
 
-Hand #100, player12 (-15789), test22 (15789)
+Hand #89, test22 (-504), player12 (504)
+test22 posts the blind of 1
+player12 posts the blind of 2
+Dealt to test22 [2d 7c Kh 7s]
+Dealt to player12 [5d Tc 8h Kc]
+test22 raises to 4
+player12 calls
+*** FLOP *** (8) [2h 4s 6h]
+player12 checks
+test22 checks
+*** TURN *** (8) [2h 4s 6h] [Td]
+player12 checks
+test22 bets 3
+player12 calls
+*** RIVER *** (14) [2h 4s 6h Td] [Qs]
+player12 checks
+test22 checks
+test22 shows [2d 7c Kh 7s]
+player12 shows [5d Tc 8h Kc]
+player12 wins the pot (14)
+
+Hand #90, player12 (511), test22 (-511)
 player12 posts the blind of 1
 test22 posts the blind of 2
-Dealt to player12 [9d 8c 4d 6d]
-Dealt to test22 [5d Ks Qh 7d]
+Dealt to player12 [5s Ad 3s 7h]
+Dealt to test22 [3d 5h Ah 8s]
+player12 calls
+test22 checks
+*** FLOP *** (4) [8h 4c Th]
+test22 bets 3
+player12 calls
+*** TURN *** (10) [8h 4c Th] [9d]
+test22 checks
+player12 checks
+*** RIVER *** (10) [8h 4c Th 9d] [9c]
+test22 checks
+player12 checks
+player12 shows [5s Ad 3s 7h]
+test22 shows [3d 5h Ah 8s]
+test22 wins the pot (10)
+
+Hand #91, test22 (-506), player12 (506)
+test22 posts the blind of 1
+player12 posts the blind of 2
+Dealt to test22 [Qc 7s As 6c]
+Dealt to player12 [9d 6d 5d 3h]
+test22 calls
+player12 checks
+*** FLOP *** (4) [4d 8s 7d]
+player12 checks
+test22 bets 2
+player12 calls
+*** TURN *** (8) [4d 8s 7d] [Tc]
+player12 checks
+test22 bets 3
+player12 calls
+*** RIVER *** (14) [4d 8s 7d Tc] [6h]
+player12 checks
+test22 checks
+test22 shows [Qc 7s As 6c]
+player12 shows [9d 6d 5d 3h]
+player12 wins the pot (14)
+
+Hand #92, player12 (513), test22 (-513)
+player12 posts the blind of 1
+test22 posts the blind of 2
+Dealt to player12 [Qh 5d 6s Tc]
+Dealt to test22 [2h Ah Jc Th]
+player12 calls
+test22 raises to 5
+player12 calls
+*** FLOP *** (10) [7s 9c Ts]
+test22 checks
+player12 checks
+*** TURN *** (10) [7s 9c Ts] [5c]
+test22 checks
+player12 checks
+*** RIVER *** (10) [7s 9c Ts 5c] [Ks]
+test22 checks
+player12 checks
+player12 shows [Qh 5d 6s Tc]
+test22 shows [2h Ah Jc Th]
+player12 wins the pot (10)
+
+Hand #93, test22 (-518), player12 (518)
+test22 posts the blind of 1
+player12 posts the blind of 2
+Dealt to test22 [5c 3h Ad 3s]
+Dealt to player12 [Qc Td Th 4d]
+test22 calls
+player12 checks
+*** FLOP *** (4) [9c Qd 6d]
+player12 checks
+test22 checks
+*** TURN *** (4) [9c Qd 6d] [8h]
+player12 checks
+test22 bets 2
+player12 calls
+*** RIVER *** (8) [9c Qd 6d 8h] [Kh]
+player12 checks
+test22 bets 7
+player12 calls
+test22 shows [5c 3h Ad 3s]
+player12 shows [Qc Td Th 4d]
+player12 wins the pot (22)
+
+Hand #94, player12 (529), test22 (-529)
+player12 posts the blind of 1
+test22 posts the blind of 2
+Dealt to player12 [8h 6s Td Ad]
+Dealt to test22 [7d 5c As Ts]
+player12 calls
+test22 checks
+*** FLOP *** (4) [Jh 9d 4s]
+test22 bets 3
+player12 calls
+*** TURN *** (10) [Jh 9d 4s] [6d]
+test22 checks
+player12 checks
+*** RIVER *** (10) [Jh 9d 4s 6d] [9h]
+test22 bets 2
+player12 calls
+player12 shows [8h 6s Td Ad]
+test22 shows [7d 5c As Ts]
+player12 wins the pot (14)
+
+Hand #95, test22 (-536), player12 (536)
+test22 posts the blind of 1
+player12 posts the blind of 2
+Dealt to test22 [Kd Ad 6h 3h]
+Dealt to player12 [Ts 2c 7c 5c]
+test22 raises to 4
+player12 calls
+*** FLOP *** (8) [8s Qs 6d]
+player12 checks
+test22 bets 2
+player12 calls
+*** TURN *** (12) [8s Qs 6d] [3c]
+player12 checks
+test22 checks
+*** RIVER *** (12) [8s Qs 6d 3c] [Ac]
+player12 checks
+test22 checks
+test22 shows [Kd Ad 6h 3h]
+player12 shows [Ts 2c 7c 5c]
+test22 wins the pot (12)
+
+Hand #96, player12 (530), test22 (-530)
+player12 posts the blind of 1
+test22 posts the blind of 2
+Dealt to player12 [3c 2h 6s Qs]
+Dealt to test22 [7c Ac 9s Qd]
+player12 raises to 6
+test22 raises to 13
+player12 raises to 39
+test22 raises to 96
+player12 raises to 161
+test22 raises to 104
+player12 raises to 39
+test22 calls
+*** FLOP *** (78) [Kd Th Jc]
+test22 checks
+player12 checks
+*** TURN *** (78) [Kd Th Jc] [2s]
+test22 bets 45
+player12 calls
+*** RIVER *** (168) [Kd Th Jc 2s] [6c]
+test22 bets 77
+player12 calls
+player12 shows [3c 2h 6s Qs]
+test22 shows [7c Ac 9s Qd]
+test22 wins the pot (322)
+
+Hand #97, test22 (-369), player12 (369)
+test22 posts the blind of 1
+player12 posts the blind of 2
+Dealt to test22 [5d Ts Kc Qs]
+Dealt to player12 [Kd 5h 6h 8d]
+test22 raises to 4
+player12 raises to 12
+test22 folds
+Uncalled bet of 8 returned to player12
+player12 wins the pot (8)
+
+Hand #98, player12 (373), test22 (-373)
+player12 posts the blind of 1
+test22 posts the blind of 2
+Dealt to player12 [Kc 4h Jh 5h]
+Dealt to test22 [Th 7d 3h 2d]
 player12 calls
 test22 raises to 4
 player12 calls
-*** FLOP *** (8) [Js Ts 5h]
-test22 bets 3
+*** FLOP *** (8) [8c 9d Qs]
+test22 bets 4
 player12 calls
-*** TURN *** (14) [Js Ts 5h] [8s]
+*** TURN *** (16) [8c 9d Qs] [Jd]
 test22 checks
 player12 checks
-*** RIVER *** (14) [Js Ts 5h 8s] [3h]
-test22 bets 12
+*** RIVER *** (16) [8c 9d Qs Jd] [7c]
+test22 bets 3
 player12 calls
-player12 shows [9d 8c 4d 6d]
-test22 shows [5d Ks Qh 7d]
-player12 wins the pot (38)
+player12 shows [Kc 4h Jh 5h]
+test22 shows [Th 7d 3h 2d]
+test22 wins the pot (22)
+
+Hand #99, test22 (-362), player12 (362)
+test22 posts the blind of 1
+player12 posts the blind of 2
+Dealt to test22 [9h 7d 6c 7c]
+Dealt to player12 [6s 9s Ah Jd]
+test22 calls
+player12 checks
+*** FLOP *** (4) [9c Jh Qc]
+player12 checks
+test22 bets 3
+player12 calls
+*** TURN *** (10) [9c Jh Qc] [4c]
+player12 checks
+test22 bets 5
+player12 calls
+*** RIVER *** (20) [9c Jh Qc 4c] [Qs]
+player12 checks
+test22 checks
+test22 shows [9h 7d 6c 7c]
+player12 shows [6s 9s Ah Jd]
+test22 wins the pot (20)
+
+Hand #100, player12 (352), test22 (-352)
+player12 posts the blind of 1
+test22 posts the blind of 2
+Dealt to player12 [Qd Ac 8c 9h]
+Dealt to test22 [3c Jh 6d 9d]
+player12 raises to 6
+test22 raises to 11
+player12 raises to 33
+test22 raises to 69
+player12 raises to 167
+test22 calls
+*** FLOP *** (334) [3d 7c 9c]
+test22 checks
+player12 checks
+*** TURN *** (334) [3d 7c 9c] [Ts]
+test22 bets 4
+player12 calls
+*** RIVER *** (342) [3d 7c 9c Ts] [Jd]
+test22 checks
+player12 checks
+player12 shows [Qd Ac 8c 9h]
+test22 shows [3c Jh 6d 9d]
+player12 wins the pot (342)
 
