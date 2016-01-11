@@ -10,9 +10,74 @@ necessary to connect with the engine and then always returns the same action.
 It is meant as an example of how a pokerbot should communicate with the engine.
 """
 class Player:
-    def stuff():
-        return 0
+    def handEvaluator(self,hand):
+        points = 0
+        numRanks = [] #counts number of cards of a particular rank
+        for i in range(0, 13):
+            numRanks.append(0)
+        for s in hand:
+            if(s[0] == 'A'):
+                numRanks[12] = numRanks[12] + 1
+            elif(s[0] == 'K'):
+                numRanks[11] = numRanks[11] + 1
+            elif(s[0] == 'Q'):
+                numRanks[10] = numRanks[10] + 1
+            elif(s[0] == 'J'):
+                numRanks[9] = numRanks[9] + 1
+            elif(s[0] == 'T'):
+                numRanks[8] = numRanks[8] + 1
+            else:
+                numRanks[int(s[0]) - 2] = numRanks[int(s[0]) - 2] + 1
+                
+        #counting pairs
+        if(numRanks[12] == 2):
+            points = points + 10000
+        if(numRanks[11] == 2):
+            points = points + 7
+        if(numRanks[10] == 2):
+            points = points + 4
+        if(numRanks[9] == 2):
+            points = points + 2
+            
+        #counting triples
+        if(numRanks[12] == 3):
+            points = points + 4
+        if(numRanks[11] == 3):
+            points = points + 1
+        
+        #counting four of a kind
+        if(numRanks[12] == 4):
+            points = points + 1
+            
+        #counting consecutive numbers
+        for i in range(0, 13):
+            if(numRanks[i] > 0 and numRanks[(i + 1)%13] > 0):
+                points = points + 5*(min(numRanks[i], numRanks[(i + 1)%13]))
+        
+        numSuits = []
+        for i in range(0, 4):
+            numSuits.append(0)
+        for s in hand:
+            if(s[1] == 'c'):
+                numSuits[0] = numSuits[0] + 1
+            elif(s[1] == 'd'):
+                numSuits[1] = numSuits[1] + 1
+            elif(s[1] == 'h'):
+                numSuits[2] = numSuits[2] + 1
+            else:
+                numSuits[3] = numSuits[3] + 1
+                
+        #counting suits
+        for i in range(0, 4):
+            if(numSuits[i] >= 2):
+                points = points + 9 - 2*numSuits[i]
+        
+        return points
+            
     def run(self, input_socket):
+        outThreshold = 5
+        inThreshold = 2
+        betThreshold = 10
         # Get a file-object for reading packets from the socket.
         # Using this ensures that you get exactly one packet per read.
         f_in = input_socket.makefile()
@@ -43,8 +108,9 @@ class Player:
                 myBank = dataList[7]
                 oppBank = dataList[8]
                 timeRemaining = dataList[9]
-                handValue = handEvaluator(myHand)
+                handValue = self.handEvaluator(myHand)
                 print myHand
+                print handValue
 
             # When appropriate, reply to the engine with a legal action.
             # The engine will ignore all spurious responses.
@@ -53,6 +119,9 @@ class Player:
             # When sending responses, terminate each response with a newline
             # character (\n) or your bot will hang!
             if dataType == "GETACTION":
+                can = {"BET": False, "RAISE": False, "CALL": False, "CHECK": False, "FOLD": False}
+                minBet = 0
+                maxBet = myBank
                 pot = dataList[1]
                 #Reads board cards into a list
                 boardCards = []
@@ -74,13 +143,57 @@ class Player:
                 numLegalActionsIndex = numLastActionsIndex+numLastActions+1
                 numLegalActions = int(dataList[numLegalActionsIndex])
                 for action in range(numLegalActionsIndex+1,numLegalActionsIndex+numLegalActions+1):
-                    print action
                     legalActions.append(dataList[action])
+                    if dataList[action][:5]=='RAISE':
+                        actionList = dataList[action].split(':')
+                        can["RAISE"] = True
+                        minBet = actionList[1]
+                        maxBet = actionList[2]
+                    elif dataList[action][:3]=='BET':
+                        actionList = dataList[action].split(':')
+                        can["BET"] = True
+                        minBet = actionList[1]
+                        maxBet = actionList[2]
+                    else:
+                        can[dataList[action]] = True
                 print legalActions
+                print can
                 timeRemaining = dataList[-1]
-                if (not button and handEvaluator(myHand)>outThreshold) or (handEvaluator(myHand)>inThreshold):
-                    
-                s.send("FOLD\n")
+                if numCards==0:
+                    if ((not button and handValue>=outThreshold) or (handValue>=inThreshold)):
+                        if button and handValue>=betThreshold:
+                            if can["BET"]:
+                                s.send("BET:"+maxBet+"\n")
+                            elif can["RAISE"]:
+                                s.send("RAISE:"+maxBet+"\n")
+                            else:
+                                if can["CHECK"]:
+                                    s.send("CHECK\n")
+                                else:
+                                    print "FOLDING"
+                                    s.send("FOLD\n")
+                        elif not button and handValue<outThreshold:
+                            if can["CHECK"]:
+                                s.send("CHECK\n")
+                            else:
+                                s.send("FOLD\n")
+                            
+                        else:
+                            if can["CALL"]:
+                                s.send("CALL\n")
+                            else:
+                                s.send("CHECK\n")
+                    else:
+                        if can["CHECK"]:
+                            s.send("CHECK\n")
+                        else:
+                            s.send("FOLD\n")
+                else:
+                    if can["CHECK"]:
+                        s.send("CHECK\n")
+                    else:
+                        s.send("CALL\n")
+
             elif dataType == "REQUESTKEYVALUES":
                 # At the end, the engine will allow your bot save key/value pairs.
                 # Send FINISH to indicate you're done.
