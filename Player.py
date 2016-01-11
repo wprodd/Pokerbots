@@ -191,6 +191,8 @@ class Player:
                 else:
                     if can["CHECK"]:
                         s.send("CHECK\n")
+                    elif can["CALL"]:
+                        s.send("CALL\n")
                     else:
                         s.send("FOLD\n")
 
