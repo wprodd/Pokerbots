@@ -1,1854 +1,1209 @@
 Connecting to localhost:3000
 NEWGAME player1 test2 200 2 100 10.000000
-NEWHAND 1 true Ah Tc 9s 3d 0 0 10.000000
-['Ah', 'Tc', '9s', '3d']
-5
+NEWHAND 1 true 5s 6c 9h 8d 0 0 10.000000
+['5s', '6c', '9h', '8d']
+10
 GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 10.0
 []
 ['POST:1:player1', 'POST:2:test2']
+0
+0
 ['CALL', 'FOLD', 'RAISE:4:6']
 {'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 6 3 4s 8d 7d 4 CALL:player1 CHECK:test2 DEAL:FLOP BET:2:test2 3 FOLD CALL RAISE:4:10 9.997875254
-['4s', '8d', '7d']
-['CALL:player1', 'CHECK:test2', 'DEAL:FLOP', 'BET:2:test2']
-['FOLD', 'CALL', 'RAISE:4:10']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 8 4 4s 8d 7d 3h 3 CALL:player1 DEAL:TURN CHECK:test2 2 CHECK BET:2:8 9.997465033000001
-['4s', '8d', '7d', '3h']
-['CALL:player1', 'DEAL:TURN', 'CHECK:test2']
-['CHECK', 'BET:2:8']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-GETACTION 8 5 4s 8d 7d 3h 4d 3 CHECK:player1 DEAL:RIVER CHECK:test2 2 CHECK BET:2:8 9.997104441000001
-['4s', '8d', '7d', '3h', '4d']
-['CHECK:player1', 'DEAL:RIVER', 'CHECK:test2']
-['CHECK', 'BET:2:8']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-HANDOVER -4 4 5 4s 8d 7d 3h 4d 4 CHECK:player1 SHOW:Ah:Tc:9s:3d:player1 SHOW:6h:6s:8h:Kc:test2 WIN:8:test2 9.996829959000001
-NEWHAND 2 false 9d 8d 4h Qs -4 4 9.996830
-['9d', '8d', '4h', 'Qs']
-10
-GETACTION 6 0 3 POST:1:test2 POST:2:player1 RAISE:4:test2 3 FOLD CALL RAISE:6:12 9.996829959000001
-[]
-['POST:1:test2', 'POST:2:player1', 'RAISE:4:test2']
-['FOLD', 'CALL', 'RAISE:6:12']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-HANDOVER 0 0 0 4 RAISE:12:player1 FOLD:test2 REFUND:8:player1 WIN:8:player1 9.996428628
-NEWHAND 3 true Jc Ac 4h 3s 0 0 9.996429
-['Jc', 'Ac', '4h', '3s']
-10
-GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.996428628
-[]
-['POST:1:player1', 'POST:2:test2']
-['CALL', 'FOLD', 'RAISE:4:6']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-HANDOVER 2 -2 0 4 RAISE:6:player1 FOLD:test2 REFUND:4:player1 WIN:4:player1 9.996191256
-NEWHAND 4 false 9s 7s 9c Td 2 -2 9.996191
-['9s', '7s', '9c', 'Td']
-10
-GETACTION 4 0 3 POST:1:test2 POST:2:player1 CALL:test2 2 CHECK RAISE:4:6 9.996191256
-[]
-['POST:1:test2', 'POST:2:player1', 'CALL:test2']
-['CHECK', 'RAISE:4:6']
-{'FOLD': False, 'CALL': False, 'RAISE': True, 'BET': False, 'CHECK': True}
-GETACTION 12 3 7d 9h 5h 3 RAISE:6:player1 CALL:test2 DEAL:FLOP 2 CHECK BET:2:12 9.995920330999999
-['7d', '9h', '5h']
-['RAISE:6:player1', 'CALL:test2', 'DEAL:FLOP']
-['CHECK', 'BET:2:12']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-GETACTION 19 3 7d 9h 5h 2 CHECK:player1 BET:7:test2 3 FOLD CALL RAISE:14:33 9.995691300999999
-['7d', '9h', '5h']
-['CHECK:player1', 'BET:7:test2']
-['FOLD', 'CALL', 'RAISE:14:33']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 26 4 7d 9h 5h Qc 2 CALL:player1 DEAL:TURN 2 CHECK BET:2:26 9.995482709
-['7d', '9h', '5h', 'Qc']
-['CALL:player1', 'DEAL:TURN']
-['CHECK', 'BET:2:26']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-GETACTION 26 5 7d 9h 5h Qc 2d 3 CHECK:player1 CHECK:test2 DEAL:RIVER 2 CHECK BET:2:26 9.995221634
-['7d', '9h', '5h', 'Qc', '2d']
-['CHECK:player1', 'CHECK:test2', 'DEAL:RIVER']
-['CHECK', 'BET:2:26']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-GETACTION 31 5 7d 9h 5h Qc 2d 2 CHECK:player1 BET:5:test2 3 FOLD CALL RAISE:10:41 9.99499012
-['7d', '9h', '5h', 'Qc', '2d']
-['CHECK:player1', 'BET:5:test2']
-['FOLD', 'CALL', 'RAISE:10:41']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-HANDOVER 20 -20 5 7d 9h 5h Qc 2d 4 CALL:player1 SHOW:8d:2c:Ts:Qh:test2 SHOW:9s:7s:9c:Td:player1 WIN:36:player1 9.994774851
-NEWHAND 5 true 9s 8d Ks 2h 20 -20 9.994775
-['9s', '8d', 'Ks', '2h']
-10
-GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.994774851
-[]
-['POST:1:player1', 'POST:2:test2']
-['CALL', 'FOLD', 'RAISE:4:6']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 12 3 Qs Td 3h 4 RAISE:6:player1 CALL:test2 DEAL:FLOP CHECK:test2 2 CHECK BET:2:12 9.994536543
-['Qs', 'Td', '3h']
-['RAISE:6:player1', 'CALL:test2', 'DEAL:FLOP', 'CHECK:test2']
-['CHECK', 'BET:2:12']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-GETACTION 12 4 Qs Td 3h 7d 3 CHECK:player1 DEAL:TURN CHECK:test2 2 CHECK BET:2:12 9.994291780000001
-['Qs', 'Td', '3h', '7d']
-['CHECK:player1', 'DEAL:TURN', 'CHECK:test2']
-['CHECK', 'BET:2:12']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-GETACTION 21 5 Qs Td 3h 7d 4c 3 CHECK:player1 DEAL:RIVER BET:9:test2 3 FOLD CALL RAISE:18:39 9.994062977
-['Qs', 'Td', '3h', '7d', '4c']
-['CHECK:player1', 'DEAL:RIVER', 'BET:9:test2']
-['FOLD', 'CALL', 'RAISE:18:39']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-HANDOVER 5 -5 5 Qs Td 3h 7d 4c 4 CALL:player1 SHOW:9s:8d:Ks:2h:player1 SHOW:9d:Ts:8h:Jh:test2 WIN:30:test2 9.993839756
-NEWHAND 6 false Qd 5d 3s 4s 5 -5 9.993840
-['Qd', '5d', '3s', '4s']
-20
-GETACTION 6 0 3 POST:1:test2 POST:2:player1 RAISE:4:test2 3 FOLD CALL RAISE:6:12 9.993839756
-[]
-['POST:1:test2', 'POST:2:player1', 'RAISE:4:test2']
-['FOLD', 'CALL', 'RAISE:6:12']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 24 3 Tc Jd Jc 3 RAISE:12:player1 CALL:test2 DEAL:FLOP 2 CHECK BET:2:24 9.993490172
-['Tc', 'Jd', 'Jc']
-['RAISE:12:player1', 'CALL:test2', 'DEAL:FLOP']
-['CHECK', 'BET:2:24']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-GETACTION 36 3 Tc Jd Jc 2 CHECK:player1 BET:12:test2 3 FOLD CALL RAISE:24:60 9.992968046
-['Tc', 'Jd', 'Jc']
-['CHECK:player1', 'BET:12:test2']
-['FOLD', 'CALL', 'RAISE:24:60']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 48 4 Tc Jd Jc Ks 2 CALL:player1 DEAL:TURN 2 CHECK BET:2:48 9.992729725
-['Tc', 'Jd', 'Jc', 'Ks']
-['CALL:player1', 'DEAL:TURN']
-['CHECK', 'BET:2:48']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-GETACTION 48 5 Tc Jd Jc Ks Ah 3 CHECK:player1 CHECK:test2 DEAL:RIVER 2 CHECK BET:2:48 9.992365972
-['Tc', 'Jd', 'Jc', 'Ks', 'Ah']
-['CHECK:player1', 'CHECK:test2', 'DEAL:RIVER']
-['CHECK', 'BET:2:48']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-GETACTION 93 5 Tc Jd Jc Ks Ah 2 CHECK:player1 BET:45:test2 3 FOLD CALL RAISE:90:176 9.991955817
-['Tc', 'Jd', 'Jc', 'Ks', 'Ah']
-['CHECK:player1', 'BET:45:test2']
-['FOLD', 'CALL', 'RAISE:90:176']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-HANDOVER -64 64 5 Tc Jd Jc Ks Ah 4 CALL:player1 SHOW:8d:Kc:Qs:6c:test2 SHOW:Qd:5d:3s:4s:player1 WIN:138:test2 9.991605658
-NEWHAND 7 true 4d 3h Qd Kh -64 64 9.991606
-['4d', '3h', 'Qd', 'Kh']
-20
-GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.991605658
-[]
-['POST:1:player1', 'POST:2:test2']
-['CALL', 'FOLD', 'RAISE:4:6']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-HANDOVER -62 62 0 4 RAISE:6:player1 FOLD:test2 REFUND:4:player1 WIN:4:player1 9.991191345999999
-NEWHAND 8 false 6s Kh Jd 8h -62 62 9.991191
-['6s', 'Kh', 'Jd', '8h']
+HANDOVER -1 1 0 2 FOLD:player1 WIN:3:test2 9.99667232
+NEWHAND 2 false 9h Ts 9d 7c -1 1 9.996672
+['9h', 'Ts', '9d', '7c']
 5
-GETACTION 4 0 3 POST:1:test2 POST:2:player1 CALL:test2 2 CHECK RAISE:4:6 9.991191345999999
+GETACTION 7 0 3 POST:1:test2 POST:2:player1 RAISE:5:test2 3 FOLD CALL RAISE:8:15 9.99667232
+[]
+['POST:1:test2', 'POST:2:player1', 'RAISE:5:test2']
+0
+-1
+['FOLD', 'CALL', 'RAISE:8:15']
+{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
+HANDOVER -3 3 0 3 FOLD:player1 REFUND:3:test2 WIN:4:test2 9.996242973
+NEWHAND 3 true Ah Jh Kc 7c -3 3 9.996243
+['Ah', 'Jh', 'Kc', '7c']
+15
+GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.996242973
+[]
+['POST:1:player1', 'POST:2:test2']
+0
+-3
+['CALL', 'FOLD', 'RAISE:4:6']
+{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
+HANDOVER -4 4 0 2 FOLD:player1 WIN:3:test2 9.995918087
+NEWHAND 4 false 3s 9s 4s Js -4 4 9.995918
+['3s', '9s', '4s', 'Js']
+6
+HANDOVER -3 3 0 4 POST:1:test2 POST:2:player1 FOLD:test2 WIN:3:player1 9.995918087
+NEWHAND 5 true 5c Js 7h Qc -3 3 9.995918
+['5c', 'Js', '7h', 'Qc']
+10
+GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.995918087
+[]
+['POST:1:player1', 'POST:2:test2']
+0
+-3
+['CALL', 'FOLD', 'RAISE:4:6']
+{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
+HANDOVER -4 4 0 2 FOLD:player1 WIN:3:test2 9.995632132999999
+NEWHAND 6 false 7s 6h 4c 5s -4 4 9.995632
+['7s', '6h', '4c', '5s']
+20
+HANDOVER -3 3 0 4 POST:1:test2 POST:2:player1 FOLD:test2 WIN:3:player1 9.995632132999999
+NEWHAND 7 true 4h 2s 5s 5d -3 3 9.995632
+['4h', '2s', '5s', '5d']
+10
+GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.995632132999999
+[]
+['POST:1:player1', 'POST:2:test2']
+0
+-3
+['CALL', 'FOLD', 'RAISE:4:6']
+{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
+HANDOVER -4 4 0 2 FOLD:player1 WIN:3:test2 9.995183882
+NEWHAND 8 false 3s 8d 2c 5s -4 4 9.995184
+['3s', '8d', '2c', '5s']
+10
+HANDOVER -3 3 0 4 POST:1:test2 POST:2:player1 FOLD:test2 WIN:3:player1 9.995183882
+NEWHAND 9 true 2d 6h Ts 5h -3 3 9.995184
+['2d', '6h', 'Ts', '5h']
+10
+GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.995183882
+[]
+['POST:1:player1', 'POST:2:test2']
+0
+-3
+['CALL', 'FOLD', 'RAISE:4:6']
+{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
+HANDOVER -4 4 0 2 FOLD:player1 WIN:3:test2 9.994933718999999
+NEWHAND 10 false 2s 5d 7h Qc -4 4 9.994934
+['2s', '5d', '7h', 'Qc']
+0
+GETACTION 4 0 3 POST:1:test2 POST:2:player1 CALL:test2 2 CHECK RAISE:4:6 9.994933718999999
 []
 ['POST:1:test2', 'POST:2:player1', 'CALL:test2']
 ['CHECK', 'RAISE:4:6']
 {'FOLD': False, 'CALL': False, 'RAISE': True, 'BET': False, 'CHECK': True}
-GETACTION 4 3 2s 8c Kc 2 CHECK:player1 DEAL:FLOP 2 CHECK BET:2:4 9.990845646999999
-['2s', '8c', 'Kc']
+GETACTION 4 3 Td 6c 4s 2 CHECK:player1 DEAL:FLOP 2 CHECK BET:2:4 9.994599015999999
+['Td', '6c', '4s']
 ['CHECK:player1', 'DEAL:FLOP']
 ['CHECK', 'BET:2:4']
 {'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-GETACTION 4 4 2s 8c Kc Kd 3 CHECK:player1 CHECK:test2 DEAL:TURN 2 CHECK BET:2:4 9.990501401999998
-['2s', '8c', 'Kc', 'Kd']
+GETACTION 4 4 Td 6c 4s 5h 3 CHECK:player1 CHECK:test2 DEAL:TURN 2 CHECK BET:2:4 9.994227578999999
+['Td', '6c', '4s', '5h']
 ['CHECK:player1', 'CHECK:test2', 'DEAL:TURN']
 ['CHECK', 'BET:2:4']
 {'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-GETACTION 4 5 2s 8c Kc Kd Jh 3 CHECK:player1 CHECK:test2 DEAL:RIVER 2 CHECK BET:2:4 9.990261613999998
-['2s', '8c', 'Kc', 'Kd', 'Jh']
+GETACTION 4 5 Td 6c 4s 5h 6h 3 CHECK:player1 CHECK:test2 DEAL:RIVER 2 CHECK BET:2:4 9.993996432
+['Td', '6c', '4s', '5h', '6h']
 ['CHECK:player1', 'CHECK:test2', 'DEAL:RIVER']
 ['CHECK', 'BET:2:4']
 {'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-HANDOVER -60 60 5 2s 8c Kc Kd Jh 5 CHECK:player1 CHECK:test2 SHOW:5d:4d:9h:3h:test2 SHOW:6s:Kh:Jd:8h:player1 WIN:4:player1 9.989952313999998
-NEWHAND 9 true 9d Ac Jc Kh -60 60 9.989952
-['9d', 'Ac', 'Jc', 'Kh']
-10
-GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.989952313999998
-[]
-['POST:1:player1', 'POST:2:test2']
-['CALL', 'FOLD', 'RAISE:4:6']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-HANDOVER -58 58 0 4 RAISE:6:player1 FOLD:test2 REFUND:4:player1 WIN:4:player1 9.989681153999998
-NEWHAND 10 false Kd Qd Ad 3s -58 58 9.989681
-['Kd', 'Qd', 'Ad', '3s']
-13
-GETACTION 7 0 3 POST:1:test2 POST:2:player1 RAISE:5:test2 3 FOLD CALL RAISE:8:15 9.989681153999998
-[]
-['POST:1:test2', 'POST:2:player1', 'RAISE:5:test2']
-['FOLD', 'CALL', 'RAISE:8:15']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 30 3 4s Kh 3h 3 RAISE:15:player1 CALL:test2 DEAL:FLOP 2 CHECK BET:2:30 9.989389296999997
-['4s', 'Kh', '3h']
-['RAISE:15:player1', 'CALL:test2', 'DEAL:FLOP']
-['CHECK', 'BET:2:30']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-GETACTION 35 3 4s Kh 3h 2 CHECK:player1 BET:5:test2 3 FOLD CALL RAISE:10:45 9.989048656999998
-['4s', 'Kh', '3h']
-['CHECK:player1', 'BET:5:test2']
-['FOLD', 'CALL', 'RAISE:10:45']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 40 4 4s Kh 3h 2h 2 CALL:player1 DEAL:TURN 2 CHECK BET:2:40 9.988708990999998
-['4s', 'Kh', '3h', '2h']
-['CALL:player1', 'DEAL:TURN']
-['CHECK', 'BET:2:40']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-GETACTION 40 5 4s Kh 3h 2h 3d 3 CHECK:player1 CHECK:test2 DEAL:RIVER 2 CHECK BET:2:40 9.988342138999997
-['4s', 'Kh', '3h', '2h', '3d']
-['CHECK:player1', 'CHECK:test2', 'DEAL:RIVER']
-['CHECK', 'BET:2:40']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-HANDOVER -38 38 5 4s Kh 3h 2h 3d 5 CHECK:player1 CHECK:test2 SHOW:5h:7s:6d:8d:test2 SHOW:Kd:Qd:Ad:3s:player1 WIN:40:player1 9.988033882999996
-NEWHAND 11 true Ah Qh 3c 9c -38 38 9.988034
-['Ah', 'Qh', '3c', '9c']
-10
-GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.988033882999996
-[]
-['POST:1:player1', 'POST:2:test2']
-['CALL', 'FOLD', 'RAISE:4:6']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 22 3 2d Jc Kd 4 RAISE:6:player1 CALL:test2 DEAL:FLOP BET:10:test2 3 FOLD CALL RAISE:20:42 9.987802755999997
-['2d', 'Jc', 'Kd']
-['RAISE:6:player1', 'CALL:test2', 'DEAL:FLOP', 'BET:10:test2']
-['FOLD', 'CALL', 'RAISE:20:42']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 32 4 2d Jc Kd 8s 3 CALL:player1 DEAL:TURN CHECK:test2 2 CHECK BET:2:32 9.987605486999998
-['2d', 'Jc', 'Kd', '8s']
-['CALL:player1', 'DEAL:TURN', 'CHECK:test2']
-['CHECK', 'BET:2:32']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-GETACTION 32 5 2d Jc Kd 8s Ks 3 CHECK:player1 DEAL:RIVER CHECK:test2 2 CHECK BET:2:32 9.987385303999998
-['2d', 'Jc', 'Kd', '8s', 'Ks']
-['CHECK:player1', 'DEAL:RIVER', 'CHECK:test2']
-['CHECK', 'BET:2:32']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-HANDOVER -54 54 5 2d Jc Kd 8s Ks 4 CHECK:player1 SHOW:Ah:Qh:3c:9c:player1 SHOW:8h:2h:5d:6h:test2 WIN:32:test2 9.987158912999998
-NEWHAND 12 false Th 3h Js Ah -54 54 9.987159
-['Th', '3h', 'Js', 'Ah']
+HANDOVER -2 2 5 Td 6c 4s 5h 6h 5 CHECK:player1 CHECK:test2 SHOW:8s:9d:Qh:Kh:test2 SHOW:2s:5d:7h:Qc:player1 WIN:4:player1 9.993773086
+NEWHAND 11 true Ks 6h 5h 2h -2 2 9.993773
+['Ks', '6h', '5h', '2h']
 8
-HANDOVER -53 53 0 4 POST:1:test2 POST:2:player1 FOLD:test2 WIN:3:player1 9.987158912999998
-NEWHAND 13 true Kh 9s 2c Ks -53 53 9.987159
-['Kh', '9s', '2c', 'Ks']
-12
-GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.987158912999998
+GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.993773086
 []
 ['POST:1:player1', 'POST:2:test2']
+0
+-2
 ['CALL', 'FOLD', 'RAISE:4:6']
 {'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-HANDOVER -51 51 0 4 RAISE:6:player1 FOLD:test2 REFUND:4:player1 WIN:4:player1 9.986945792999999
-NEWHAND 14 false 7s As 4d 5h -51 51 9.986946
-['7s', 'As', '4d', '5h']
-10
-GETACTION 4 0 3 POST:1:test2 POST:2:player1 CALL:test2 2 CHECK RAISE:4:6 9.986945792999999
-[]
-['POST:1:test2', 'POST:2:player1', 'CALL:test2']
-['CHECK', 'RAISE:4:6']
-{'FOLD': False, 'CALL': False, 'RAISE': True, 'BET': False, 'CHECK': True}
-GETACTION 12 3 4c 8c 7d 3 RAISE:6:player1 CALL:test2 DEAL:FLOP 2 CHECK BET:2:12 9.986652882999998
-['4c', '8c', '7d']
-['RAISE:6:player1', 'CALL:test2', 'DEAL:FLOP']
-['CHECK', 'BET:2:12']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-GETACTION 14 3 4c 8c 7d 2 CHECK:player1 BET:2:test2 3 FOLD CALL RAISE:4:18 9.986426436999999
-['4c', '8c', '7d']
-['CHECK:player1', 'BET:2:test2']
-['FOLD', 'CALL', 'RAISE:4:18']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 16 4 4c 8c 7d 9s 2 CALL:player1 DEAL:TURN 2 CHECK BET:2:16 9.986212552999998
-['4c', '8c', '7d', '9s']
-['CALL:player1', 'DEAL:TURN']
-['CHECK', 'BET:2:16']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-GETACTION 16 5 4c 8c 7d 9s Ts 3 CHECK:player1 CHECK:test2 DEAL:RIVER 2 CHECK BET:2:16 9.986025631999999
-['4c', '8c', '7d', '9s', 'Ts']
-['CHECK:player1', 'CHECK:test2', 'DEAL:RIVER']
-['CHECK', 'BET:2:16']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-GETACTION 30 5 4c 8c 7d 9s Ts 2 CHECK:player1 BET:14:test2 3 FOLD CALL RAISE:28:58 9.985715508999998
-['4c', '8c', '7d', '9s', 'Ts']
-['CHECK:player1', 'BET:14:test2']
-['FOLD', 'CALL', 'RAISE:28:58']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-HANDOVER -73 73 5 4c 8c 7d 9s Ts 4 CALL:player1 SHOW:Kc:8h:Js:9c:test2 SHOW:7s:As:4d:5h:player1 WIN:44:test2 9.985425766999999
-NEWHAND 15 true 7c 9h Tc 2d -73 73 9.985426
-['7c', '9h', 'Tc', '2d']
-10
-GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.985425766999999
-[]
-['POST:1:player1', 'POST:2:test2']
-['CALL', 'FOLD', 'RAISE:4:6']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-HANDOVER -71 71 0 4 RAISE:6:player1 FOLD:test2 REFUND:4:player1 WIN:4:player1 9.985153838999999
-NEWHAND 16 false Kd Ks Ad 9h -71 71 9.985154
-['Kd', 'Ks', 'Ad', '9h']
-17
-GETACTION 4 0 3 POST:1:test2 POST:2:player1 CALL:test2 2 CHECK RAISE:4:6 9.985153838999999
-[]
-['POST:1:test2', 'POST:2:player1', 'CALL:test2']
-['CHECK', 'RAISE:4:6']
-{'FOLD': False, 'CALL': False, 'RAISE': True, 'BET': False, 'CHECK': True}
-GETACTION 12 3 2s 4d 2d 3 RAISE:6:player1 CALL:test2 DEAL:FLOP 2 CHECK BET:2:12 9.984928128999998
-['2s', '4d', '2d']
-['RAISE:6:player1', 'CALL:test2', 'DEAL:FLOP']
-['CHECK', 'BET:2:12']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-GETACTION 17 3 2s 4d 2d 2 CHECK:player1 BET:5:test2 3 FOLD CALL RAISE:10:27 9.984744904999998
-['2s', '4d', '2d']
-['CHECK:player1', 'BET:5:test2']
-['FOLD', 'CALL', 'RAISE:10:27']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 22 4 2s 4d 2d 6s 2 CALL:player1 DEAL:TURN 2 CHECK BET:2:22 9.984553445999998
-['2s', '4d', '2d', '6s']
-['CALL:player1', 'DEAL:TURN']
-['CHECK', 'BET:2:22']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-GETACTION 29 4 2s 4d 2d 6s 2 CHECK:player1 BET:7:test2 3 FOLD CALL RAISE:14:43 9.984366862999998
-['2s', '4d', '2d', '6s']
-['CHECK:player1', 'BET:7:test2']
-['FOLD', 'CALL', 'RAISE:14:43']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 36 5 2s 4d 2d 6s 6c 2 CALL:player1 DEAL:RIVER 2 CHECK BET:2:36 9.984180057999998
-['2s', '4d', '2d', '6s', '6c']
-['CALL:player1', 'DEAL:RIVER']
-['CHECK', 'BET:2:36']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-HANDOVER -53 53 5 2s 4d 2d 6s 6c 5 CHECK:player1 CHECK:test2 SHOW:5s:9s:9c:Qs:test2 SHOW:Kd:Ks:Ad:9h:player1 WIN:36:player1 9.984003296999997
-NEWHAND 17 true Qd 8d 6d As -53 53 9.984003
-['Qd', '8d', '6d', 'As']
+HANDOVER -3 3 0 2 FOLD:player1 WIN:3:test2 9.993429394
+NEWHAND 12 false 5h 2h Th Td -3 3 9.993429
+['5h', '2h', 'Th', 'Td']
 3
-GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.984003296999997
+GETACTION 6 0 3 POST:1:test2 POST:2:player1 RAISE:4:test2 3 FOLD CALL RAISE:6:12 9.993429394
+[]
+['POST:1:test2', 'POST:2:player1', 'RAISE:4:test2']
+0
+-3
+['FOLD', 'CALL', 'RAISE:6:12']
+{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
+HANDOVER -5 5 0 3 FOLD:player1 REFUND:2:test2 WIN:4:test2 9.992984479
+NEWHAND 13 true Ks 9c 5d 7c -5 5 9.992984
+['Ks', '9c', '5d', '7c']
+5
+GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.992984479
 []
 ['POST:1:player1', 'POST:2:test2']
+0
+-5
 ['CALL', 'FOLD', 'RAISE:4:6']
 {'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 7 3 Jc 8h Kh 4 CALL:player1 CHECK:test2 DEAL:FLOP BET:3:test2 3 FOLD CALL RAISE:6:13 9.983802631999998
-['Jc', '8h', 'Kh']
-['CALL:player1', 'CHECK:test2', 'DEAL:FLOP', 'BET:3:test2']
-['FOLD', 'CALL', 'RAISE:6:13']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 10 4 Jc 8h Kh 3c 3 CALL:player1 DEAL:TURN CHECK:test2 2 CHECK BET:2:10 9.983286392999998
-['Jc', '8h', 'Kh', '3c']
-['CALL:player1', 'DEAL:TURN', 'CHECK:test2']
-['CHECK', 'BET:2:10']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-GETACTION 10 5 Jc 8h Kh 3c Tc 3 CHECK:player1 DEAL:RIVER CHECK:test2 2 CHECK BET:2:10 9.982933255999999
-['Jc', '8h', 'Kh', '3c', 'Tc']
-['CHECK:player1', 'DEAL:RIVER', 'CHECK:test2']
-['CHECK', 'BET:2:10']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-HANDOVER -58 58 5 Jc 8h Kh 3c Tc 4 CHECK:player1 SHOW:Qd:8d:6d:As:player1 SHOW:2c:Ah:9c:Ks:test2 WIN:10:test2 9.982643520999998
-NEWHAND 18 false Ad 9h 9d 3d -58 58 9.982644
-['Ad', '9h', '9d', '3d']
-3
-GETACTION 4 0 3 POST:1:test2 POST:2:player1 CALL:test2 2 CHECK RAISE:4:6 9.982643520999998
+HANDOVER -6 6 0 2 FOLD:player1 WIN:3:test2 9.992635636000001
+NEWHAND 14 false 6h 7d Js 3d -6 6 9.992636
+['6h', '7d', 'Js', '3d']
+10
+GETACTION 4 0 3 POST:1:test2 POST:2:player1 CALL:test2 2 CHECK RAISE:4:6 9.992635636000001
 []
 ['POST:1:test2', 'POST:2:player1', 'CALL:test2']
 ['CHECK', 'RAISE:4:6']
 {'FOLD': False, 'CALL': False, 'RAISE': True, 'BET': False, 'CHECK': True}
-GETACTION 4 3 8d 7c Ks 2 CHECK:player1 DEAL:FLOP 2 CHECK BET:2:4 9.982202089999998
-['8d', '7c', 'Ks']
+GETACTION 4 3 Qh Ks 4s 2 CHECK:player1 DEAL:FLOP 2 CHECK BET:2:4 9.992234227
+['Qh', 'Ks', '4s']
 ['CHECK:player1', 'DEAL:FLOP']
 ['CHECK', 'BET:2:4']
 {'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-GETACTION 6 3 8d 7c Ks 2 CHECK:player1 BET:2:test2 3 FOLD CALL RAISE:4:10 9.981869995999999
-['8d', '7c', 'Ks']
+GETACTION 6 3 Qh Ks 4s 2 CHECK:player1 BET:2:test2 3 FOLD CALL RAISE:4:10 9.991686224
+['Qh', 'Ks', '4s']
 ['CHECK:player1', 'BET:2:test2']
+0
+-6
 ['FOLD', 'CALL', 'RAISE:4:10']
 {'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 8 4 8d 7c Ks Kd 2 CALL:player1 DEAL:TURN 2 CHECK BET:2:8 9.981577853
-['8d', '7c', 'Ks', 'Kd']
-['CALL:player1', 'DEAL:TURN']
-['CHECK', 'BET:2:8']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-GETACTION 8 5 8d 7c Ks Kd 6s 3 CHECK:player1 CHECK:test2 DEAL:RIVER 2 CHECK BET:2:8 9.981353508
-['8d', '7c', 'Ks', 'Kd', '6s']
-['CHECK:player1', 'CHECK:test2', 'DEAL:RIVER']
-['CHECK', 'BET:2:8']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-GETACTION 11 5 8d 7c Ks Kd 6s 2 CHECK:player1 BET:3:test2 3 FOLD CALL RAISE:6:17 9.981025992
-['8d', '7c', 'Ks', 'Kd', '6s']
-['CHECK:player1', 'BET:3:test2']
-['FOLD', 'CALL', 'RAISE:6:17']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-HANDOVER -65 65 5 8d 7c Ks Kd 6s 4 CALL:player1 SHOW:7h:7s:As:3c:test2 SHOW:Ad:9h:9d:3d:player1 WIN:14:test2 9.980740363999999
-NEWHAND 19 true 4c Qd 6h Kc -65 65 9.980740
-['4c', 'Qd', '6h', 'Kc']
-10
-GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.980740363999999
+HANDOVER -8 8 3 Qh Ks 4s 3 FOLD:player1 REFUND:2:test2 WIN:4:test2 9.991356914
+NEWHAND 15 true 6h Ad Qd 2h -8 8 9.991357
+['6h', 'Ad', 'Qd', '2h']
+15
+GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.991356914
 []
 ['POST:1:player1', 'POST:2:test2']
+0
+-8
 ['CALL', 'FOLD', 'RAISE:4:6']
 {'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 18 0 2 RAISE:6:player1 RAISE:12:test2 3 FOLD CALL RAISE:18:36 9.980465004
+HANDOVER -9 9 0 2 FOLD:player1 WIN:3:test2 9.990827614
+NEWHAND 16 false 3h Kc 8h 5c -9 9 9.990828
+['3h', 'Kc', '8h', '5c']
+10
+GETACTION 4 0 3 POST:1:test2 POST:2:player1 CALL:test2 2 CHECK RAISE:4:6 9.990827614
 []
-['RAISE:6:player1', 'RAISE:12:test2']
-['FOLD', 'CALL', 'RAISE:18:36']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 129 3 Jd 7h 2d 4 RAISE:36:player1 CALL:test2 DEAL:FLOP BET:57:test2 3 FOLD CALL RAISE:114:164 9.980130454
-['Jd', '7h', '2d']
-['RAISE:36:player1', 'CALL:test2', 'DEAL:FLOP', 'BET:57:test2']
-['FOLD', 'CALL', 'RAISE:114:164']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 186 4 Jd 7h 2d 8d 3 CALL:player1 DEAL:TURN CHECK:test2 2 CHECK BET:2:107 9.979800928
-['Jd', '7h', '2d', '8d']
-['CALL:player1', 'DEAL:TURN', 'CHECK:test2']
-['CHECK', 'BET:2:107']
+['POST:1:test2', 'POST:2:player1', 'CALL:test2']
+['CHECK', 'RAISE:4:6']
+{'FOLD': False, 'CALL': False, 'RAISE': True, 'BET': False, 'CHECK': True}
+GETACTION 4 3 4s Ac 2s 2 CHECK:player1 DEAL:FLOP 2 CHECK BET:2:4 9.989786737000001
+['4s', 'Ac', '2s']
+['CHECK:player1', 'DEAL:FLOP']
+['CHECK', 'BET:2:4']
 {'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-GETACTION 186 5 Jd 7h 2d 8d Ts 3 CHECK:player1 DEAL:RIVER CHECK:test2 2 CHECK BET:2:107 9.979499556
-['Jd', '7h', '2d', '8d', 'Ts']
-['CHECK:player1', 'DEAL:RIVER', 'CHECK:test2']
-['CHECK', 'BET:2:107']
+GETACTION 4 4 4s Ac 2s 5s 3 CHECK:player1 CHECK:test2 DEAL:TURN 2 CHECK BET:2:4 9.989432825000002
+['4s', 'Ac', '2s', '5s']
+['CHECK:player1', 'CHECK:test2', 'DEAL:TURN']
+['CHECK', 'BET:2:4']
 {'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-HANDOVER -158 158 5 Jd 7h 2d 8d Ts 4 CHECK:player1 SHOW:4c:Qd:6h:Kc:player1 SHOW:Jh:Td:8h:Ah:test2 WIN:186:test2 9.979223551
-NEWHAND 20 false Th 8c 6c Tc -158 158 9.979224
-['Th', '8c', '6c', 'Tc']
-3
-GETACTION 7 0 3 POST:1:test2 POST:2:player1 RAISE:5:test2 3 FOLD CALL RAISE:8:15 9.979223551
+GETACTION 6 4 4s Ac 2s 5s 2 CHECK:player1 BET:2:test2 3 FOLD CALL RAISE:4:10 9.988524182
+['4s', 'Ac', '2s', '5s']
+['CHECK:player1', 'BET:2:test2']
+0
+-9
+['FOLD', 'CALL', 'RAISE:4:10']
+{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
+HANDOVER -11 11 4 4s Ac 2s 5s 3 FOLD:player1 REFUND:2:test2 WIN:4:test2 9.988089046
+NEWHAND 17 true Ad Jd 2s 2h -11 11 9.988089
+['Ad', 'Jd', '2s', '2h']
+10
+GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.988089046
 []
-['POST:1:test2', 'POST:2:player1', 'RAISE:5:test2']
-['FOLD', 'CALL', 'RAISE:8:15']
+['POST:1:player1', 'POST:2:test2']
+0
+-11
+['CALL', 'FOLD', 'RAISE:4:6']
 {'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 10 3 Ac 6h Js 2 CALL:player1 DEAL:FLOP 2 CHECK BET:2:10 9.978996761000001
-['Ac', '6h', 'Js']
-['CALL:player1', 'DEAL:FLOP']
-['CHECK', 'BET:2:10']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-GETACTION 14 3 Ac 6h Js 2 CHECK:player1 BET:4:test2 3 FOLD CALL RAISE:8:22 9.978789092000001
-['Ac', '6h', 'Js']
-['CHECK:player1', 'BET:4:test2']
-['FOLD', 'CALL', 'RAISE:8:22']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 18 4 Ac 6h Js 2d 2 CALL:player1 DEAL:TURN 2 CHECK BET:2:18 9.978604107
-['Ac', '6h', 'Js', '2d']
-['CALL:player1', 'DEAL:TURN']
-['CHECK', 'BET:2:18']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-GETACTION 18 5 Ac 6h Js 2d Ts 3 CHECK:player1 CHECK:test2 DEAL:RIVER 2 CHECK BET:2:18 9.978416993000002
-['Ac', '6h', 'Js', '2d', 'Ts']
-['CHECK:player1', 'CHECK:test2', 'DEAL:RIVER']
-['CHECK', 'BET:2:18']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-GETACTION 34 5 Ac 6h Js 2d Ts 2 CHECK:player1 BET:16:test2 3 FOLD CALL RAISE:32:66 9.978221200000002
-['Ac', '6h', 'Js', '2d', 'Ts']
-['CHECK:player1', 'BET:16:test2']
-['FOLD', 'CALL', 'RAISE:32:66']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-HANDOVER -133 133 5 Ac 6h Js 2d Ts 4 CALL:player1 SHOW:5s:9h:Jc:Kd:test2 SHOW:Th:8c:6c:Tc:player1 WIN:50:player1 9.978056439000001
-NEWHAND 21 true Qh Th 4d 6s -133 133 9.978056
-['Qh', 'Th', '4d', '6s']
+HANDOVER -12 12 0 2 FOLD:player1 WIN:3:test2 9.987870523000002
+NEWHAND 18 false Qc 9d 4h 6c -12 12 9.987871
+['Qc', '9d', '4h', '6c']
 5
-GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.978056439000001
-[]
-['POST:1:player1', 'POST:2:test2']
-['CALL', 'FOLD', 'RAISE:4:6']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 7 3 8h 3s 5h 4 CALL:player1 CHECK:test2 DEAL:FLOP BET:3:test2 3 FOLD CALL RAISE:6:13 9.977822839000002
-['8h', '3s', '5h']
-['CALL:player1', 'CHECK:test2', 'DEAL:FLOP', 'BET:3:test2']
-['FOLD', 'CALL', 'RAISE:6:13']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 15 4 8h 3s 5h 9c 3 CALL:player1 DEAL:TURN BET:5:test2 3 FOLD CALL RAISE:10:25 9.977536508000002
-['8h', '3s', '5h', '9c']
-['CALL:player1', 'DEAL:TURN', 'BET:5:test2']
-['FOLD', 'CALL', 'RAISE:10:25']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 20 5 8h 3s 5h 9c 8s 3 CALL:player1 DEAL:RIVER CHECK:test2 2 CHECK BET:2:20 9.977304864000002
-['8h', '3s', '5h', '9c', '8s']
-['CALL:player1', 'DEAL:RIVER', 'CHECK:test2']
-['CHECK', 'BET:2:20']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-HANDOVER -143 143 5 8h 3s 5h 9c 8s 4 CHECK:player1 SHOW:Qh:Th:4d:6s:player1 SHOW:As:7d:Jc:Qs:test2 WIN:20:test2 9.977099056000002
-NEWHAND 22 false 7s Qd 7h 6s -143 143 9.977099
-['7s', 'Qd', '7h', '6s']
-10
-HANDOVER -142 142 0 4 POST:1:test2 POST:2:player1 FOLD:test2 WIN:3:player1 9.977099056000002
-NEWHAND 23 true Kh 5c 5s 6c -142 142 9.977099
-['Kh', '5c', '5s', '6c']
-10
-GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.977099056000002
-[]
-['POST:1:player1', 'POST:2:test2']
-['CALL', 'FOLD', 'RAISE:4:6']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 23 0 2 RAISE:6:player1 RAISE:17:test2 3 FOLD CALL RAISE:28:51 9.976650990000001
-[]
-['RAISE:6:player1', 'RAISE:17:test2']
-['FOLD', 'CALL', 'RAISE:28:51']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-HANDOVER -125 125 0 4 RAISE:51:player1 FOLD:test2 REFUND:34:player1 WIN:34:player1 9.976324843
-NEWHAND 24 false Tc Ad Ac 8d -125 125 9.976325
-['Tc', 'Ad', 'Ac', '8d']
-10010
-GETACTION 7 0 3 POST:1:test2 POST:2:player1 RAISE:5:test2 3 FOLD CALL RAISE:8:15 9.976324843
-[]
-['POST:1:test2', 'POST:2:player1', 'RAISE:5:test2']
-['FOLD', 'CALL', 'RAISE:8:15']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 48 0 2 RAISE:15:player1 RAISE:33:test2 3 FOLD CALL RAISE:51:99 9.974950264
-[]
-['RAISE:15:player1', 'RAISE:33:test2']
-['FOLD', 'CALL', 'RAISE:51:99']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-HANDOVER -92 92 0 4 RAISE:99:player1 FOLD:test2 REFUND:66:player1 WIN:66:player1 9.974639767000001
-NEWHAND 25 true 3h 2d 4h 6d -92 92 9.974640
-['3h', '2d', '4h', '6d']
-20
-GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.974639767000001
-[]
-['POST:1:player1', 'POST:2:test2']
-['CALL', 'FOLD', 'RAISE:4:6']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 14 3 7h Ad Jc 4 RAISE:6:player1 CALL:test2 DEAL:FLOP BET:2:test2 3 FOLD CALL RAISE:4:18 9.974301481000001
-['7h', 'Ad', 'Jc']
-['RAISE:6:player1', 'CALL:test2', 'DEAL:FLOP', 'BET:2:test2']
-['FOLD', 'CALL', 'RAISE:4:18']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 16 4 7h Ad Jc 8c 3 CALL:player1 DEAL:TURN CHECK:test2 2 CHECK BET:2:16 9.973957678000001
-['7h', 'Ad', 'Jc', '8c']
-['CALL:player1', 'DEAL:TURN', 'CHECK:test2']
-['CHECK', 'BET:2:16']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-GETACTION 21 5 7h Ad Jc 8c 9s 3 CHECK:player1 DEAL:RIVER BET:5:test2 3 FOLD CALL RAISE:10:31 9.973675791000002
-['7h', 'Ad', 'Jc', '8c', '9s']
-['CHECK:player1', 'DEAL:RIVER', 'BET:5:test2']
-['FOLD', 'CALL', 'RAISE:10:31']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-HANDOVER -105 105 5 7h Ad Jc 8c 9s 4 CALL:player1 SHOW:3h:2d:4h:6d:player1 SHOW:4c:7d:4d:Ks:test2 WIN:26:test2 9.973450835000001
-NEWHAND 26 false 7s 8c 7c 9d -105 105 9.973451
-['7s', '8c', '7c', '9d']
-15
-HANDOVER -104 104 0 4 POST:1:test2 POST:2:player1 FOLD:test2 WIN:3:player1 9.973450835000001
-NEWHAND 27 true 3s Ks Qs Jh -104 104 9.973451
-['3s', 'Ks', 'Qs', 'Jh']
-13
-GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.973450835000001
-[]
-['POST:1:player1', 'POST:2:test2']
-['CALL', 'FOLD', 'RAISE:4:6']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 12 3 Ts 7c 9d 4 RAISE:6:player1 CALL:test2 DEAL:FLOP CHECK:test2 2 CHECK BET:2:12 9.973055513000002
-['Ts', '7c', '9d']
-['RAISE:6:player1', 'CALL:test2', 'DEAL:FLOP', 'CHECK:test2']
-['CHECK', 'BET:2:12']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-GETACTION 16 4 Ts 7c 9d 8h 3 CHECK:player1 DEAL:TURN BET:4:test2 3 FOLD CALL RAISE:8:24 9.972708815000003
-['Ts', '7c', '9d', '8h']
-['CHECK:player1', 'DEAL:TURN', 'BET:4:test2']
-['FOLD', 'CALL', 'RAISE:8:24']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 28 5 Ts 7c 9d 8h 2d 3 CALL:player1 DEAL:RIVER BET:8:test2 3 FOLD CALL RAISE:16:44 9.972391449000002
-['Ts', '7c', '9d', '8h', '2d']
-['CALL:player1', 'DEAL:RIVER', 'BET:8:test2']
-['FOLD', 'CALL', 'RAISE:16:44']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-HANDOVER -86 86 5 Ts 7c 9d 8h 2d 4 CALL:player1 SHOW:3s:Ks:Qs:Jh:player1 SHOW:7s:9s:2c:8s:test2 WIN:36:player1 9.971918047
-NEWHAND 28 false 4s 6d 3s Ad -86 86 9.971918
-['4s', '6d', '3s', 'Ad']
-15
-GETACTION 4 0 3 POST:1:test2 POST:2:player1 CALL:test2 2 CHECK RAISE:4:6 9.971918047
-[]
-['POST:1:test2', 'POST:2:player1', 'CALL:test2']
-['CHECK', 'RAISE:4:6']
-{'FOLD': False, 'CALL': False, 'RAISE': True, 'BET': False, 'CHECK': True}
-HANDOVER -84 84 0 4 RAISE:6:player1 FOLD:test2 REFUND:4:player1 WIN:4:player1 9.971512065
-NEWHAND 29 true Td Qc Tc 6s -84 84 9.971512
-['Td', 'Qc', 'Tc', '6s']
-5
-GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.971512065
-[]
-['POST:1:player1', 'POST:2:test2']
-['CALL', 'FOLD', 'RAISE:4:6']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 7 3 5s Js 3h 4 CALL:player1 CHECK:test2 DEAL:FLOP BET:3:test2 3 FOLD CALL RAISE:6:13 9.971142907
-['5s', 'Js', '3h']
-['CALL:player1', 'CHECK:test2', 'DEAL:FLOP', 'BET:3:test2']
-['FOLD', 'CALL', 'RAISE:6:13']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 17 4 5s Js 3h 5h 3 CALL:player1 DEAL:TURN BET:7:test2 3 FOLD CALL RAISE:14:31 9.970831928
-['5s', 'Js', '3h', '5h']
-['CALL:player1', 'DEAL:TURN', 'BET:7:test2']
-['FOLD', 'CALL', 'RAISE:14:31']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 44 5 5s Js 3h 5h 8h 3 CALL:player1 DEAL:RIVER BET:20:test2 3 FOLD CALL RAISE:40:84 9.970493471000001
-['5s', 'Js', '3h', '5h', '8h']
-['CALL:player1', 'DEAL:RIVER', 'BET:20:test2']
-['FOLD', 'CALL', 'RAISE:40:84']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-HANDOVER -116 116 5 5s Js 3h 5h 8h 4 CALL:player1 SHOW:Td:Qc:Tc:6s:player1 SHOW:Jc:8s:2h:7s:test2 WIN:64:test2 9.970155502
-NEWHAND 30 false Kc Qs Jc Ah -116 116 9.970156
-['Kc', 'Qs', 'Jc', 'Ah']
-20
-HANDOVER -115 115 0 4 POST:1:test2 POST:2:player1 FOLD:test2 WIN:3:player1 9.970155502
-NEWHAND 31 true Ac Kc 4c Kh -115 115 9.970156
-['Ac', 'Kc', '4c', 'Kh']
-15
-GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.970155502
-[]
-['POST:1:player1', 'POST:2:test2']
-['CALL', 'FOLD', 'RAISE:4:6']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 18 0 2 RAISE:6:player1 RAISE:12:test2 3 FOLD CALL RAISE:18:36 9.969886385
-[]
-['RAISE:6:player1', 'RAISE:12:test2']
-['FOLD', 'CALL', 'RAISE:18:36']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-HANDOVER -103 103 0 4 RAISE:36:player1 FOLD:test2 REFUND:24:player1 WIN:24:player1 9.969683522
-NEWHAND 32 false 5h 9s 6s Qh -103 103 9.969684
-['5h', '9s', '6s', 'Qh']
-15
-GETACTION 7 0 3 POST:1:test2 POST:2:player1 RAISE:5:test2 3 FOLD CALL RAISE:8:15 9.969683522
-[]
-['POST:1:test2', 'POST:2:player1', 'RAISE:5:test2']
-['FOLD', 'CALL', 'RAISE:8:15']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-HANDOVER -98 98 0 4 RAISE:15:player1 FOLD:test2 REFUND:10:player1 WIN:10:player1 9.969462182000001
-NEWHAND 33 true 4c 4d 2c 3c -98 98 9.969462
-['4c', '4d', '2c', '3c']
-13
-GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.969462182000001
-[]
-['POST:1:player1', 'POST:2:test2']
-['CALL', 'FOLD', 'RAISE:4:6']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-HANDOVER -96 96 0 4 RAISE:6:player1 FOLD:test2 REFUND:4:player1 WIN:4:player1 9.969242784
-NEWHAND 34 false Jd 4d 7s 3c -96 96 9.969243
-['Jd', '4d', '7s', '3c']
-10
-GETACTION 4 0 3 POST:1:test2 POST:2:player1 CALL:test2 2 CHECK RAISE:4:6 9.969242784
-[]
-['POST:1:test2', 'POST:2:player1', 'CALL:test2']
-['CHECK', 'RAISE:4:6']
-{'FOLD': False, 'CALL': False, 'RAISE': True, 'BET': False, 'CHECK': True}
-GETACTION 16 0 2 RAISE:6:player1 RAISE:10:test2 3 FOLD CALL RAISE:14:30 9.969030590000001
-[]
-['RAISE:6:player1', 'RAISE:10:test2']
-['FOLD', 'CALL', 'RAISE:14:30']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-HANDOVER -86 86 0 4 RAISE:30:player1 FOLD:test2 REFUND:20:player1 WIN:20:player1 9.968829133000002
-NEWHAND 35 true 5c Ad Jd Tc -86 86 9.968829
-['5c', 'Ad', 'Jd', 'Tc']
-15
-GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.968829133000002
-[]
-['POST:1:player1', 'POST:2:test2']
-['CALL', 'FOLD', 'RAISE:4:6']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-HANDOVER -84 84 0 4 RAISE:6:player1 FOLD:test2 REFUND:4:player1 WIN:4:player1 9.968594903000001
-NEWHAND 36 false Td 8s Jh 4d -84 84 9.968595
-['Td', '8s', 'Jh', '4d']
-10
-GETACTION 6 0 3 POST:1:test2 POST:2:player1 RAISE:4:test2 3 FOLD CALL RAISE:6:12 9.968594903000001
-[]
-['POST:1:test2', 'POST:2:player1', 'RAISE:4:test2']
-['FOLD', 'CALL', 'RAISE:6:12']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 34 0 2 RAISE:12:player1 RAISE:22:test2 3 FOLD CALL RAISE:32:66 9.968388205000002
-[]
-['RAISE:12:player1', 'RAISE:22:test2']
-['FOLD', 'CALL', 'RAISE:32:66']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-HANDOVER -62 62 0 4 RAISE:66:player1 FOLD:test2 REFUND:44:player1 WIN:44:player1 9.968185673000002
-NEWHAND 37 true Ks Jd Kc Qc -62 62 9.968186
-['Ks', 'Jd', 'Kc', 'Qc']
-22
-GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.968185673000002
-[]
-['POST:1:player1', 'POST:2:test2']
-['CALL', 'FOLD', 'RAISE:4:6']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 19 0 2 RAISE:6:player1 RAISE:13:test2 3 FOLD CALL RAISE:20:39 9.967962828000003
-[]
-['RAISE:6:player1', 'RAISE:13:test2']
-['FOLD', 'CALL', 'RAISE:20:39']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 151 0 2 RAISE:39:player1 RAISE:112:test2 3 FOLD CALL RAISE:161:161 9.967773118000002
-[]
-['RAISE:39:player1', 'RAISE:112:test2']
-['FOLD', 'CALL', 'RAISE:161:161']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-HANDOVER 50 -50 0 4 RAISE:161:player1 FOLD:test2 REFUND:49:player1 WIN:224:player1 9.967581698000002
-NEWHAND 38 false 7s Ts 6c 2h 50 -50 9.967582
-['7s', 'Ts', '6c', '2h']
-10
-GETACTION 4 0 3 POST:1:test2 POST:2:player1 CALL:test2 2 CHECK RAISE:4:6 9.967581698000002
-[]
-['POST:1:test2', 'POST:2:player1', 'CALL:test2']
-['CHECK', 'RAISE:4:6']
-{'FOLD': False, 'CALL': False, 'RAISE': True, 'BET': False, 'CHECK': True}
-GETACTION 16 0 2 RAISE:6:player1 RAISE:10:test2 3 FOLD CALL RAISE:14:30 9.967383717000002
-[]
-['RAISE:6:player1', 'RAISE:10:test2']
-['FOLD', 'CALL', 'RAISE:14:30']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-HANDOVER 60 -60 0 4 RAISE:30:player1 FOLD:test2 REFUND:20:player1 WIN:20:player1 9.967207654000003
-NEWHAND 39 true 7s 6d 8s Js 60 -60 9.967208
-['7s', '6d', '8s', 'Js']
-13
-GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.967207654000003
-[]
-['POST:1:player1', 'POST:2:test2']
-['CALL', 'FOLD', 'RAISE:4:6']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 12 3 Kd 5d 7h 4 RAISE:6:player1 CALL:test2 DEAL:FLOP CHECK:test2 2 CHECK BET:2:12 9.966787996000003
-['Kd', '5d', '7h']
-['RAISE:6:player1', 'CALL:test2', 'DEAL:FLOP', 'CHECK:test2']
-['CHECK', 'BET:2:12']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-GETACTION 12 4 Kd 5d 7h 7c 3 CHECK:player1 DEAL:TURN CHECK:test2 2 CHECK BET:2:12 9.966078647000003
-['Kd', '5d', '7h', '7c']
-['CHECK:player1', 'DEAL:TURN', 'CHECK:test2']
-['CHECK', 'BET:2:12']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-GETACTION 12 5 Kd 5d 7h 7c 2h 3 CHECK:player1 DEAL:RIVER CHECK:test2 2 CHECK BET:2:12 9.965687457000003
-['Kd', '5d', '7h', '7c', '2h']
-['CHECK:player1', 'DEAL:RIVER', 'CHECK:test2']
-['CHECK', 'BET:2:12']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-HANDOVER 66 -66 5 Kd 5d 7h 7c 2h 4 CHECK:player1 SHOW:7s:6d:8s:Js:player1 SHOW:Kc:9h:8c:Qd:test2 WIN:12:player1 9.965328589000004
-NEWHAND 40 false Qc 3d 5d Qs 66 -66 9.965329
-['Qc', '3d', '5d', 'Qs']
+HANDOVER -11 11 0 4 POST:1:test2 POST:2:player1 FOLD:test2 WIN:3:player1 9.987870523000002
+NEWHAND 19 true Ad As 7h Ah -11 11 9.987871
+['Ad', 'As', '7h', 'Ah']
 9
-GETACTION 4 0 3 POST:1:test2 POST:2:player1 CALL:test2 2 CHECK RAISE:4:6 9.965328589000004
+GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.987870523000002
+[]
+['POST:1:player1', 'POST:2:test2']
+0
+-11
+['CALL', 'FOLD', 'RAISE:4:6']
+{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
+HANDOVER -12 12 0 2 FOLD:player1 WIN:3:test2 9.987640660000002
+NEWHAND 20 false 5c As Ac Qs -12 12 9.987641
+['5c', 'As', 'Ac', 'Qs']
+10010
+HANDOVER -11 11 0 4 POST:1:test2 POST:2:player1 FOLD:test2 WIN:3:player1 9.987640660000002
+NEWHAND 21 true Jd As Qd Qs -11 11 9.987641
+['Jd', 'As', 'Qd', 'Qs']
+19
+GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.987640660000002
+[]
+['POST:1:player1', 'POST:2:test2']
+0
+-11
+['CALL', 'FOLD', 'RAISE:4:6']
+{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
+HANDOVER -12 12 0 2 FOLD:player1 WIN:3:test2 9.987350380000002
+NEWHAND 22 false 6h Th 6c Ac -12 12 9.987350
+['6h', 'Th', '6c', 'Ac']
+10
+GETACTION 4 0 3 POST:1:test2 POST:2:player1 CALL:test2 2 CHECK RAISE:4:6 9.987350380000002
 []
 ['POST:1:test2', 'POST:2:player1', 'CALL:test2']
 ['CHECK', 'RAISE:4:6']
 {'FOLD': False, 'CALL': False, 'RAISE': True, 'BET': False, 'CHECK': True}
-GETACTION 4 3 8s Tc 7d 2 CHECK:player1 DEAL:FLOP 2 CHECK BET:2:4 9.965012882000003
-['8s', 'Tc', '7d']
+GETACTION 4 3 4c 5h 2d 2 CHECK:player1 DEAL:FLOP 2 CHECK BET:2:4 9.986995956000003
+['4c', '5h', '2d']
 ['CHECK:player1', 'DEAL:FLOP']
 ['CHECK', 'BET:2:4']
 {'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-GETACTION 7 3 8s Tc 7d 2 CHECK:player1 BET:3:test2 3 FOLD CALL RAISE:6:13 9.964689699000003
-['8s', 'Tc', '7d']
-['CHECK:player1', 'BET:3:test2']
-['FOLD', 'CALL', 'RAISE:6:13']
+GETACTION 6 3 4c 5h 2d 2 CHECK:player1 BET:2:test2 3 FOLD CALL RAISE:4:10 9.986630812000003
+['4c', '5h', '2d']
+['CHECK:player1', 'BET:2:test2']
+0
+-12
+['FOLD', 'CALL', 'RAISE:4:10']
 {'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 10 4 8s Tc 7d Ah 2 CALL:player1 DEAL:TURN 2 CHECK BET:2:10 9.964405206000002
-['8s', 'Tc', '7d', 'Ah']
-['CALL:player1', 'DEAL:TURN']
-['CHECK', 'BET:2:10']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-GETACTION 17 4 8s Tc 7d Ah 2 CHECK:player1 BET:7:test2 3 FOLD CALL RAISE:14:31 9.964133400000001
-['8s', 'Tc', '7d', 'Ah']
-['CHECK:player1', 'BET:7:test2']
-['FOLD', 'CALL', 'RAISE:14:31']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 24 5 8s Tc 7d Ah Kc 2 CALL:player1 DEAL:RIVER 2 CHECK BET:2:24 9.963858196000002
-['8s', 'Tc', '7d', 'Ah', 'Kc']
-['CALL:player1', 'DEAL:RIVER']
-['CHECK', 'BET:2:24']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-HANDOVER 54 -54 5 8s Tc 7d Ah Kc 5 CHECK:player1 CHECK:test2 SHOW:Qd:9s:8c:Jd:test2 SHOW:Qc:3d:5d:Qs:player1 WIN:24:test2 9.963581560000002
-NEWHAND 41 true Qs Qc 9c Ac 54 -54 9.963582
-['Qs', 'Qc', '9c', 'Ac']
-7
-GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.963581560000002
+HANDOVER -14 14 3 4c 5h 2d 3 FOLD:player1 REFUND:2:test2 WIN:4:test2 9.986352097000003
+NEWHAND 23 true 9c 8c 3c Tc -14 14 9.986352
+['9c', '8c', '3c', 'Tc']
+11
+GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.986352097000003
 []
 ['POST:1:player1', 'POST:2:test2']
+0
+-14
 ['CALL', 'FOLD', 'RAISE:4:6']
 {'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 7 0 2 CALL:player1 RAISE:5:test2 3 FOLD CALL RAISE:8:15 9.963224092
-[]
-['CALL:player1', 'RAISE:5:test2']
-['FOLD', 'CALL', 'RAISE:8:15']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 10 3 2s 3d Qh 3 CALL:player1 DEAL:FLOP CHECK:test2 2 CHECK BET:2:10 9.962934372000001
-['2s', '3d', 'Qh']
-['CALL:player1', 'DEAL:FLOP', 'CHECK:test2']
-['CHECK', 'BET:2:10']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-GETACTION 10 4 2s 3d Qh 6d 3 CHECK:player1 DEAL:TURN CHECK:test2 2 CHECK BET:2:10 9.962632147
-['2s', '3d', 'Qh', '6d']
-['CHECK:player1', 'DEAL:TURN', 'CHECK:test2']
-['CHECK', 'BET:2:10']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-GETACTION 10 5 2s 3d Qh 6d 7c 3 CHECK:player1 DEAL:RIVER CHECK:test2 2 CHECK BET:2:10 9.962272304
-['2s', '3d', 'Qh', '6d', '7c']
-['CHECK:player1', 'DEAL:RIVER', 'CHECK:test2']
-['CHECK', 'BET:2:10']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-HANDOVER 59 -59 5 2s 3d Qh 6d 7c 4 CHECK:player1 SHOW:Qs:Qc:9c:Ac:player1 SHOW:2c:7s:8s:4s:test2 WIN:10:player1 9.961908793000001
-NEWHAND 42 false 8h 7d 5c 4s 59 -59 9.961909
-['8h', '7d', '5c', '4s']
-10
-GETACTION 4 0 3 POST:1:test2 POST:2:player1 CALL:test2 2 CHECK RAISE:4:6 9.961908793000001
+HANDOVER -15 15 0 2 FOLD:player1 WIN:3:test2 9.986087462000002
+NEWHAND 24 false 6d Tc 5d Kd -15 15 9.986087
+['6d', 'Tc', '5d', 'Kd']
+8
+GETACTION 4 0 3 POST:1:test2 POST:2:player1 CALL:test2 2 CHECK RAISE:4:6 9.986087462000002
 []
 ['POST:1:test2', 'POST:2:player1', 'CALL:test2']
 ['CHECK', 'RAISE:4:6']
 {'FOLD': False, 'CALL': False, 'RAISE': True, 'BET': False, 'CHECK': True}
-HANDOVER 61 -61 0 4 RAISE:6:player1 FOLD:test2 REFUND:4:player1 WIN:4:player1 9.961467132000001
-NEWHAND 43 true 2c Kc 7s Qh 61 -61 9.961467
-['2c', 'Kc', '7s', 'Qh']
-10
-GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.961467132000001
-[]
-['POST:1:player1', 'POST:2:test2']
-['CALL', 'FOLD', 'RAISE:4:6']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 20 0 2 RAISE:6:player1 RAISE:14:test2 3 FOLD CALL RAISE:22:42 9.961031893000001
-[]
-['RAISE:6:player1', 'RAISE:14:test2']
-['FOLD', 'CALL', 'RAISE:22:42']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-HANDOVER 75 -75 0 4 RAISE:42:player1 FOLD:test2 REFUND:28:player1 WIN:28:player1 9.960738479000002
-NEWHAND 44 false Ks 3c 7h 3h 75 -75 9.960738
-['Ks', '3c', '7h', '3h']
-5
-HANDOVER 76 -76 0 4 POST:1:test2 POST:2:player1 FOLD:test2 WIN:3:player1 9.960738479000002
-NEWHAND 45 true 5d Th 2c 4s 76 -76 9.960738
-['5d', 'Th', '2c', '4s']
-5
-GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.960738479000002
-[]
-['POST:1:player1', 'POST:2:test2']
-['CALL', 'FOLD', 'RAISE:4:6']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 6 0 2 CALL:player1 RAISE:4:test2 3 FOLD CALL RAISE:6:12 9.960272985000001
-[]
-['CALL:player1', 'RAISE:4:test2']
-['FOLD', 'CALL', 'RAISE:6:12']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 12 3 7h 6d Jc 3 CALL:player1 DEAL:FLOP BET:4:test2 3 FOLD CALL RAISE:8:20 9.959975062000002
-['7h', '6d', 'Jc']
-['CALL:player1', 'DEAL:FLOP', 'BET:4:test2']
-['FOLD', 'CALL', 'RAISE:8:20']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 20 4 7h 6d Jc 4c 3 CALL:player1 DEAL:TURN BET:4:test2 3 FOLD CALL RAISE:8:28 9.959621311000001
-['7h', '6d', 'Jc', '4c']
-['CALL:player1', 'DEAL:TURN', 'BET:4:test2']
-['FOLD', 'CALL', 'RAISE:8:28']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 24 5 7h 6d Jc 4c 2d 3 CALL:player1 DEAL:RIVER CHECK:test2 2 CHECK BET:2:24 9.959296002
-['7h', '6d', 'Jc', '4c', '2d']
-['CALL:player1', 'DEAL:RIVER', 'CHECK:test2']
-['CHECK', 'BET:2:24']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-HANDOVER 88 -88 5 7h 6d Jc 4c 2d 4 CHECK:player1 SHOW:5d:Th:2c:4s:player1 SHOW:Ac:3h:3c:4d:test2 WIN:24:player1 9.95898234
-NEWHAND 46 false 8h 6s 8d 7s 88 -88 9.958982
-['8h', '6s', '8d', '7s']
-15
-GETACTION 6 0 3 POST:1:test2 POST:2:player1 RAISE:4:test2 3 FOLD CALL RAISE:6:12 9.95898234
-[]
-['POST:1:test2', 'POST:2:player1', 'RAISE:4:test2']
-['FOLD', 'CALL', 'RAISE:6:12']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 47 0 2 RAISE:12:player1 RAISE:35:test2 3 FOLD CALL RAISE:58:105 9.95859965
-[]
-['RAISE:12:player1', 'RAISE:35:test2']
-['FOLD', 'CALL', 'RAISE:58:105']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 270 0 2 RAISE:105:player1 RAISE:165:test2 3 FOLD CALL RAISE:95:95 9.958299058
-[]
-['RAISE:105:player1', 'RAISE:165:test2']
-['FOLD', 'CALL', 'RAISE:95:95']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-HANDOVER 253 -253 0 4 RAISE:95:player1 FOLD:test2 REFUND:-70:player1 WIN:330:player1 9.958020415
-NEWHAND 47 true 7d 7h Ad 2h 253 -253 9.958020
-['7d', '7h', 'Ad', '2h']
-15
-GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.958020415
-[]
-['POST:1:player1', 'POST:2:test2']
-['CALL', 'FOLD', 'RAISE:4:6']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 12 3 Kd Js 9d 4 RAISE:6:player1 CALL:test2 DEAL:FLOP CHECK:test2 2 CHECK BET:2:12 9.957602293
-['Kd', 'Js', '9d']
-['RAISE:6:player1', 'CALL:test2', 'DEAL:FLOP', 'CHECK:test2']
-['CHECK', 'BET:2:12']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-GETACTION 12 4 Kd Js 9d 5d 3 CHECK:player1 DEAL:TURN CHECK:test2 2 CHECK BET:2:12 9.957227874
-['Kd', 'Js', '9d', '5d']
-['CHECK:player1', 'DEAL:TURN', 'CHECK:test2']
-['CHECK', 'BET:2:12']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-GETACTION 12 5 Kd Js 9d 5d 6d 3 CHECK:player1 DEAL:RIVER CHECK:test2 2 CHECK BET:2:12 9.956916778
-['Kd', 'Js', '9d', '5d', '6d']
-['CHECK:player1', 'DEAL:RIVER', 'CHECK:test2']
-['CHECK', 'BET:2:12']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-HANDOVER 259 -259 5 Kd Js 9d 5d 6d 4 CHECK:player1 SHOW:7d:7h:Ad:2h:player1 SHOW:9h:2c:Jc:4c:test2 WIN:12:player1 9.956562702
-NEWHAND 48 false Jd Ad 4d 6s 259 -259 9.956563
-['Jd', 'Ad', '4d', '6s']
-3
-GETACTION 4 0 3 POST:1:test2 POST:2:player1 CALL:test2 2 CHECK RAISE:4:6 9.956562702
-[]
-['POST:1:test2', 'POST:2:player1', 'CALL:test2']
-['CHECK', 'RAISE:4:6']
-{'FOLD': False, 'CALL': False, 'RAISE': True, 'BET': False, 'CHECK': True}
-GETACTION 4 3 7s Ts 5d 2 CHECK:player1 DEAL:FLOP 2 CHECK BET:2:4 9.956158847
-['7s', 'Ts', '5d']
+GETACTION 4 3 Jd 4s Jc 2 CHECK:player1 DEAL:FLOP 2 CHECK BET:2:4 9.985771738000002
+['Jd', '4s', 'Jc']
 ['CHECK:player1', 'DEAL:FLOP']
 ['CHECK', 'BET:2:4']
 {'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-GETACTION 4 4 7s Ts 5d Tc 3 CHECK:player1 CHECK:test2 DEAL:TURN 2 CHECK BET:2:4 9.955858784
-['7s', 'Ts', '5d', 'Tc']
+GETACTION 4 4 Jd 4s Jc 5s 3 CHECK:player1 CHECK:test2 DEAL:TURN 2 CHECK BET:2:4 9.985143216000003
+['Jd', '4s', 'Jc', '5s']
 ['CHECK:player1', 'CHECK:test2', 'DEAL:TURN']
 ['CHECK', 'BET:2:4']
 {'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-GETACTION 6 4 7s Ts 5d Tc 2 CHECK:player1 BET:2:test2 3 FOLD CALL RAISE:4:10 9.955577901
-['7s', 'Ts', '5d', 'Tc']
-['CHECK:player1', 'BET:2:test2']
-['FOLD', 'CALL', 'RAISE:4:10']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 8 5 7s Ts 5d Tc 9s 2 CALL:player1 DEAL:RIVER 2 CHECK BET:2:8 9.955289875
-['7s', 'Ts', '5d', 'Tc', '9s']
-['CALL:player1', 'DEAL:RIVER']
-['CHECK', 'BET:2:8']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-HANDOVER 255 -255 5 7s Ts 5d Tc 9s 5 CHECK:player1 CHECK:test2 SHOW:Ah:6h:Kc:2h:test2 SHOW:Jd:Ad:4d:6s:player1 WIN:8:test2 9.955016205
-NEWHAND 49 true 2d 9s Th 5s 255 -255 9.955016
-['2d', '9s', 'Th', '5s']
-10
-GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.955016205
-[]
-['POST:1:player1', 'POST:2:test2']
-['CALL', 'FOLD', 'RAISE:4:6']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 23 3 3s Tc 7h 4 RAISE:6:player1 CALL:test2 DEAL:FLOP BET:11:test2 3 FOLD CALL RAISE:22:45 9.954578523
-['3s', 'Tc', '7h']
-['RAISE:6:player1', 'CALL:test2', 'DEAL:FLOP', 'BET:11:test2']
-['FOLD', 'CALL', 'RAISE:22:45']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 34 4 3s Tc 7h 3d 3 CALL:player1 DEAL:TURN CHECK:test2 2 CHECK BET:2:34 9.954286417
-['3s', 'Tc', '7h', '3d']
-['CALL:player1', 'DEAL:TURN', 'CHECK:test2']
-['CHECK', 'BET:2:34']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-GETACTION 51 5 3s Tc 7h 3d 7c 3 CHECK:player1 DEAL:RIVER BET:17:test2 3 FOLD CALL RAISE:34:85 9.954065911
-['3s', 'Tc', '7h', '3d', '7c']
-['CHECK:player1', 'DEAL:RIVER', 'BET:17:test2']
-['FOLD', 'CALL', 'RAISE:34:85']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-HANDOVER 221 -221 5 3s Tc 7h 3d 7c 4 CALL:player1 SHOW:2d:9s:Th:5s:player1 SHOW:7d:2s:5d:8h:test2 WIN:68:test2 9.95388026
-NEWHAND 50 false Jd Td 4h 5s 221 -221 9.953880
-['Jd', 'Td', '4h', '5s']
-15
-HANDOVER 222 -222 0 4 POST:1:test2 POST:2:player1 FOLD:test2 WIN:3:player1 9.95388026
-NEWHAND 51 true 6s 6c Kh 7h 222 -222 9.953880
-['6s', '6c', 'Kh', '7h']
-10
-GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.95388026
-[]
-['POST:1:player1', 'POST:2:test2']
-['CALL', 'FOLD', 'RAISE:4:6']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 23 0 2 RAISE:6:player1 RAISE:17:test2 3 FOLD CALL RAISE:28:51 9.95366115
-[]
-['RAISE:6:player1', 'RAISE:17:test2']
-['FOLD', 'CALL', 'RAISE:28:51']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 155 0 2 RAISE:51:player1 RAISE:104:test2 3 FOLD CALL RAISE:149:149 9.953484138
-[]
-['RAISE:51:player1', 'RAISE:104:test2']
-['FOLD', 'CALL', 'RAISE:149:149']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 245 0 2 RAISE:149:player1 RAISE:96:test2 3 FOLD CALL RAISE:43:51 9.953314370000001
-[]
-['RAISE:149:player1', 'RAISE:96:test2']
-['FOLD', 'CALL', 'RAISE:43:51']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 195 3 3c 7d 5h 4 RAISE:51:player1 CALL:test2 DEAL:FLOP BET:93:test2 3 FOLD CALL RAISE:149:149 9.953139744000001
-['3c', '7d', '5h']
-['RAISE:51:player1', 'CALL:test2', 'DEAL:FLOP', 'BET:93:test2']
-['FOLD', 'CALL', 'RAISE:149:149']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 316 4 3c 7d 5h 2h 3 CALL:player1 DEAL:TURN BET:28:test2 3 FOLD CALL RAISE:56:56 9.952834221000002
-['3c', '7d', '5h', '2h']
-['CALL:player1', 'DEAL:TURN', 'BET:28:test2']
-['FOLD', 'CALL', 'RAISE:56:56']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 357 5 3c 7d 5h 2h 4h 3 CALL:player1 DEAL:RIVER BET:13:test2 3 FOLD CALL RAISE:26:28 9.952507946
-['3c', '7d', '5h', '2h', '4h']
-['CALL:player1', 'DEAL:RIVER', 'BET:13:test2']
-['FOLD', 'CALL', 'RAISE:26:28']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-HANDOVER 407 -407 5 3c 7d 5h 2h 4h 4 CALL:player1 SHOW:6s:6c:Kh:7h:player1 SHOW:8s:Ad:8h:As:test2 WIN:370:player1 9.952194688
-NEWHAND 52 false 5s Ks 2s 3h 407 -407 9.952195
-['5s', 'Ks', '2s', '3h']
-8
-GETACTION 4 0 3 POST:1:test2 POST:2:player1 CALL:test2 2 CHECK RAISE:4:6 9.952194688
-[]
-['POST:1:test2', 'POST:2:player1', 'CALL:test2']
-['CHECK', 'RAISE:4:6']
-{'FOLD': False, 'CALL': False, 'RAISE': True, 'BET': False, 'CHECK': True}
-GETACTION 4 3 9d 7h Kd 2 CHECK:player1 DEAL:FLOP 2 CHECK BET:2:4 9.951821135000001
-['9d', '7h', 'Kd']
-['CHECK:player1', 'DEAL:FLOP']
-['CHECK', 'BET:2:4']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-GETACTION 6 3 9d 7h Kd 2 CHECK:player1 BET:2:test2 3 FOLD CALL RAISE:4:10 9.951522960000002
-['9d', '7h', 'Kd']
-['CHECK:player1', 'BET:2:test2']
-['FOLD', 'CALL', 'RAISE:4:10']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 8 4 9d 7h Kd 8d 2 CALL:player1 DEAL:TURN 2 CHECK BET:2:8 9.951223236000002
-['9d', '7h', 'Kd', '8d']
-['CALL:player1', 'DEAL:TURN']
-['CHECK', 'BET:2:8']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-GETACTION 8 5 9d 7h Kd 8d Ah 3 CHECK:player1 CHECK:test2 DEAL:RIVER 2 CHECK BET:2:8 9.948885321000002
-['9d', '7h', 'Kd', '8d', 'Ah']
+GETACTION 4 5 Jd 4s Jc 5s Kh 3 CHECK:player1 CHECK:test2 DEAL:RIVER 2 CHECK BET:2:4 9.984695399000003
+['Jd', '4s', 'Jc', '5s', 'Kh']
 ['CHECK:player1', 'CHECK:test2', 'DEAL:RIVER']
-['CHECK', 'BET:2:8']
+['CHECK', 'BET:2:4']
 {'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-HANDOVER 403 -403 5 9d 7h Kd 8d Ah 5 CHECK:player1 CHECK:test2 SHOW:9h:3s:3d:Qd:test2 SHOW:5s:Ks:2s:3h:player1 WIN:8:test2 9.948513848000003
-NEWHAND 53 true Ks 5c Tc Kh 403 -403 9.948514
-['Ks', '5c', 'Tc', 'Kh']
-12
-GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.948513848000003
+HANDOVER -17 17 5 Jd 4s Jc 5s Kh 5 CHECK:player1 CHECK:test2 SHOW:3d:Ks:Ad:Td:test2 SHOW:6d:Tc:5d:Kd:player1 WIN:4:test2 9.984410868000003
+NEWHAND 25 true Ad 5d 5s 5h -17 17 9.984411
+['Ad', '5d', '5s', '5h']
+5
+GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.984410868000003
 []
 ['POST:1:player1', 'POST:2:test2']
+0
+-17
 ['CALL', 'FOLD', 'RAISE:4:6']
 {'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-HANDOVER 405 -405 0 4 RAISE:6:player1 FOLD:test2 REFUND:4:player1 WIN:4:player1 9.948074482000003
-NEWHAND 54 false 2s 3s 3h 7s 405 -405 9.948074
-['2s', '3s', '3h', '7s']
-8
-GETACTION 4 0 3 POST:1:test2 POST:2:player1 CALL:test2 2 CHECK RAISE:4:6 9.948074482000003
+HANDOVER -18 18 0 2 FOLD:player1 WIN:3:test2 9.984179053000004
+NEWHAND 26 false 9s Qd 6c Kh -18 18 9.984179
+['9s', 'Qd', '6c', 'Kh']
+5
+GETACTION 4 0 3 POST:1:test2 POST:2:player1 CALL:test2 2 CHECK RAISE:4:6 9.984179053000004
 []
 ['POST:1:test2', 'POST:2:player1', 'CALL:test2']
 ['CHECK', 'RAISE:4:6']
 {'FOLD': False, 'CALL': False, 'RAISE': True, 'BET': False, 'CHECK': True}
-GETACTION 4 3 4h Kh 6s 2 CHECK:player1 DEAL:FLOP 2 CHECK BET:2:4 9.947653887000003
-['4h', 'Kh', '6s']
+GETACTION 4 3 2s Ad 3h 2 CHECK:player1 DEAL:FLOP 2 CHECK BET:2:4 9.983877058000004
+['2s', 'Ad', '3h']
 ['CHECK:player1', 'DEAL:FLOP']
 ['CHECK', 'BET:2:4']
 {'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-GETACTION 7 3 4h Kh 6s 2 CHECK:player1 BET:3:test2 3 FOLD CALL RAISE:6:13 9.947328031000003
-['4h', 'Kh', '6s']
+GETACTION 4 4 2s Ad 3h 3d 3 CHECK:player1 CHECK:test2 DEAL:TURN 2 CHECK BET:2:4 9.983343920000005
+['2s', 'Ad', '3h', '3d']
+['CHECK:player1', 'CHECK:test2', 'DEAL:TURN']
+['CHECK', 'BET:2:4']
+{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
+GETACTION 7 4 2s Ad 3h 3d 2 CHECK:player1 BET:3:test2 3 FOLD CALL RAISE:6:13 9.982743093000005
+['2s', 'Ad', '3h', '3d']
 ['CHECK:player1', 'BET:3:test2']
+0
+-18
 ['FOLD', 'CALL', 'RAISE:6:13']
 {'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 10 4 4h Kh 6s Ah 2 CALL:player1 DEAL:TURN 2 CHECK BET:2:10 9.947037492000003
-['4h', 'Kh', '6s', 'Ah']
-['CALL:player1', 'DEAL:TURN']
-['CHECK', 'BET:2:10']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-GETACTION 19 4 4h Kh 6s Ah 2 CHECK:player1 BET:9:test2 3 FOLD CALL RAISE:18:37 9.946742278000004
-['4h', 'Kh', '6s', 'Ah']
-['CHECK:player1', 'BET:9:test2']
-['FOLD', 'CALL', 'RAISE:18:37']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 28 5 4h Kh 6s Ah 7h 2 CALL:player1 DEAL:RIVER 2 CHECK BET:2:28 9.946470885000004
-['4h', 'Kh', '6s', 'Ah', '7h']
-['CALL:player1', 'DEAL:RIVER']
-['CHECK', 'BET:2:28']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-GETACTION 46 5 4h Kh 6s Ah 7h 2 CHECK:player1 BET:18:test2 3 FOLD CALL RAISE:36:82 9.946187155000004
-['4h', 'Kh', '6s', 'Ah', '7h']
-['CHECK:player1', 'BET:18:test2']
-['FOLD', 'CALL', 'RAISE:36:82']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-HANDOVER 437 -437 5 4h Kh 6s Ah 7h 4 CALL:player1 SHOW:2d:Jc:3c:4c:test2 SHOW:2s:3s:3h:7s:player1 WIN:64:player1 9.945901138000004
-NEWHAND 55 true As 2c Ac Th 437 -437 9.945901
-['As', '2c', 'Ac', 'Th']
-10010
-GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.945901138000004
+HANDOVER -20 20 4 2s Ad 3h 3d 3 FOLD:player1 REFUND:3:test2 WIN:4:test2 9.982251564000006
+NEWHAND 27 true 2d 9h 6d Td -20 20 9.982252
+['2d', '9h', '6d', 'Td']
+8
+GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.982251564000006
 []
 ['POST:1:player1', 'POST:2:test2']
+0
+-20
 ['CALL', 'FOLD', 'RAISE:4:6']
 {'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 17 0 2 RAISE:6:player1 RAISE:11:test2 3 FOLD CALL RAISE:16:33 9.945629798000004
-[]
-['RAISE:6:player1', 'RAISE:11:test2']
-['FOLD', 'CALL', 'RAISE:16:33']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-HANDOVER 448 -448 0 4 RAISE:33:player1 FOLD:test2 REFUND:22:player1 WIN:22:player1 9.945355019000004
-NEWHAND 56 false As 6d 8d 4h 448 -448 9.945355
-['As', '6d', '8d', '4h']
-5
-HANDOVER 449 -449 0 4 POST:1:test2 POST:2:player1 FOLD:test2 WIN:3:player1 9.945355019000004
-NEWHAND 57 true Qc 6s 6h 2h 449 -449 9.945355
-['Qc', '6s', '6h', '2h']
-5
-GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.945355019000004
+HANDOVER -21 21 0 2 FOLD:player1 WIN:3:test2 9.981945856000005
+NEWHAND 28 false 8c 2c 3h 2h -21 21 9.981946
+['8c', '2c', '3h', '2h']
+15
+HANDOVER -20 20 0 4 POST:1:test2 POST:2:player1 FOLD:test2 WIN:3:player1 9.981945856000005
+NEWHAND 29 true 3c Ah Th Ad -20 20 9.981946
+['3c', 'Ah', 'Th', 'Ad']
+10005
+GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.981945856000005
 []
 ['POST:1:player1', 'POST:2:test2']
+0
+-20
 ['CALL', 'FOLD', 'RAISE:4:6']
 {'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 6 3 9d 3c 8d 4 CALL:player1 CHECK:test2 DEAL:FLOP BET:2:test2 3 FOLD CALL RAISE:4:10 9.944884833000005
-['9d', '3c', '8d']
-['CALL:player1', 'CHECK:test2', 'DEAL:FLOP', 'BET:2:test2']
-['FOLD', 'CALL', 'RAISE:4:10']
+GETACTION 15 3 3d 9s 2d 4 RAISE:6:player1 CALL:test2 DEAL:FLOP BET:3:test2 3 FOLD CALL RAISE:6:21 9.981644570000006
+['3d', '9s', '2d']
+['RAISE:6:player1', 'CALL:test2', 'DEAL:FLOP', 'BET:3:test2']
+0
+-20
+['FOLD', 'CALL', 'RAISE:6:21']
 {'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 15 4 9d 3c 8d Kd 3 CALL:player1 DEAL:TURN BET:7:test2 3 FOLD CALL RAISE:14:29 9.944612279000005
-['9d', '3c', '8d', 'Kd']
-['CALL:player1', 'DEAL:TURN', 'BET:7:test2']
-['FOLD', 'CALL', 'RAISE:14:29']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 22 5 9d 3c 8d Kd 8h 3 CALL:player1 DEAL:RIVER CHECK:test2 2 CHECK BET:2:22 9.944343391000004
-['9d', '3c', '8d', 'Kd', '8h']
-['CALL:player1', 'DEAL:RIVER', 'CHECK:test2']
-['CHECK', 'BET:2:22']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-HANDOVER 460 -460 5 9d 3c 8d Kd 8h 4 CHECK:player1 SHOW:Qc:6s:6h:2h:player1 SHOW:5s:Qd:3h:Js:test2 WIN:22:player1 9.944092085000005
-NEWHAND 58 false 4d 2s Td 5c 460 -460 9.944092
-['4d', '2s', 'Td', '5c']
+HANDOVER -11 11 3 3d 9s 2d 4 RAISE:21:player1 FOLD:test2 REFUND:18:player1 WIN:18:player1 9.981242016000005
+NEWHAND 30 false Kh 6c 3d 4h -11 11 9.981242
+['Kh', '6c', '3d', '4h']
 10
-GETACTION 4 0 3 POST:1:test2 POST:2:player1 CALL:test2 2 CHECK RAISE:4:6 9.944092085000005
+GETACTION 6 0 3 POST:1:test2 POST:2:player1 RAISE:4:test2 3 FOLD CALL RAISE:6:12 9.981242016000005
+[]
+['POST:1:test2', 'POST:2:player1', 'RAISE:4:test2']
+0
+-11
+['FOLD', 'CALL', 'RAISE:6:12']
+{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
+HANDOVER -13 13 0 3 FOLD:player1 REFUND:2:test2 WIN:4:test2 9.980860462000004
+NEWHAND 31 true Ks 5h 7h 9c -13 13 9.980860
+['Ks', '5h', '7h', '9c']
+5
+GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.980860462000004
+[]
+['POST:1:player1', 'POST:2:test2']
+0
+-13
+['CALL', 'FOLD', 'RAISE:4:6']
+{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
+HANDOVER -14 14 0 2 FOLD:player1 WIN:3:test2 9.980458936000005
+NEWHAND 32 false Td 3s Ts 5s -14 14 9.980459
+['Td', '3s', 'Ts', '5s']
+3
+GETACTION 4 0 3 POST:1:test2 POST:2:player1 CALL:test2 2 CHECK RAISE:4:6 9.980458936000005
 []
 ['POST:1:test2', 'POST:2:player1', 'CALL:test2']
 ['CHECK', 'RAISE:4:6']
 {'FOLD': False, 'CALL': False, 'RAISE': True, 'BET': False, 'CHECK': True}
-GETACTION 12 3 5s Tc 2c 3 RAISE:6:player1 CALL:test2 DEAL:FLOP 2 CHECK BET:2:12 9.943814628000005
-['5s', 'Tc', '2c']
+GETACTION 4 3 Kc 3h 5h 2 CHECK:player1 DEAL:FLOP 2 CHECK BET:2:4 9.980073766000006
+['Kc', '3h', '5h']
+['CHECK:player1', 'DEAL:FLOP']
+['CHECK', 'BET:2:4']
+{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
+GETACTION 4 4 Kc 3h 5h 8d 3 CHECK:player1 CHECK:test2 DEAL:TURN 2 CHECK BET:2:4 9.979859839000005
+['Kc', '3h', '5h', '8d']
+['CHECK:player1', 'CHECK:test2', 'DEAL:TURN']
+['CHECK', 'BET:2:4']
+{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
+GETACTION 7 4 Kc 3h 5h 8d 2 CHECK:player1 BET:3:test2 3 FOLD CALL RAISE:6:13 9.979651964000006
+['Kc', '3h', '5h', '8d']
+['CHECK:player1', 'BET:3:test2']
+0
+-14
+['FOLD', 'CALL', 'RAISE:6:13']
+{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
+HANDOVER -16 16 4 Kc 3h 5h 8d 3 FOLD:player1 REFUND:3:test2 WIN:4:test2 9.979467049000005
+NEWHAND 33 true 3h 2s 9d Jh -16 16 9.979467
+['3h', '2s', '9d', 'Jh']
+10
+GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.979467049000005
+[]
+['POST:1:player1', 'POST:2:test2']
+0
+-16
+['CALL', 'FOLD', 'RAISE:4:6']
+{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
+HANDOVER -17 17 0 2 FOLD:player1 WIN:3:test2 9.979087969000005
+NEWHAND 34 false 5h Js 4h Ks -17 17 9.979088
+['5h', 'Js', '4h', 'Ks']
+15
+GETACTION 4 0 3 POST:1:test2 POST:2:player1 CALL:test2 2 CHECK RAISE:4:6 9.979087969000005
+[]
+['POST:1:test2', 'POST:2:player1', 'CALL:test2']
+['CHECK', 'RAISE:4:6']
+{'FOLD': False, 'CALL': False, 'RAISE': True, 'BET': False, 'CHECK': True}
+GETACTION 4 3 8c Td Kh 2 CHECK:player1 DEAL:FLOP 2 CHECK BET:2:4 9.976402305000006
+['8c', 'Td', 'Kh']
+['CHECK:player1', 'DEAL:FLOP']
+['CHECK', 'BET:2:4']
+{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
+GETACTION 4 4 8c Td Kh Qs 3 CHECK:player1 CHECK:test2 DEAL:TURN 2 CHECK BET:2:4 9.972233088000007
+['8c', 'Td', 'Kh', 'Qs']
+['CHECK:player1', 'CHECK:test2', 'DEAL:TURN']
+['CHECK', 'BET:2:4']
+{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
+GETACTION 7 4 8c Td Kh Qs 2 CHECK:player1 BET:3:test2 3 FOLD CALL RAISE:6:13 9.970191074000006
+['8c', 'Td', 'Kh', 'Qs']
+['CHECK:player1', 'BET:3:test2']
+0
+-17
+['FOLD', 'CALL', 'RAISE:6:13']
+{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
+HANDOVER -19 19 4 8c Td Kh Qs 3 FOLD:player1 REFUND:3:test2 WIN:4:test2 9.965546713000005
+NEWHAND 35 true 9c 5h 5s 3d -19 19 9.965547
+['9c', '5h', '5s', '3d']
+0
+GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.965546713000005
+[]
+['POST:1:player1', 'POST:2:test2']
+0
+-19
+['CALL', 'FOLD', 'RAISE:4:6']
+{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
+HANDOVER -20 20 0 2 FOLD:player1 WIN:3:test2 9.965211092000006
+NEWHAND 36 false 5s 9h 3d Qh -20 20 9.965211
+['5s', '9h', '3d', 'Qh']
+5
+GETACTION 4 0 3 POST:1:test2 POST:2:player1 CALL:test2 2 CHECK RAISE:4:6 9.965211092000006
+[]
+['POST:1:test2', 'POST:2:player1', 'CALL:test2']
+['CHECK', 'RAISE:4:6']
+{'FOLD': False, 'CALL': False, 'RAISE': True, 'BET': False, 'CHECK': True}
+GETACTION 4 3 8c 7s Qs 2 CHECK:player1 DEAL:FLOP 2 CHECK BET:2:4 9.964786254000005
+['8c', '7s', 'Qs']
+['CHECK:player1', 'DEAL:FLOP']
+['CHECK', 'BET:2:4']
+{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
+GETACTION 6 3 8c 7s Qs 2 CHECK:player1 BET:2:test2 3 FOLD CALL RAISE:4:10 9.964279818000005
+['8c', '7s', 'Qs']
+['CHECK:player1', 'BET:2:test2']
+0
+-20
+['FOLD', 'CALL', 'RAISE:4:10']
+{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
+HANDOVER -22 22 3 8c 7s Qs 3 FOLD:player1 REFUND:2:test2 WIN:4:test2 9.963642938000005
+NEWHAND 37 true 7h Qd 3h 6h -22 22 9.963643
+['7h', 'Qd', '3h', '6h']
+8
+GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.963642938000005
+[]
+['POST:1:player1', 'POST:2:test2']
+0
+-22
+['CALL', 'FOLD', 'RAISE:4:6']
+{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
+HANDOVER -23 23 0 2 FOLD:player1 WIN:3:test2 9.963354981000005
+NEWHAND 38 false 9c Ad Th 8h -23 23 9.963355
+['9c', 'Ad', 'Th', '8h']
+15
+HANDOVER -22 22 0 4 POST:1:test2 POST:2:player1 FOLD:test2 WIN:3:player1 9.963354981000005
+NEWHAND 39 true 3s 9s 4d As -22 22 9.963355
+['3s', '9s', '4d', 'As']
+8
+GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.963354981000005
+[]
+['POST:1:player1', 'POST:2:test2']
+0
+-22
+['CALL', 'FOLD', 'RAISE:4:6']
+{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
+HANDOVER -23 23 0 2 FOLD:player1 WIN:3:test2 9.962915204000005
+NEWHAND 40 false Kh Jd Th Jh -23 23 9.962915
+['Kh', 'Jd', 'Th', 'Jh']
+10
+GETACTION 6 0 3 POST:1:test2 POST:2:player1 RAISE:4:test2 3 FOLD CALL RAISE:6:12 9.962915204000005
+[]
+['POST:1:test2', 'POST:2:player1', 'RAISE:4:test2']
+0
+-23
+['FOLD', 'CALL', 'RAISE:6:12']
+{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
+HANDOVER -25 25 0 3 FOLD:player1 REFUND:2:test2 WIN:4:test2 9.962449784000006
+NEWHAND 41 true 4s 9h 6c 5d -25 25 9.962450
+['4s', '9h', '6c', '5d']
+10
+GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.962449784000006
+[]
+['POST:1:player1', 'POST:2:test2']
+0
+-25
+['CALL', 'FOLD', 'RAISE:4:6']
+{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
+HANDOVER -26 26 0 2 FOLD:player1 WIN:3:test2 9.961214795000005
+NEWHAND 42 false 5s 3c 6h 4s -26 26 9.961215
+['5s', '3c', '6h', '4s']
+20
+GETACTION 4 0 3 POST:1:test2 POST:2:player1 CALL:test2 2 CHECK RAISE:4:6 9.961214795000005
+[]
+['POST:1:test2', 'POST:2:player1', 'CALL:test2']
+['CHECK', 'RAISE:4:6']
+{'FOLD': False, 'CALL': False, 'RAISE': True, 'BET': False, 'CHECK': True}
+GETACTION 4 3 4c Th 7c 2 CHECK:player1 DEAL:FLOP 2 CHECK BET:2:4 9.960930649000005
+['4c', 'Th', '7c']
+['CHECK:player1', 'DEAL:FLOP']
+['CHECK', 'BET:2:4']
+{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
+GETACTION 6 3 4c Th 7c 2 CHECK:player1 BET:2:test2 3 FOLD CALL RAISE:4:10 9.960645782000006
+['4c', 'Th', '7c']
+['CHECK:player1', 'BET:2:test2']
+0
+-26
+['FOLD', 'CALL', 'RAISE:4:10']
+{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
+HANDOVER -28 28 3 4c Th 7c 3 FOLD:player1 REFUND:2:test2 WIN:4:test2 9.960415703000006
+NEWHAND 43 true 2s 8s Js Ts -28 28 9.960416
+['2s', '8s', 'Js', 'Ts']
+6
+GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.960415703000006
+[]
+['POST:1:player1', 'POST:2:test2']
+0
+-28
+['CALL', 'FOLD', 'RAISE:4:6']
+{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
+HANDOVER -29 29 0 2 FOLD:player1 WIN:3:test2 9.960180180000005
+NEWHAND 44 false Ks 9d 8s 2h -29 29 9.960180
+['Ks', '9d', '8s', '2h']
+10
+GETACTION 7 0 3 POST:1:test2 POST:2:player1 RAISE:5:test2 3 FOLD CALL RAISE:8:15 9.960180180000005
+[]
+['POST:1:test2', 'POST:2:player1', 'RAISE:5:test2']
+0
+-29
+['FOLD', 'CALL', 'RAISE:8:15']
+{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
+HANDOVER -31 31 0 3 FOLD:player1 REFUND:3:test2 WIN:4:test2 9.959891208000005
+NEWHAND 45 true 7h 6h Ks Kd -31 31 9.959891
+['7h', '6h', 'Ks', 'Kd']
+17
+GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.959891208000005
+[]
+['POST:1:player1', 'POST:2:test2']
+0
+-31
+['CALL', 'FOLD', 'RAISE:4:6']
+{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
+HANDOVER -32 32 0 2 FOLD:player1 WIN:3:test2 9.959316863000005
+NEWHAND 46 false 6h 4h 2c 3c -32 32 9.959317
+['6h', '4h', '2c', '3c']
+20
+HANDOVER -31 31 0 4 POST:1:test2 POST:2:player1 FOLD:test2 WIN:3:player1 9.959316863000005
+NEWHAND 47 true Ac 5s Qh 5c -31 31 9.959317
+['Ac', '5s', 'Qh', '5c']
+5
+GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.959316863000005
+[]
+['POST:1:player1', 'POST:2:test2']
+0
+-31
+['CALL', 'FOLD', 'RAISE:4:6']
+{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
+HANDOVER -32 32 0 2 FOLD:player1 WIN:3:test2 9.953380321000004
+NEWHAND 48 false 5s 2s 9d Ks -32 32 9.953380
+['5s', '2s', '9d', 'Ks']
+3
+GETACTION 4 0 3 POST:1:test2 POST:2:player1 CALL:test2 2 CHECK RAISE:4:6 9.953380321000004
+[]
+['POST:1:test2', 'POST:2:player1', 'CALL:test2']
+['CHECK', 'RAISE:4:6']
+{'FOLD': False, 'CALL': False, 'RAISE': True, 'BET': False, 'CHECK': True}
+GETACTION 4 3 8s 5h Qs 2 CHECK:player1 DEAL:FLOP 2 CHECK BET:2:4 9.950733111000005
+['8s', '5h', 'Qs']
+['CHECK:player1', 'DEAL:FLOP']
+['CHECK', 'BET:2:4']
+{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
+GETACTION 7 3 8s 5h Qs 2 CHECK:player1 BET:3:test2 3 FOLD CALL RAISE:6:13 9.950191952000004
+['8s', '5h', 'Qs']
+['CHECK:player1', 'BET:3:test2']
+0
+-32
+['FOLD', 'CALL', 'RAISE:6:13']
+{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
+HANDOVER -34 34 3 8s 5h Qs 3 FOLD:player1 REFUND:3:test2 WIN:4:test2 9.949803548000004
+NEWHAND 49 true 9h 6h 5s 6s -34 34 9.949804
+['9h', '6h', '5s', '6s']
+15
+GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.949803548000004
+[]
+['POST:1:player1', 'POST:2:test2']
+0
+-34
+['CALL', 'FOLD', 'RAISE:4:6']
+{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
+HANDOVER -35 35 0 2 FOLD:player1 WIN:3:test2 9.948655506000003
+NEWHAND 50 false 4h Jd Ah 3h -35 35 9.948656
+['4h', 'Jd', 'Ah', '3h']
+8
+GETACTION 4 0 3 POST:1:test2 POST:2:player1 CALL:test2 2 CHECK RAISE:4:6 9.948655506000003
+[]
+['POST:1:test2', 'POST:2:player1', 'CALL:test2']
+['CHECK', 'RAISE:4:6']
+{'FOLD': False, 'CALL': False, 'RAISE': True, 'BET': False, 'CHECK': True}
+GETACTION 4 3 3c 4c 8s 2 CHECK:player1 DEAL:FLOP 2 CHECK BET:2:4 9.948276476000004
+['3c', '4c', '8s']
+['CHECK:player1', 'DEAL:FLOP']
+['CHECK', 'BET:2:4']
+{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
+GETACTION 6 3 3c 4c 8s 2 CHECK:player1 BET:2:test2 3 FOLD CALL RAISE:4:10 9.947827663000004
+['3c', '4c', '8s']
+['CHECK:player1', 'BET:2:test2']
+0
+-35
+['FOLD', 'CALL', 'RAISE:4:10']
+{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
+HANDOVER -37 37 3 3c 4c 8s 3 FOLD:player1 REFUND:2:test2 WIN:4:test2 9.947426325000004
+NEWHAND 51 true 6d 7h Jc 8c -37 37 9.947426
+['6d', '7h', 'Jc', '8c']
+15
+GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.947426325000004
+[]
+['POST:1:player1', 'POST:2:test2']
+0
+-37
+['CALL', 'FOLD', 'RAISE:4:6']
+{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
+HANDOVER -38 38 0 2 FOLD:player1 WIN:3:test2 9.945612431000004
+NEWHAND 52 false Ah 5s Qs 4h -38 38 9.945612
+['Ah', '5s', 'Qs', '4h']
+15
+GETACTION 7 0 3 POST:1:test2 POST:2:player1 RAISE:5:test2 3 FOLD CALL RAISE:8:15 9.945612431000004
+[]
+['POST:1:test2', 'POST:2:player1', 'RAISE:5:test2']
+0
+-38
+['FOLD', 'CALL', 'RAISE:8:15']
+{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
+HANDOVER -40 40 0 3 FOLD:player1 REFUND:3:test2 WIN:4:test2 9.944937442000004
+NEWHAND 53 true Qd 8d 2s Td -40 40 9.944937
+['Qd', '8d', '2s', 'Td']
+3
+GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.944937442000004
+[]
+['POST:1:player1', 'POST:2:test2']
+0
+-40
+['CALL', 'FOLD', 'RAISE:4:6']
+{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
+HANDOVER -41 41 0 2 FOLD:player1 WIN:3:test2 9.944494500000005
+NEWHAND 54 false 2h 8s Jc 2s -41 41 9.944495
+['2h', '8s', 'Jc', '2s']
+5
+GETACTION 6 0 3 POST:1:test2 POST:2:player1 RAISE:4:test2 3 FOLD CALL RAISE:6:12 9.944494500000005
+[]
+['POST:1:test2', 'POST:2:player1', 'RAISE:4:test2']
+0
+-41
+['FOLD', 'CALL', 'RAISE:6:12']
+{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
+HANDOVER -43 43 0 3 FOLD:player1 REFUND:2:test2 WIN:4:test2 9.935569652000005
+NEWHAND 55 true 4h As 8c Kh -43 43 9.935570
+['4h', 'As', '8c', 'Kh']
+10
+GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.935569652000005
+[]
+['POST:1:player1', 'POST:2:test2']
+0
+-43
+['CALL', 'FOLD', 'RAISE:4:6']
+{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
+HANDOVER -44 44 0 2 FOLD:player1 WIN:3:test2 9.934378054000005
+NEWHAND 56 false 6c 9d 8c 4h -44 44 9.934378
+['6c', '9d', '8c', '4h']
+10
+GETACTION 6 0 3 POST:1:test2 POST:2:player1 RAISE:4:test2 3 FOLD CALL RAISE:6:12 9.934378054000005
+[]
+['POST:1:test2', 'POST:2:player1', 'RAISE:4:test2']
+0
+-44
+['FOLD', 'CALL', 'RAISE:6:12']
+{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
+HANDOVER -46 46 0 3 FOLD:player1 REFUND:2:test2 WIN:4:test2 9.933909053000004
+NEWHAND 57 true Jd 8h Qd Th -46 46 9.933909
+['Jd', '8h', 'Qd', 'Th']
+20
+GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.933909053000004
+[]
+['POST:1:player1', 'POST:2:test2']
+0
+-46
+['CALL', 'FOLD', 'RAISE:4:6']
+{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
+HANDOVER -47 47 0 2 FOLD:player1 WIN:3:test2 9.933482503000004
+NEWHAND 58 false Kc 4c 8d 3d -47 47 9.933483
+['Kc', '4c', '8d', '3d']
+15
+GETACTION 4 0 3 POST:1:test2 POST:2:player1 CALL:test2 2 CHECK RAISE:4:6 9.933482503000004
+[]
+['POST:1:test2', 'POST:2:player1', 'CALL:test2']
+['CHECK', 'RAISE:4:6']
+{'FOLD': False, 'CALL': False, 'RAISE': True, 'BET': False, 'CHECK': True}
+GETACTION 4 3 Qc 9h Td 2 CHECK:player1 DEAL:FLOP 2 CHECK BET:2:4 9.933087793000004
+['Qc', '9h', 'Td']
+['CHECK:player1', 'DEAL:FLOP']
+['CHECK', 'BET:2:4']
+{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
+GETACTION 4 4 Qc 9h Td 9s 3 CHECK:player1 CHECK:test2 DEAL:TURN 2 CHECK BET:2:4 9.932633125000004
+['Qc', '9h', 'Td', '9s']
+['CHECK:player1', 'CHECK:test2', 'DEAL:TURN']
+['CHECK', 'BET:2:4']
+{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
+GETACTION 4 5 Qc 9h Td 9s Js 3 CHECK:player1 CHECK:test2 DEAL:RIVER 2 CHECK BET:2:4 9.931214796000004
+['Qc', '9h', 'Td', '9s', 'Js']
+['CHECK:player1', 'CHECK:test2', 'DEAL:RIVER']
+['CHECK', 'BET:2:4']
+{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
+GETACTION 6 5 Qc 9h Td 9s Js 2 CHECK:player1 BET:2:test2 3 FOLD CALL RAISE:4:10 9.930820974000005
+['Qc', '9h', 'Td', '9s', 'Js']
+['CHECK:player1', 'BET:2:test2']
+0
+-47
+['FOLD', 'CALL', 'RAISE:4:10']
+{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
+HANDOVER -49 49 5 Qc 9h Td 9s Js 3 FOLD:player1 REFUND:2:test2 WIN:4:test2 9.930340030000005
+NEWHAND 59 true 4s Qd 2c 8c -49 49 9.930340
+['4s', 'Qd', '2c', '8c']
+5
+GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.930340030000005
+[]
+['POST:1:player1', 'POST:2:test2']
+0
+-49
+['CALL', 'FOLD', 'RAISE:4:6']
+{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
+HANDOVER -50 50 0 2 FOLD:player1 WIN:3:test2 9.929969798000005
+NEWHAND 60 false 2c Jd 4s Ad -50 50 9.929970
+['2c', 'Jd', '4s', 'Ad']
+10
+GETACTION 4 0 3 POST:1:test2 POST:2:player1 CALL:test2 2 CHECK RAISE:4:6 9.929969798000005
+[]
+['POST:1:test2', 'POST:2:player1', 'CALL:test2']
+['CHECK', 'RAISE:4:6']
+{'FOLD': False, 'CALL': False, 'RAISE': True, 'BET': False, 'CHECK': True}
+GETACTION 4 3 Td Jc 7c 2 CHECK:player1 DEAL:FLOP 2 CHECK BET:2:4 9.929701008000006
+['Td', 'Jc', '7c']
+['CHECK:player1', 'DEAL:FLOP']
+['CHECK', 'BET:2:4']
+{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
+GETACTION 4 4 Td Jc 7c 3h 3 CHECK:player1 CHECK:test2 DEAL:TURN 2 CHECK BET:2:4 9.929388976000006
+['Td', 'Jc', '7c', '3h']
+['CHECK:player1', 'CHECK:test2', 'DEAL:TURN']
+['CHECK', 'BET:2:4']
+{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
+GETACTION 7 4 Td Jc 7c 3h 2 CHECK:player1 BET:3:test2 3 FOLD CALL RAISE:6:13 9.929095191000005
+['Td', 'Jc', '7c', '3h']
+['CHECK:player1', 'BET:3:test2']
+0
+-50
+['FOLD', 'CALL', 'RAISE:6:13']
+{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
+HANDOVER -52 52 4 Td Jc 7c 3h 3 FOLD:player1 REFUND:3:test2 WIN:4:test2 9.928878768000006
+NEWHAND 61 true Td 9c 9h 9s -52 52 9.928879
+['Td', '9c', '9h', '9s']
+5
+GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.928878768000006
+[]
+['POST:1:player1', 'POST:2:test2']
+0
+-52
+['CALL', 'FOLD', 'RAISE:4:6']
+{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
+HANDOVER -53 53 0 2 FOLD:player1 WIN:3:test2 9.928678280000005
+NEWHAND 62 false 7s 2c 4d Ks -53 53 9.928678
+['7s', '2c', '4d', 'Ks']
+5
+HANDOVER -52 52 0 4 POST:1:test2 POST:2:player1 FOLD:test2 WIN:3:player1 9.928678280000005
+NEWHAND 63 true 7s Jc 3s Kd -52 52 9.928678
+['7s', 'Jc', '3s', 'Kd']
+5
+GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.928678280000005
+[]
+['POST:1:player1', 'POST:2:test2']
+0
+-52
+['CALL', 'FOLD', 'RAISE:4:6']
+{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
+HANDOVER -53 53 0 2 FOLD:player1 WIN:3:test2 9.928465864000005
+NEWHAND 64 false 9s 5d 3s Qd -53 53 9.928466
+['9s', '5d', '3s', 'Qd']
+10
+HANDOVER -52 52 0 4 POST:1:test2 POST:2:player1 FOLD:test2 WIN:3:player1 9.928465864000005
+NEWHAND 65 true Qs Kc 4s Ks -52 52 9.928466
+['Qs', 'Kc', '4s', 'Ks']
+15
+GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.928465864000005
+[]
+['POST:1:player1', 'POST:2:test2']
+0
+-52
+['CALL', 'FOLD', 'RAISE:4:6']
+{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
+HANDOVER -53 53 0 2 FOLD:player1 WIN:3:test2 9.928228636000005
+NEWHAND 66 false Jh Kd Js 4s -53 53 9.928229
+['Jh', 'Kd', 'Js', '4s']
+7
+GETACTION 4 0 3 POST:1:test2 POST:2:player1 CALL:test2 2 CHECK RAISE:4:6 9.928228636000005
+[]
+['POST:1:test2', 'POST:2:player1', 'CALL:test2']
+['CHECK', 'RAISE:4:6']
+{'FOLD': False, 'CALL': False, 'RAISE': True, 'BET': False, 'CHECK': True}
+GETACTION 4 3 7c 4d Kc 2 CHECK:player1 DEAL:FLOP 2 CHECK BET:2:4 9.926608873000005
+['7c', '4d', 'Kc']
+['CHECK:player1', 'DEAL:FLOP']
+['CHECK', 'BET:2:4']
+{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
+GETACTION 4 4 7c 4d Kc 6c 3 CHECK:player1 CHECK:test2 DEAL:TURN 2 CHECK BET:2:4 9.926004098000005
+['7c', '4d', 'Kc', '6c']
+['CHECK:player1', 'CHECK:test2', 'DEAL:TURN']
+['CHECK', 'BET:2:4']
+{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
+GETACTION 7 4 7c 4d Kc 6c 2 CHECK:player1 BET:3:test2 3 FOLD CALL RAISE:6:13 9.925578239000005
+['7c', '4d', 'Kc', '6c']
+['CHECK:player1', 'BET:3:test2']
+0
+-53
+['FOLD', 'CALL', 'RAISE:6:13']
+{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
+HANDOVER -55 55 4 7c 4d Kc 6c 3 FOLD:player1 REFUND:3:test2 WIN:4:test2 9.925213255000005
+NEWHAND 67 true Ks 5s Ac 8s -55 55 9.925213
+['Ks', '5s', 'Ac', '8s']
+8
+GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.925213255000005
+[]
+['POST:1:player1', 'POST:2:test2']
+0
+-55
+['CALL', 'FOLD', 'RAISE:4:6']
+{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
+HANDOVER -56 56 0 2 FOLD:player1 WIN:3:test2 9.923450108000004
+NEWHAND 68 false 3c Jd 2d 8d -56 56 9.923450
+['3c', 'Jd', '2d', '8d']
+8
+GETACTION 7 0 3 POST:1:test2 POST:2:player1 RAISE:5:test2 3 FOLD CALL RAISE:8:15 9.923450108000004
+[]
+['POST:1:test2', 'POST:2:player1', 'RAISE:5:test2']
+0
+-56
+['FOLD', 'CALL', 'RAISE:8:15']
+{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
+HANDOVER -58 58 0 3 FOLD:player1 REFUND:3:test2 WIN:4:test2 9.922924464000005
+NEWHAND 69 true 9d Td 7d Qd -58 58 9.922924
+['9d', 'Td', '7d', 'Qd']
+6
+GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.922924464000005
+[]
+['POST:1:player1', 'POST:2:test2']
+0
+-58
+['CALL', 'FOLD', 'RAISE:4:6']
+{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
+HANDOVER -59 59 0 2 FOLD:player1 WIN:3:test2 9.921759740000004
+NEWHAND 70 false 9c Ac Qd 5s -59 59 9.921760
+['9c', 'Ac', 'Qd', '5s']
+5
+HANDOVER -58 58 0 4 POST:1:test2 POST:2:player1 FOLD:test2 WIN:3:player1 9.921759740000004
+NEWHAND 71 true 3d 5c 9s Qh -58 58 9.921760
+['3d', '5c', '9s', 'Qh']
+0
+GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.921759740000004
+[]
+['POST:1:player1', 'POST:2:test2']
+0
+-58
+['CALL', 'FOLD', 'RAISE:4:6']
+{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
+HANDOVER -59 59 0 2 FOLD:player1 WIN:3:test2 9.917513078000004
+NEWHAND 72 false 7s 2c Ac 8c -59 59 9.917513
+['7s', '2c', 'Ac', '8c']
+13
+HANDOVER -58 58 0 4 POST:1:test2 POST:2:player1 FOLD:test2 WIN:3:player1 9.917513078000004
+NEWHAND 73 true 7c As 4c 7h -58 58 9.917513
+['7c', 'As', '4c', '7h']
+5
+GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.917513078000004
+[]
+['POST:1:player1', 'POST:2:test2']
+0
+-58
+['CALL', 'FOLD', 'RAISE:4:6']
+{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
+HANDOVER -59 59 0 2 FOLD:player1 WIN:3:test2 9.916830433000005
+NEWHAND 74 false 2d Kc 5c 6c -59 59 9.916830
+['2d', 'Kc', '5c', '6c']
+8
+HANDOVER -58 58 0 4 POST:1:test2 POST:2:player1 FOLD:test2 WIN:3:player1 9.916830433000005
+NEWHAND 75 true Kc Td Ah Jc -58 58 9.916830
+['Kc', 'Td', 'Ah', 'Jc']
+15
+GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.916830433000005
+[]
+['POST:1:player1', 'POST:2:test2']
+0
+-58
+['CALL', 'FOLD', 'RAISE:4:6']
+{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
+HANDOVER -59 59 0 2 FOLD:player1 WIN:3:test2 9.916355006000005
+NEWHAND 76 false 6h 5s 6c Jc -59 59 9.916355
+['6h', '5s', '6c', 'Jc']
+10
+HANDOVER -58 58 0 4 POST:1:test2 POST:2:player1 FOLD:test2 WIN:3:player1 9.916355006000005
+NEWHAND 77 true Ah 8s 2c 6d -58 58 9.916355
+['Ah', '8s', '2c', '6d']
+5
+GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.916355006000005
+[]
+['POST:1:player1', 'POST:2:test2']
+0
+-58
+['CALL', 'FOLD', 'RAISE:4:6']
+{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
+HANDOVER -59 59 0 2 FOLD:player1 WIN:3:test2 9.916026534000006
+NEWHAND 78 false As Ah 8s 4c -59 59 9.916027
+['As', 'Ah', '8s', '4c']
+10005
+GETACTION 4 0 3 POST:1:test2 POST:2:player1 CALL:test2 2 CHECK RAISE:4:6 9.916026534000006
+[]
+['POST:1:test2', 'POST:2:player1', 'CALL:test2']
+['CHECK', 'RAISE:4:6']
+{'FOLD': False, 'CALL': False, 'RAISE': True, 'BET': False, 'CHECK': True}
+GETACTION 12 3 2c Qd 5d 3 RAISE:6:player1 CALL:test2 DEAL:FLOP 2 CHECK BET:2:12 9.915613263000006
+['2c', 'Qd', '5d']
 ['RAISE:6:player1', 'CALL:test2', 'DEAL:FLOP']
 ['CHECK', 'BET:2:12']
 {'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-GETACTION 12 4 5s Tc 2c Ks 3 CHECK:player1 CHECK:test2 DEAL:TURN 2 CHECK BET:2:12 9.943528619000006
-['5s', 'Tc', '2c', 'Ks']
-['CHECK:player1', 'CHECK:test2', 'DEAL:TURN']
-['CHECK', 'BET:2:12']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-GETACTION 12 5 5s Tc 2c Ks 4h 3 CHECK:player1 CHECK:test2 DEAL:RIVER 2 CHECK BET:2:12 9.943307465000006
-['5s', 'Tc', '2c', 'Ks', '4h']
-['CHECK:player1', 'CHECK:test2', 'DEAL:RIVER']
-['CHECK', 'BET:2:12']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-HANDOVER 466 -466 5 5s Tc 2c Ks 4h 5 CHECK:player1 CHECK:test2 SHOW:Qc:Kd:Jc:Qh:test2 SHOW:4d:2s:Td:5c:player1 WIN:12:player1 9.943086306000005
-NEWHAND 59 true 3d Qc 7s 4d 466 -466 9.943086
-['3d', 'Qc', '7s', '4d']
-10
-GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.943086306000005
-[]
-['POST:1:player1', 'POST:2:test2']
-['CALL', 'FOLD', 'RAISE:4:6']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-HANDOVER 468 -468 0 4 RAISE:6:player1 FOLD:test2 REFUND:4:player1 WIN:4:player1 9.942640443000005
-NEWHAND 60 false Js 5d 7h 5s 468 -468 9.942640
-['Js', '5d', '7h', '5s']
+HANDOVER -53 53 3 2c Qd 5d 4 BET:12:player1 FOLD:test2 REFUND:12:player1 WIN:12:player1 9.915228773000006
+NEWHAND 79 true 2c Js 5h 3d -53 53 9.915229
+['2c', 'Js', '5h', '3d']
 5
-GETACTION 4 0 3 POST:1:test2 POST:2:player1 CALL:test2 2 CHECK RAISE:4:6 9.942640443000005
-[]
-['POST:1:test2', 'POST:2:player1', 'CALL:test2']
-['CHECK', 'RAISE:4:6']
-{'FOLD': False, 'CALL': False, 'RAISE': True, 'BET': False, 'CHECK': True}
-GETACTION 4 3 Kh Jd As 2 CHECK:player1 DEAL:FLOP 2 CHECK BET:2:4 9.941490140000006
-['Kh', 'Jd', 'As']
-['CHECK:player1', 'DEAL:FLOP']
-['CHECK', 'BET:2:4']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-GETACTION 7 3 Kh Jd As 2 CHECK:player1 BET:3:test2 3 FOLD CALL RAISE:6:13 9.940908836000006
-['Kh', 'Jd', 'As']
-['CHECK:player1', 'BET:3:test2']
-['FOLD', 'CALL', 'RAISE:6:13']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 10 4 Kh Jd As Kc 2 CALL:player1 DEAL:TURN 2 CHECK BET:2:10 9.940611570000005
-['Kh', 'Jd', 'As', 'Kc']
-['CALL:player1', 'DEAL:TURN']
-['CHECK', 'BET:2:10']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-GETACTION 16 4 Kh Jd As Kc 2 CHECK:player1 BET:6:test2 3 FOLD CALL RAISE:12:28 9.940314698000005
-['Kh', 'Jd', 'As', 'Kc']
-['CHECK:player1', 'BET:6:test2']
-['FOLD', 'CALL', 'RAISE:12:28']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 22 5 Kh Jd As Kc 4c 2 CALL:player1 DEAL:RIVER 2 CHECK BET:2:22 9.940047588000006
-['Kh', 'Jd', 'As', 'Kc', '4c']
-['CALL:player1', 'DEAL:RIVER']
-['CHECK', 'BET:2:22']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-GETACTION 31 5 Kh Jd As Kc 4c 2 CHECK:player1 BET:9:test2 3 FOLD CALL RAISE:18:49 9.939762724000007
-['Kh', 'Jd', 'As', 'Kc', '4c']
-['CHECK:player1', 'BET:9:test2']
-['FOLD', 'CALL', 'RAISE:18:49']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-HANDOVER 448 -448 5 Kh Jd As Kc 4c 4 CALL:player1 SHOW:3s:2d:8s:Ks:test2 SHOW:Js:5d:7h:5s:player1 WIN:40:test2 9.939490287000007
-NEWHAND 61 true 2c 6s Jc 9s 448 -448 9.939490
-['2c', '6s', 'Jc', '9s']
-10
-GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.939490287000007
+GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.915228773000006
 []
 ['POST:1:player1', 'POST:2:test2']
+0
+-53
 ['CALL', 'FOLD', 'RAISE:4:6']
 {'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 16 0 2 RAISE:6:player1 RAISE:10:test2 3 FOLD CALL RAISE:14:30 9.939119403000007
-[]
-['RAISE:6:player1', 'RAISE:10:test2']
-['FOLD', 'CALL', 'RAISE:14:30']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 118 0 2 RAISE:30:player1 RAISE:88:test2 3 FOLD CALL RAISE:146:170 9.938820053000006
-[]
-['RAISE:30:player1', 'RAISE:88:test2']
-['FOLD', 'CALL', 'RAISE:146:170']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 340 3 Qd 3s 9h 4 RAISE:170:player1 CALL:test2 DEAL:FLOP CHECK:test2 2 CHECK BET:2:30 9.938551204000007
-['Qd', '3s', '9h']
-['RAISE:170:player1', 'CALL:test2', 'DEAL:FLOP', 'CHECK:test2']
-['CHECK', 'BET:2:30']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-GETACTION 340 4 Qd 3s 9h 9c 3 CHECK:player1 DEAL:TURN CHECK:test2 2 CHECK BET:2:30 9.938296064000006
-['Qd', '3s', '9h', '9c']
-['CHECK:player1', 'DEAL:TURN', 'CHECK:test2']
-['CHECK', 'BET:2:30']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-GETACTION 340 5 Qd 3s 9h 9c Qc 3 CHECK:player1 DEAL:RIVER CHECK:test2 2 CHECK BET:2:30 9.938062720000007
-['Qd', '3s', '9h', '9c', 'Qc']
-['CHECK:player1', 'DEAL:RIVER', 'CHECK:test2']
-['CHECK', 'BET:2:30']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-HANDOVER 618 -618 5 Qd 3s 9h 9c Qc 4 CHECK:player1 SHOW:2c:6s:Jc:9s:player1 SHOW:Ac:8d:8h:8c:test2 WIN:340:player1 9.937822644000006
-NEWHAND 62 false 9s Td Kd 5h 618 -618 9.937823
-['9s', 'Td', 'Kd', '5h']
-10
-HANDOVER 619 -619 0 4 POST:1:test2 POST:2:player1 FOLD:test2 WIN:3:player1 9.937822644000006
-NEWHAND 63 true 2c Td 6s 6c 619 -619 9.937823
-['2c', 'Td', '6s', '6c']
-5
-GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.937822644000006
-[]
-['POST:1:player1', 'POST:2:test2']
-['CALL', 'FOLD', 'RAISE:4:6']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 7 3 4s 4h 7h 4 CALL:player1 CHECK:test2 DEAL:FLOP BET:3:test2 3 FOLD CALL RAISE:6:13 9.937406149000006
-['4s', '4h', '7h']
-['CALL:player1', 'CHECK:test2', 'DEAL:FLOP', 'BET:3:test2']
-['FOLD', 'CALL', 'RAISE:6:13']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 17 4 4s 4h 7h 5d 3 CALL:player1 DEAL:TURN BET:7:test2 3 FOLD CALL RAISE:14:31 9.937155544000007
-['4s', '4h', '7h', '5d']
-['CALL:player1', 'DEAL:TURN', 'BET:7:test2']
-['FOLD', 'CALL', 'RAISE:14:31']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 24 5 4s 4h 7h 5d As 3 CALL:player1 DEAL:RIVER CHECK:test2 2 CHECK BET:2:24 9.936796921000006
-['4s', '4h', '7h', '5d', 'As']
-['CALL:player1', 'DEAL:RIVER', 'CHECK:test2']
-['CHECK', 'BET:2:24']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-HANDOVER 607 -607 5 4s 4h 7h 5d As 4 CHECK:player1 SHOW:2c:Td:6s:6c:player1 SHOW:7d:Ts:Qh:8h:test2 WIN:24:test2 9.936445655000007
-NEWHAND 64 false 7s Ad 5h 8c 607 -607 9.936446
-['7s', 'Ad', '5h', '8c']
-5
-GETACTION 4 0 3 POST:1:test2 POST:2:player1 CALL:test2 2 CHECK RAISE:4:6 9.936445655000007
-[]
-['POST:1:test2', 'POST:2:player1', 'CALL:test2']
-['CHECK', 'RAISE:4:6']
-{'FOLD': False, 'CALL': False, 'RAISE': True, 'BET': False, 'CHECK': True}
-GETACTION 4 3 Tc Qc Ks 2 CHECK:player1 DEAL:FLOP 2 CHECK BET:2:4 9.936222243000007
-['Tc', 'Qc', 'Ks']
-['CHECK:player1', 'DEAL:FLOP']
-['CHECK', 'BET:2:4']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-GETACTION 7 3 Tc Qc Ks 2 CHECK:player1 BET:3:test2 3 FOLD CALL RAISE:6:13 9.936022415000007
-['Tc', 'Qc', 'Ks']
-['CHECK:player1', 'BET:3:test2']
-['FOLD', 'CALL', 'RAISE:6:13']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 10 4 Tc Qc Ks 9d 2 CALL:player1 DEAL:TURN 2 CHECK BET:2:10 9.935851970000007
-['Tc', 'Qc', 'Ks', '9d']
-['CALL:player1', 'DEAL:TURN']
-['CHECK', 'BET:2:10']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-GETACTION 10 5 Tc Qc Ks 9d Kh 3 CHECK:player1 CHECK:test2 DEAL:RIVER 2 CHECK BET:2:10 9.935643183000007
-['Tc', 'Qc', 'Ks', '9d', 'Kh']
-['CHECK:player1', 'CHECK:test2', 'DEAL:RIVER']
-['CHECK', 'BET:2:10']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-HANDOVER 612 -612 5 Tc Qc Ks 9d Kh 5 CHECK:player1 CHECK:test2 SHOW:2c:6h:7h:Js:test2 SHOW:7s:Ad:5h:8c:player1 WIN:10:player1 9.935452594000006
-NEWHAND 65 true Qc 9d 7c Js 612 -612 9.935453
-['Qc', '9d', '7c', 'Js']
-10
-GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.935452594000006
-[]
-['POST:1:player1', 'POST:2:test2']
-['CALL', 'FOLD', 'RAISE:4:6']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-HANDOVER 614 -614 0 4 RAISE:6:player1 FOLD:test2 REFUND:4:player1 WIN:4:player1 9.935216592000007
-NEWHAND 66 false 5h Qc 3h 6s 614 -614 9.935217
-['5h', 'Qc', '3h', '6s']
-10
-GETACTION 7 0 3 POST:1:test2 POST:2:player1 RAISE:5:test2 3 FOLD CALL RAISE:8:15 9.935216592000007
-[]
-['POST:1:test2', 'POST:2:player1', 'RAISE:5:test2']
-['FOLD', 'CALL', 'RAISE:8:15']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 55 0 2 RAISE:15:player1 RAISE:40:test2 3 FOLD CALL RAISE:65:120 9.935030919000006
-[]
-['RAISE:15:player1', 'RAISE:40:test2']
-['FOLD', 'CALL', 'RAISE:65:120']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 240 3 8h 4c Qs 3 RAISE:120:player1 CALL:test2 DEAL:FLOP 2 CHECK BET:2:80 9.934850217000006
-['8h', '4c', 'Qs']
-['RAISE:120:player1', 'CALL:test2', 'DEAL:FLOP']
-['CHECK', 'BET:2:80']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-GETACTION 313 3 8h 4c Qs 2 CHECK:player1 BET:73:test2 3 FOLD CALL RAISE:80:80 9.934657341000007
-['8h', '4c', 'Qs']
-['CHECK:player1', 'BET:73:test2']
-['FOLD', 'CALL', 'RAISE:80:80']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 386 4 8h 4c Qs 6d 2 CALL:player1 DEAL:TURN 2 CHECK BET:2:7 9.934497365000006
-['8h', '4c', 'Qs', '6d']
-['CALL:player1', 'DEAL:TURN']
-['CHECK', 'BET:2:7']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-GETACTION 386 5 8h 4c Qs 6d 4d 3 CHECK:player1 CHECK:test2 DEAL:RIVER 2 CHECK BET:2:7 9.934301158000006
-['8h', '4c', 'Qs', '6d', '4d']
-['CHECK:player1', 'CHECK:test2', 'DEAL:RIVER']
-['CHECK', 'BET:2:7']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-HANDOVER 807 -807 5 8h 4c Qs 6d 4d 5 CHECK:player1 CHECK:test2 SHOW:Jd:8d:Jc:Kc:test2 SHOW:5h:Qc:3h:6s:player1 WIN:386:player1 9.934122146000005
-NEWHAND 67 true 7c 8h Ad 5h 807 -807 9.934122
-['7c', '8h', 'Ad', '5h']
-10
-GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.934122146000005
-[]
-['POST:1:player1', 'POST:2:test2']
-['CALL', 'FOLD', 'RAISE:4:6']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 18 0 2 RAISE:6:player1 RAISE:12:test2 3 FOLD CALL RAISE:18:36 9.933912823000005
-[]
-['RAISE:6:player1', 'RAISE:12:test2']
-['FOLD', 'CALL', 'RAISE:18:36']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 130 3 9c 5d Jh 4 RAISE:36:player1 CALL:test2 DEAL:FLOP BET:58:test2 3 FOLD CALL RAISE:116:164 9.933737185000005
-['9c', '5d', 'Jh']
-['RAISE:36:player1', 'CALL:test2', 'DEAL:FLOP', 'BET:58:test2']
-['FOLD', 'CALL', 'RAISE:116:164']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 188 4 9c 5d Jh 2h 3 CALL:player1 DEAL:TURN CHECK:test2 2 CHECK BET:2:106 9.933525379000006
-['9c', '5d', 'Jh', '2h']
-['CALL:player1', 'DEAL:TURN', 'CHECK:test2']
-['CHECK', 'BET:2:106']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-GETACTION 248 5 9c 5d Jh 2h Ks 3 CHECK:player1 DEAL:RIVER BET:60:test2 3 FOLD CALL RAISE:106:106 9.933299183000006
-['9c', '5d', 'Jh', '2h', 'Ks']
-['CHECK:player1', 'DEAL:RIVER', 'BET:60:test2']
-['FOLD', 'CALL', 'RAISE:106:106']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-HANDOVER 653 -653 5 9c 5d Jh 2h Ks 4 CALL:player1 SHOW:7c:8h:Ad:5h:player1 SHOW:2s:Qc:Qh:Jc:test2 WIN:308:test2 9.932963004000007
-NEWHAND 68 false 5s 2d Jd 4s 653 -653 9.932963
-['5s', '2d', 'Jd', '4s']
-15
-GETACTION 4 0 3 POST:1:test2 POST:2:player1 CALL:test2 2 CHECK RAISE:4:6 9.932963004000007
-[]
-['POST:1:test2', 'POST:2:player1', 'CALL:test2']
-['CHECK', 'RAISE:4:6']
-{'FOLD': False, 'CALL': False, 'RAISE': True, 'BET': False, 'CHECK': True}
-GETACTION 18 0 2 RAISE:6:player1 RAISE:12:test2 3 FOLD CALL RAISE:18:36 9.932557936000007
-[]
-['RAISE:6:player1', 'RAISE:12:test2']
-['FOLD', 'CALL', 'RAISE:18:36']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-HANDOVER 665 -665 0 4 RAISE:36:player1 FOLD:test2 REFUND:24:player1 WIN:24:player1 9.932218256000008
-NEWHAND 69 true 7h Th 5c 5h 665 -665 9.932218
-['7h', 'Th', '5c', '5h']
+HANDOVER -54 54 0 2 FOLD:player1 WIN:3:test2 9.914442138000005
+NEWHAND 80 false Ah 3c 7h 9h -54 54 9.914442
+['Ah', '3c', '7h', '9h']
 3
-GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.932218256000008
+HANDOVER -53 53 0 4 POST:1:test2 POST:2:player1 FOLD:test2 WIN:3:player1 9.914442138000005
+NEWHAND 81 true 7s Kc Jd 6d -53 53 9.914442
+['7s', 'Kc', 'Jd', '6d']
+10
+GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.914442138000005
 []
 ['POST:1:player1', 'POST:2:test2']
+0
+-53
 ['CALL', 'FOLD', 'RAISE:4:6']
 {'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 6 3 4h 8d 9d 4 CALL:player1 CHECK:test2 DEAL:FLOP BET:2:test2 3 FOLD CALL RAISE:4:10 9.931987004000007
-['4h', '8d', '9d']
-['CALL:player1', 'CHECK:test2', 'DEAL:FLOP', 'BET:2:test2']
-['FOLD', 'CALL', 'RAISE:4:10']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 8 4 4h 8d 9d 4d 3 CALL:player1 DEAL:TURN CHECK:test2 2 CHECK BET:2:8 9.931777219000008
-['4h', '8d', '9d', '4d']
-['CALL:player1', 'DEAL:TURN', 'CHECK:test2']
-['CHECK', 'BET:2:8']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-GETACTION 8 5 4h 8d 9d 4d Tc 3 CHECK:player1 DEAL:RIVER CHECK:test2 2 CHECK BET:2:8 9.931586878000008
-['4h', '8d', '9d', '4d', 'Tc']
-['CHECK:player1', 'DEAL:RIVER', 'CHECK:test2']
-['CHECK', 'BET:2:8']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-HANDOVER 669 -669 5 4h 8d 9d 4d Tc 4 CHECK:player1 SHOW:7h:Th:5c:5h:player1 SHOW:Kd:8c:7c:3h:test2 WIN:8:player1 9.931412243000008
-NEWHAND 70 false Jc 6s 7s 5h 669 -669 9.931412
-['Jc', '6s', '7s', '5h']
-15
-GETACTION 7 0 3 POST:1:test2 POST:2:player1 RAISE:5:test2 3 FOLD CALL RAISE:8:15 9.931412243000008
+HANDOVER -54 54 0 2 FOLD:player1 WIN:3:test2 9.914114122000006
+NEWHAND 82 false 6c Ac 4h 4s -54 54 9.914114
+['6c', 'Ac', '4h', '4s']
+5
+GETACTION 7 0 3 POST:1:test2 POST:2:player1 RAISE:5:test2 3 FOLD CALL RAISE:8:15 9.914114122000006
 []
 ['POST:1:test2', 'POST:2:player1', 'RAISE:5:test2']
+0
+-54
 ['FOLD', 'CALL', 'RAISE:8:15']
 {'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 40 0 2 RAISE:15:player1 RAISE:25:test2 3 FOLD CALL RAISE:35:75 9.931189258000007
+HANDOVER -56 56 0 3 FOLD:player1 REFUND:3:test2 WIN:4:test2 9.913716032000007
+NEWHAND 83 true 8c Jd Qd 7c -56 56 9.913716
+['8c', 'Jd', 'Qd', '7c']
+20
+GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.913716032000007
 []
-['RAISE:15:player1', 'RAISE:25:test2']
-['FOLD', 'CALL', 'RAISE:35:75']
+['POST:1:player1', 'POST:2:test2']
+0
+-56
+['CALL', 'FOLD', 'RAISE:4:6']
 {'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-HANDOVER 694 -694 0 4 RAISE:75:player1 FOLD:test2 REFUND:50:player1 WIN:50:player1 9.931006048000008
-NEWHAND 71 true 9d 3c Ad Js 694 -694 9.931006
-['9d', '3c', 'Ad', 'Js']
+HANDOVER -57 57 0 2 FOLD:player1 WIN:3:test2 9.913325298000007
+NEWHAND 84 false 4s Th 7d Ac -57 57 9.913325
+['4s', 'Th', '7d', 'Ac']
+0
+GETACTION 7 0 3 POST:1:test2 POST:2:player1 RAISE:5:test2 3 FOLD CALL RAISE:8:15 9.913325298000007
+[]
+['POST:1:test2', 'POST:2:player1', 'RAISE:5:test2']
+0
+-57
+['FOLD', 'CALL', 'RAISE:8:15']
+{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
+HANDOVER -59 59 0 3 FOLD:player1 REFUND:3:test2 WIN:4:test2 9.912980225000007
+NEWHAND 85 true 2s Ah 9h 5d -59 59 9.912980
+['2s', 'Ah', '9h', '5d']
+10
+GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.912980225000007
+[]
+['POST:1:player1', 'POST:2:test2']
+0
+-59
+['CALL', 'FOLD', 'RAISE:4:6']
+{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
+HANDOVER -60 60 0 2 FOLD:player1 WIN:3:test2 9.912590991000007
+NEWHAND 86 false 4c 3h 3d 2c -60 60 9.912591
+['4c', '3h', '3d', '2c']
+15
+HANDOVER -59 59 0 4 POST:1:test2 POST:2:player1 FOLD:test2 WIN:3:player1 9.912590991000007
+NEWHAND 87 true Jh 2h Kh 2c -59 59 9.912591
+['Jh', '2h', 'Kh', '2c']
+3
+GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.912590991000007
+[]
+['POST:1:player1', 'POST:2:test2']
+0
+-59
+['CALL', 'FOLD', 'RAISE:4:6']
+{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
+HANDOVER -60 60 0 2 FOLD:player1 WIN:3:test2 9.912181705000007
+NEWHAND 88 false Kd Jc Ad Ts -60 60 9.912182
+['Kd', 'Jc', 'Ad', 'Ts']
+15
+GETACTION 7 0 3 POST:1:test2 POST:2:player1 RAISE:5:test2 3 FOLD CALL RAISE:8:15 9.912181705000007
+[]
+['POST:1:test2', 'POST:2:player1', 'RAISE:5:test2']
+0
+-60
+['FOLD', 'CALL', 'RAISE:8:15']
+{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
+HANDOVER -62 62 0 3 FOLD:player1 REFUND:3:test2 WIN:4:test2 9.911802688000007
+NEWHAND 89 true Js 7s 7c 5d -62 62 9.911803
+['Js', '7s', '7c', '5d']
 5
-GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.931006048000008
+GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.911802688000007
 []
 ['POST:1:player1', 'POST:2:test2']
+0
+-62
 ['CALL', 'FOLD', 'RAISE:4:6']
 {'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 7 0 2 CALL:player1 RAISE:5:test2 3 FOLD CALL RAISE:8:15 9.930804057000007
+HANDOVER -63 63 0 2 FOLD:player1 WIN:3:test2 9.911034319000008
+NEWHAND 90 false 9h 5c Ks 9c -63 63 9.911034
+['9h', '5c', 'Ks', '9c']
+5
+GETACTION 7 0 3 POST:1:test2 POST:2:player1 RAISE:5:test2 3 FOLD CALL RAISE:8:15 9.911034319000008
 []
-['CALL:player1', 'RAISE:5:test2']
+['POST:1:test2', 'POST:2:player1', 'RAISE:5:test2']
+0
+-63
 ['FOLD', 'CALL', 'RAISE:8:15']
 {'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 15 3 Ah Ts 7s 3 CALL:player1 DEAL:FLOP BET:5:test2 3 FOLD CALL RAISE:10:25 9.930656850000007
-['Ah', 'Ts', '7s']
-['CALL:player1', 'DEAL:FLOP', 'BET:5:test2']
-['FOLD', 'CALL', 'RAISE:10:25']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 32 4 Ah Ts 7s 4c 3 CALL:player1 DEAL:TURN BET:12:test2 3 FOLD CALL RAISE:24:56 9.930475811000008
-['Ah', 'Ts', '7s', '4c']
-['CALL:player1', 'DEAL:TURN', 'BET:12:test2']
-['FOLD', 'CALL', 'RAISE:24:56']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 58 5 Ah Ts 7s 4c Jh 3 CALL:player1 DEAL:RIVER BET:14:test2 3 FOLD CALL RAISE:28:86 9.930310182000008
-['Ah', 'Ts', '7s', '4c', 'Jh']
-['CALL:player1', 'DEAL:RIVER', 'BET:14:test2']
-['FOLD', 'CALL', 'RAISE:28:86']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-HANDOVER 658 -658 5 Ah Ts 7s 4c Jh 4 CALL:player1 SHOW:9d:3c:Ad:Js:player1 SHOW:8s:Td:Tc:Kc:test2 WIN:72:test2 9.930128471000009
-NEWHAND 72 false Qh 6s 5s Qs 658 -658 9.930128
-['Qh', '6s', '5s', 'Qs']
-12
-HANDOVER 659 -659 0 4 POST:1:test2 POST:2:player1 FOLD:test2 WIN:3:player1 9.930128471000009
-NEWHAND 73 true 5d 2s 7h 8d 659 -659 9.930128
-['5d', '2s', '7h', '8d']
+HANDOVER -65 65 0 3 FOLD:player1 REFUND:3:test2 WIN:4:test2 9.910708896000008
+NEWHAND 91 true Th 4d 5c 7h -65 65 9.910709
+['Th', '4d', '5c', '7h']
 10
-GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.930128471000009
+GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.910708896000008
 []
 ['POST:1:player1', 'POST:2:test2']
+0
+-65
 ['CALL', 'FOLD', 'RAISE:4:6']
 {'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 19 0 2 RAISE:6:player1 RAISE:13:test2 3 FOLD CALL RAISE:20:39 9.92990807900001
-[]
-['RAISE:6:player1', 'RAISE:13:test2']
-['FOLD', 'CALL', 'RAISE:20:39']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 145 0 2 RAISE:39:player1 RAISE:106:test2 3 FOLD CALL RAISE:161:161 9.92972920500001
-[]
-['RAISE:39:player1', 'RAISE:106:test2']
-['FOLD', 'CALL', 'RAISE:161:161']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 255 0 2 RAISE:161:player1 RAISE:94:test2 3 FOLD CALL RAISE:27:39 9.92950230000001
-[]
-['RAISE:161:player1', 'RAISE:94:test2']
-['FOLD', 'CALL', 'RAISE:27:39']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-HANDOVER 753 -753 0 4 RAISE:39:player1 FOLD:test2 REFUND:-55:player1 WIN:188:player1 9.92926990600001
-NEWHAND 74 false 4d 6h Jh Qc 753 -753 9.929270
-['4d', '6h', 'Jh', 'Qc']
-10
-HANDOVER 754 -754 0 4 POST:1:test2 POST:2:player1 FOLD:test2 WIN:3:player1 9.92926990600001
-NEWHAND 75 true 6s 8s 5s 3d 754 -754 9.929270
-['6s', '8s', '5s', '3d']
-8
-GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.92926990600001
+HANDOVER -66 66 0 2 FOLD:player1 WIN:3:test2 9.910458524000008
+NEWHAND 92 false Jd 9c 2h Jh -66 66 9.910459
+['Jd', '9c', '2h', 'Jh']
+7
+HANDOVER -65 65 0 4 POST:1:test2 POST:2:player1 FOLD:test2 WIN:3:player1 9.910458524000008
+NEWHAND 93 true 7h 6d 8d Qd -65 65 9.910459
+['7h', '6d', '8d', 'Qd']
+13
+GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.910458524000008
 []
 ['POST:1:player1', 'POST:2:test2']
+0
+-65
 ['CALL', 'FOLD', 'RAISE:4:6']
 {'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 6 0 2 CALL:player1 RAISE:4:test2 3 FOLD CALL RAISE:6:12 9.929075379000011
-[]
-['CALL:player1', 'RAISE:4:test2']
-['FOLD', 'CALL', 'RAISE:6:12']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 8 3 9h Ad 5c 3 CALL:player1 DEAL:FLOP CHECK:test2 2 CHECK BET:2:8 9.928887426000012
-['9h', 'Ad', '5c']
-['CALL:player1', 'DEAL:FLOP', 'CHECK:test2']
-['CHECK', 'BET:2:8']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-GETACTION 8 4 9h Ad 5c 3s 3 CHECK:player1 DEAL:TURN CHECK:test2 2 CHECK BET:2:8 9.928701755000011
-['9h', 'Ad', '5c', '3s']
-['CHECK:player1', 'DEAL:TURN', 'CHECK:test2']
-['CHECK', 'BET:2:8']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-GETACTION 14 5 9h Ad 5c 3s Js 3 CHECK:player1 DEAL:RIVER BET:6:test2 3 FOLD CALL RAISE:12:26 9.928489021000011
-['9h', 'Ad', '5c', '3s', 'Js']
-['CHECK:player1', 'DEAL:RIVER', 'BET:6:test2']
-['FOLD', 'CALL', 'RAISE:12:26']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-HANDOVER 764 -764 5 9h Ad 5c 3s Js 4 CALL:player1 SHOW:6s:8s:5s:3d:player1 SHOW:8h:Jd:Tc:7d:test2 WIN:20:player1 9.928307227000012
-NEWHAND 76 false 4s 5s 7d 2c 764 -764 9.928307
-['4s', '5s', '7d', '2c']
+HANDOVER -66 66 0 2 FOLD:player1 WIN:3:test2 9.910179637000008
+NEWHAND 94 false Kh 2s 3d Td -66 66 9.910180
+['Kh', '2s', '3d', 'Td']
 10
-HANDOVER 765 -765 0 4 POST:1:test2 POST:2:player1 FOLD:test2 WIN:3:player1 9.928307227000012
-NEWHAND 77 true Qd 7d Qh 8h 765 -765 9.928307
-['Qd', '7d', 'Qh', '8h']
-19
-GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.928307227000012
-[]
-['POST:1:player1', 'POST:2:test2']
-['CALL', 'FOLD', 'RAISE:4:6']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-HANDOVER 767 -767 0 4 RAISE:6:player1 FOLD:test2 REFUND:4:player1 WIN:4:player1 9.928046971000011
-NEWHAND 78 false 2d 2h 3h 5s 767 -767 9.928047
-['2d', '2h', '3h', '5s']
-10
-GETACTION 4 0 3 POST:1:test2 POST:2:player1 CALL:test2 2 CHECK RAISE:4:6 9.928046971000011
+GETACTION 4 0 3 POST:1:test2 POST:2:player1 CALL:test2 2 CHECK RAISE:4:6 9.910179637000008
 []
 ['POST:1:test2', 'POST:2:player1', 'CALL:test2']
 ['CHECK', 'RAISE:4:6']
 {'FOLD': False, 'CALL': False, 'RAISE': True, 'BET': False, 'CHECK': True}
-HANDOVER 769 -769 0 4 RAISE:6:player1 FOLD:test2 REFUND:4:player1 WIN:4:player1 9.927837219000011
-NEWHAND 79 true 9c 5h 8c Kc 769 -769 9.927837
-['9c', '5h', '8c', 'Kc']
-8
-GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.927837219000011
-[]
-['POST:1:player1', 'POST:2:test2']
-['CALL', 'FOLD', 'RAISE:4:6']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 4 3 4s Ah 8d 4 CALL:player1 CHECK:test2 DEAL:FLOP CHECK:test2 2 CHECK BET:2:4 9.927645311000012
-['4s', 'Ah', '8d']
-['CALL:player1', 'CHECK:test2', 'DEAL:FLOP', 'CHECK:test2']
-['CHECK', 'BET:2:4']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-GETACTION 4 4 4s Ah 8d As 3 CHECK:player1 DEAL:TURN CHECK:test2 2 CHECK BET:2:4 9.92745800500001
-['4s', 'Ah', '8d', 'As']
-['CHECK:player1', 'DEAL:TURN', 'CHECK:test2']
-['CHECK', 'BET:2:4']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-GETACTION 4 5 4s Ah 8d As 3h 3 CHECK:player1 DEAL:RIVER CHECK:test2 2 CHECK BET:2:4 9.927241343000011
-['4s', 'Ah', '8d', 'As', '3h']
-['CHECK:player1', 'DEAL:RIVER', 'CHECK:test2']
-['CHECK', 'BET:2:4']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-HANDOVER 771 -771 5 4s Ah 8d As 3h 4 CHECK:player1 SHOW:9c:5h:8c:Kc:player1 SHOW:Jh:8h:6d:6c:test2 WIN:4:player1 9.927033142000012
-NEWHAND 80 false 2d 7c 9c 3c 771 -771 9.927033
-['2d', '7c', '9c', '3c']
-8
-GETACTION 4 0 3 POST:1:test2 POST:2:player1 CALL:test2 2 CHECK RAISE:4:6 9.927033142000012
-[]
-['POST:1:test2', 'POST:2:player1', 'CALL:test2']
-['CHECK', 'RAISE:4:6']
-{'FOLD': False, 'CALL': False, 'RAISE': True, 'BET': False, 'CHECK': True}
-GETACTION 4 3 Th As 2s 2 CHECK:player1 DEAL:FLOP 2 CHECK BET:2:4 9.926841212000012
-['Th', 'As', '2s']
+GETACTION 4 3 9s Jc As 2 CHECK:player1 DEAL:FLOP 2 CHECK BET:2:4 9.909899592000007
+['9s', 'Jc', 'As']
 ['CHECK:player1', 'DEAL:FLOP']
 ['CHECK', 'BET:2:4']
 {'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-GETACTION 4 4 Th As 2s 5s 3 CHECK:player1 CHECK:test2 DEAL:TURN 2 CHECK BET:2:4 9.926624657000012
-['Th', 'As', '2s', '5s']
+GETACTION 4 4 9s Jc As 8c 3 CHECK:player1 CHECK:test2 DEAL:TURN 2 CHECK BET:2:4 9.909586949000008
+['9s', 'Jc', 'As', '8c']
 ['CHECK:player1', 'CHECK:test2', 'DEAL:TURN']
 ['CHECK', 'BET:2:4']
 {'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-GETACTION 6 4 Th As 2s 5s 2 CHECK:player1 BET:2:test2 3 FOLD CALL RAISE:4:10 9.926421279000012
-['Th', 'As', '2s', '5s']
-['CHECK:player1', 'BET:2:test2']
-['FOLD', 'CALL', 'RAISE:4:10']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 8 5 Th As 2s 5s Qs 2 CALL:player1 DEAL:RIVER 2 CHECK BET:2:8 9.926249540000011
-['Th', 'As', '2s', '5s', 'Qs']
-['CALL:player1', 'DEAL:RIVER']
-['CHECK', 'BET:2:8']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-GETACTION 15 5 Th As 2s 5s Qs 2 CHECK:player1 BET:7:test2 3 FOLD CALL RAISE:14:29 9.926050825000011
-['Th', 'As', '2s', '5s', 'Qs']
-['CHECK:player1', 'BET:7:test2']
-['FOLD', 'CALL', 'RAISE:14:29']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-HANDOVER 760 -760 5 Th As 2s 5s Qs 4 CALL:player1 SHOW:Ah:Jh:Td:3h:test2 SHOW:2d:7c:9c:3c:player1 WIN:22:test2 9.925854510000011
-NEWHAND 81 true Kc 5s Qc Ac 760 -760 9.925855
-['Kc', '5s', 'Qc', 'Ac']
-13
-GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.925854510000011
-[]
-['POST:1:player1', 'POST:2:test2']
-['CALL', 'FOLD', 'RAISE:4:6']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 19 3 Td 9s Ad 4 RAISE:6:player1 CALL:test2 DEAL:FLOP BET:7:test2 3 FOLD CALL RAISE:14:33 9.925669149000012
-['Td', '9s', 'Ad']
-['RAISE:6:player1', 'CALL:test2', 'DEAL:FLOP', 'BET:7:test2']
-['FOLD', 'CALL', 'RAISE:14:33']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 38 4 Td 9s Ad Jh 3 CALL:player1 DEAL:TURN BET:12:test2 3 FOLD CALL RAISE:24:62 9.925475796000011
-['Td', '9s', 'Ad', 'Jh']
-['CALL:player1', 'DEAL:TURN', 'BET:12:test2']
-['FOLD', 'CALL', 'RAISE:24:62']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 52 5 Td 9s Ad Jh 3d 3 CALL:player1 DEAL:RIVER BET:2:test2 3 FOLD CALL RAISE:4:56 9.92528072100001
-['Td', '9s', 'Ad', 'Jh', '3d']
-['CALL:player1', 'DEAL:RIVER', 'BET:2:test2']
-['FOLD', 'CALL', 'RAISE:4:56']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-HANDOVER 733 -733 5 Td 9s Ad Jh 3d 4 CALL:player1 SHOW:Kc:5s:Qc:Ac:player1 SHOW:Jd:2c:Qs:7d:test2 WIN:54:test2 9.92510759700001
-NEWHAND 82 false 8s 8h 3s 3d 733 -733 9.925108
-['8s', '8h', '3s', '3d']
-5
-HANDOVER 734 -734 0 4 POST:1:test2 POST:2:player1 FOLD:test2 WIN:3:player1 9.92510759700001
-NEWHAND 83 true 6s Qc 2h Tc 734 -734 9.925108
-['6s', 'Qc', '2h', 'Tc']
-5
-GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.92510759700001
-[]
-['POST:1:player1', 'POST:2:test2']
-['CALL', 'FOLD', 'RAISE:4:6']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 7 0 2 CALL:player1 RAISE:5:test2 3 FOLD CALL RAISE:8:15 9.92486499400001
-[]
-['CALL:player1', 'RAISE:5:test2']
-['FOLD', 'CALL', 'RAISE:8:15']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 10 3 Th 5h Jh 3 CALL:player1 DEAL:FLOP CHECK:test2 2 CHECK BET:2:10 9.92464379000001
-['Th', '5h', 'Jh']
-['CALL:player1', 'DEAL:FLOP', 'CHECK:test2']
-['CHECK', 'BET:2:10']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-GETACTION 10 4 Th 5h Jh 9s 3 CHECK:player1 DEAL:TURN CHECK:test2 2 CHECK BET:2:10 9.92442767300001
-['Th', '5h', 'Jh', '9s']
-['CHECK:player1', 'DEAL:TURN', 'CHECK:test2']
-['CHECK', 'BET:2:10']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-GETACTION 18 5 Th 5h Jh 9s Ac 3 CHECK:player1 DEAL:RIVER BET:8:test2 3 FOLD CALL RAISE:16:34 9.92422321000001
-['Th', '5h', 'Jh', '9s', 'Ac']
-['CHECK:player1', 'DEAL:RIVER', 'BET:8:test2']
-['FOLD', 'CALL', 'RAISE:16:34']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-HANDOVER 721 -721 5 Th 5h Jh 9s Ac 4 CALL:player1 SHOW:6s:Qc:2h:Tc:player1 SHOW:3c:Js:3d:Kc:test2 WIN:26:test2 9.92397094300001
-NEWHAND 84 false Qd Kc 5c Qs 721 -721 9.923971
-['Qd', 'Kc', '5c', 'Qs']
-14
-HANDOVER 722 -722 0 4 POST:1:test2 POST:2:player1 FOLD:test2 WIN:3:player1 9.92397094300001
-NEWHAND 85 true 3c 2c Qc 5h 722 -722 9.923971
-['3c', '2c', 'Qc', '5h']
-8
-GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.92397094300001
-[]
-['POST:1:player1', 'POST:2:test2']
-['CALL', 'FOLD', 'RAISE:4:6']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 4 3 Tc Qs Js 4 CALL:player1 CHECK:test2 DEAL:FLOP CHECK:test2 2 CHECK BET:2:4 9.923722558000009
-['Tc', 'Qs', 'Js']
-['CALL:player1', 'CHECK:test2', 'DEAL:FLOP', 'CHECK:test2']
-['CHECK', 'BET:2:4']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-GETACTION 7 4 Tc Qs Js 3d 3 CHECK:player1 DEAL:TURN BET:3:test2 3 FOLD CALL RAISE:6:13 9.923364970000009
-['Tc', 'Qs', 'Js', '3d']
-['CHECK:player1', 'DEAL:TURN', 'BET:3:test2']
+GETACTION 7 4 9s Jc As 8c 2 CHECK:player1 BET:3:test2 3 FOLD CALL RAISE:6:13 9.909322316000008
+['9s', 'Jc', 'As', '8c']
+['CHECK:player1', 'BET:3:test2']
+0
+-66
 ['FOLD', 'CALL', 'RAISE:6:13']
 {'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 10 5 Tc Qs Js 3d 9c 3 CALL:player1 DEAL:RIVER CHECK:test2 2 CHECK BET:2:10 9.923093937000008
-['Tc', 'Qs', 'Js', '3d', '9c']
-['CALL:player1', 'DEAL:RIVER', 'CHECK:test2']
-['CHECK', 'BET:2:10']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-HANDOVER 727 -727 5 Tc Qs Js 3d 9c 4 CHECK:player1 SHOW:3c:2c:Qc:5h:player1 SHOW:Jc:Ah:Ad:6d:test2 WIN:10:player1 9.922831654000008
-NEWHAND 86 false Jc 6s Ad Kd 727 -727 9.922832
-['Jc', '6s', 'Ad', 'Kd']
-10
-HANDOVER 728 -728 0 4 POST:1:test2 POST:2:player1 FOLD:test2 WIN:3:player1 9.922831654000008
-NEWHAND 87 true 6c 4d 3d 9c 728 -728 9.922832
-['6c', '4d', '3d', '9c']
+HANDOVER -68 68 4 9s Jc As 8c 3 FOLD:player1 REFUND:3:test2 WIN:4:test2 9.909135437000009
+NEWHAND 95 true Ts Ac Kd Jd -68 68 9.909135
+['Ts', 'Ac', 'Kd', 'Jd']
 15
-GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.922831654000008
+GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.909135437000009
 []
 ['POST:1:player1', 'POST:2:test2']
-['CALL', 'FOLD', 'RAISE:4:6']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 16 0 2 RAISE:6:player1 RAISE:10:test2 3 FOLD CALL RAISE:14:30 9.922577423000009
-[]
-['RAISE:6:player1', 'RAISE:10:test2']
-['FOLD', 'CALL', 'RAISE:14:30']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-HANDOVER 738 -738 0 4 RAISE:30:player1 FOLD:test2 REFUND:20:player1 WIN:20:player1 9.922335593000009
-NEWHAND 88 false 5h Ac 3c 6d 738 -738 9.922336
-['5h', 'Ac', '3c', '6d']
-10
-HANDOVER 739 -739 0 4 POST:1:test2 POST:2:player1 FOLD:test2 WIN:3:player1 9.922335593000009
-NEWHAND 89 true 2d 7c Kh 7s 739 -739 9.922336
-['2d', '7c', 'Kh', '7s']
 0
-GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.922335593000009
-[]
-['POST:1:player1', 'POST:2:test2']
+-68
 ['CALL', 'FOLD', 'RAISE:4:6']
 {'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-HANDOVER 738 -738 0 2 FOLD:player1 WIN:3:test2 9.920476740000009
-NEWHAND 90 false 3d 5h Ah 8s 738 -738 9.920477
-['3d', '5h', 'Ah', '8s']
+HANDOVER -69 69 0 2 FOLD:player1 WIN:3:test2 9.90857475700001
+NEWHAND 96 false 6h Qh 9c 2d -69 69 9.908575
+['6h', 'Qh', '9c', '2d']
 5
-GETACTION 4 0 3 POST:1:test2 POST:2:player1 CALL:test2 2 CHECK RAISE:4:6 9.920476740000009
+GETACTION 4 0 3 POST:1:test2 POST:2:player1 CALL:test2 2 CHECK RAISE:4:6 9.90857475700001
 []
 ['POST:1:test2', 'POST:2:player1', 'CALL:test2']
 ['CHECK', 'RAISE:4:6']
 {'FOLD': False, 'CALL': False, 'RAISE': True, 'BET': False, 'CHECK': True}
-GETACTION 4 3 8h 4c Th 2 CHECK:player1 DEAL:FLOP 2 CHECK BET:2:4 9.920101723000009
-['8h', '4c', 'Th']
+GETACTION 4 3 6s 2c Ac 2 CHECK:player1 DEAL:FLOP 2 CHECK BET:2:4 9.90826766600001
+['6s', '2c', 'Ac']
 ['CHECK:player1', 'DEAL:FLOP']
 ['CHECK', 'BET:2:4']
 {'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-GETACTION 7 3 8h 4c Th 2 CHECK:player1 BET:3:test2 3 FOLD CALL RAISE:6:13 9.919766946000008
-['8h', '4c', 'Th']
-['CHECK:player1', 'BET:3:test2']
-['FOLD', 'CALL', 'RAISE:6:13']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 10 4 8h 4c Th 9d 2 CALL:player1 DEAL:TURN 2 CHECK BET:2:10 9.919458151000008
-['8h', '4c', 'Th', '9d']
-['CALL:player1', 'DEAL:TURN']
-['CHECK', 'BET:2:10']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-GETACTION 10 5 8h 4c Th 9d 9c 3 CHECK:player1 CHECK:test2 DEAL:RIVER 2 CHECK BET:2:10 9.919208729000008
-['8h', '4c', 'Th', '9d', '9c']
-['CHECK:player1', 'CHECK:test2', 'DEAL:RIVER']
-['CHECK', 'BET:2:10']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-HANDOVER 743 -743 5 8h 4c Th 9d 9c 5 CHECK:player1 CHECK:test2 SHOW:5s:Ad:3s:7h:test2 SHOW:3d:5h:Ah:8s:player1 WIN:10:player1 9.919031345000008
-NEWHAND 91 true Qc 7s As 6c 743 -743 9.919031
-['Qc', '7s', 'As', '6c']
-15
-GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.919031345000008
-[]
-['POST:1:player1', 'POST:2:test2']
-['CALL', 'FOLD', 'RAISE:4:6']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 17 0 2 RAISE:6:player1 RAISE:11:test2 3 FOLD CALL RAISE:16:33 9.918796688000008
-[]
-['RAISE:6:player1', 'RAISE:11:test2']
-['FOLD', 'CALL', 'RAISE:16:33']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 106 3 4d 8s 7d 4 RAISE:33:player1 CALL:test2 DEAL:FLOP BET:40:test2 3 FOLD CALL RAISE:80:167 9.918561409000008
-['4d', '8s', '7d']
-['RAISE:33:player1', 'CALL:test2', 'DEAL:FLOP', 'BET:40:test2']
-['FOLD', 'CALL', 'RAISE:80:167']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 250 4 4d 8s 7d Tc 3 CALL:player1 DEAL:TURN BET:104:test2 3 FOLD CALL RAISE:127:127 9.918335102000007
-['4d', '8s', '7d', 'Tc']
-['CALL:player1', 'DEAL:TURN', 'BET:104:test2']
-['FOLD', 'CALL', 'RAISE:127:127']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 372 5 4d 8s 7d Tc 6h 3 CALL:player1 DEAL:RIVER BET:18:test2 3 FOLD CALL RAISE:23:23 9.918118857000007
-['4d', '8s', '7d', 'Tc', '6h']
-['CALL:player1', 'DEAL:RIVER', 'BET:18:test2']
-['FOLD', 'CALL', 'RAISE:23:23']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-HANDOVER 548 -548 5 4d 8s 7d Tc 6h 4 CALL:player1 SHOW:Qc:7s:As:6c:player1 SHOW:9d:6d:5d:3h:test2 WIN:390:test2 9.917902339000007
-NEWHAND 92 false 2h Ah Jc Th 548 -548 9.917902
-['2h', 'Ah', 'Jc', 'Th']
-13
-HANDOVER 549 -549 0 4 POST:1:test2 POST:2:player1 FOLD:test2 WIN:3:player1 9.917902339000007
-NEWHAND 93 true 5c 3h Ad 3s 549 -549 9.917902
-['5c', '3h', 'Ad', '3s']
+GETACTION 6 3 6s 2c Ac 2 CHECK:player1 BET:2:test2 3 FOLD CALL RAISE:4:10 9.907954237000009
+['6s', '2c', 'Ac']
+['CHECK:player1', 'BET:2:test2']
 0
-GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.917902339000007
+-69
+['FOLD', 'CALL', 'RAISE:4:10']
+{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
+HANDOVER -71 71 3 6s 2c Ac 3 FOLD:player1 REFUND:2:test2 WIN:4:test2 9.90757024400001
+NEWHAND 97 true Td As 2s Qh -71 71 9.907570
+['Td', 'As', '2s', 'Qh']
+10
+GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.90757024400001
 []
 ['POST:1:player1', 'POST:2:test2']
+0
+-71
 ['CALL', 'FOLD', 'RAISE:4:6']
 {'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-HANDOVER 548 -548 0 2 FOLD:player1 WIN:3:test2 9.917638690000006
-NEWHAND 94 false 7d 5c As Ts 548 -548 9.917639
-['7d', '5c', 'As', 'Ts']
-5
-HANDOVER 549 -549 0 4 POST:1:test2 POST:2:player1 FOLD:test2 WIN:3:player1 9.917638690000006
-NEWHAND 95 true Kd Ad 6h 3h 549 -549 9.917639
-['Kd', 'Ad', '6h', '3h']
-15
-GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.917638690000006
+HANDOVER -72 72 0 2 FOLD:player1 WIN:3:test2 9.90715711900001
+NEWHAND 98 false Ac Qh Jh Ad -72 72 9.907157
+['Ac', 'Qh', 'Jh', 'Ad']
+10010
+HANDOVER -71 71 0 4 POST:1:test2 POST:2:player1 FOLD:test2 WIN:3:player1 9.90715711900001
+NEWHAND 99 true 7d 6c 8s Ah -71 71 9.907157
+['7d', '6c', '8s', 'Ah']
+10
+GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.90715711900001
 []
 ['POST:1:player1', 'POST:2:test2']
+0
+-71
 ['CALL', 'FOLD', 'RAISE:4:6']
 {'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-HANDOVER 551 -551 0 4 RAISE:6:player1 FOLD:test2 REFUND:4:player1 WIN:4:player1 9.917445599000006
-NEWHAND 96 false 7c Ac 9s Qd 551 -551 9.917446
-['7c', 'Ac', '9s', 'Qd']
-5
-GETACTION 6 0 3 POST:1:test2 POST:2:player1 RAISE:4:test2 3 FOLD CALL RAISE:6:12 9.917445599000006
+HANDOVER -72 72 0 2 FOLD:player1 WIN:3:test2 9.906706026000009
+NEWHAND 100 false 9s As Ts 5d -72 72 9.906706
+['9s', 'As', 'Ts', '5d']
+8
+GETACTION 6 0 3 POST:1:test2 POST:2:player1 RAISE:4:test2 3 FOLD CALL RAISE:6:12 9.906706026000009
 []
 ['POST:1:test2', 'POST:2:player1', 'RAISE:4:test2']
+0
+-72
 ['FOLD', 'CALL', 'RAISE:6:12']
 {'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 8 3 Kd Th Jc 2 CALL:player1 DEAL:FLOP 2 CHECK BET:2:8 9.917199484000006
-['Kd', 'Th', 'Jc']
-['CALL:player1', 'DEAL:FLOP']
-['CHECK', 'BET:2:8']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-GETACTION 12 3 Kd Th Jc 2 CHECK:player1 BET:4:test2 3 FOLD CALL RAISE:8:20 9.916926075000006
-['Kd', 'Th', 'Jc']
-['CHECK:player1', 'BET:4:test2']
-['FOLD', 'CALL', 'RAISE:8:20']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 16 4 Kd Th Jc 2s 2 CALL:player1 DEAL:TURN 2 CHECK BET:2:16 9.916598193000006
-['Kd', 'Th', 'Jc', '2s']
-['CALL:player1', 'DEAL:TURN']
-['CHECK', 'BET:2:16']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-GETACTION 22 4 Kd Th Jc 2s 2 CHECK:player1 BET:6:test2 3 FOLD CALL RAISE:12:34 9.916254496000006
-['Kd', 'Th', 'Jc', '2s']
-['CHECK:player1', 'BET:6:test2']
-['FOLD', 'CALL', 'RAISE:12:34']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 28 5 Kd Th Jc 2s 6c 2 CALL:player1 DEAL:RIVER 2 CHECK BET:2:28 9.915907699000005
-['Kd', 'Th', 'Jc', '2s', '6c']
-['CALL:player1', 'DEAL:RIVER']
-['CHECK', 'BET:2:28']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-HANDOVER 565 -565 5 Kd Th Jc 2s 6c 5 CHECK:player1 CHECK:test2 SHOW:3c:2h:6s:Qs:test2 SHOW:7c:Ac:9s:Qd:player1 WIN:28:player1 9.915544789000005
-NEWHAND 97 true 5d Ts Kc Qs 565 -565 9.915545
-['5d', 'Ts', 'Kc', 'Qs']
-10
-GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.915544789000005
-[]
-['POST:1:player1', 'POST:2:test2']
-['CALL', 'FOLD', 'RAISE:4:6']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-HANDOVER 567 -567 0 4 RAISE:6:player1 FOLD:test2 REFUND:4:player1 WIN:4:player1 9.915327892000006
-NEWHAND 98 false Th 7d 3h 2d 567 -567 9.915328
-['Th', '7d', '3h', '2d']
-15
-HANDOVER 568 -568 0 4 POST:1:test2 POST:2:player1 FOLD:test2 WIN:3:player1 9.915327892000006
-NEWHAND 99 true 9h 7d 6c 7c 568 -568 9.915328
-['9h', '7d', '6c', '7c']
-10
-GETACTION 3 0 2 POST:1:player1 POST:2:test2 3 CALL FOLD RAISE:4:6 9.915327892000006
-[]
-['POST:1:player1', 'POST:2:test2']
-['CALL', 'FOLD', 'RAISE:4:6']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 23 3 9c Jh Qc 4 RAISE:6:player1 CALL:test2 DEAL:FLOP BET:11:test2 3 FOLD CALL RAISE:22:45 9.915109045000007
-['9c', 'Jh', 'Qc']
-['RAISE:6:player1', 'CALL:test2', 'DEAL:FLOP', 'BET:11:test2']
-['FOLD', 'CALL', 'RAISE:22:45']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 51 4 9c Jh Qc 4c 3 CALL:player1 DEAL:TURN BET:17:test2 3 FOLD CALL RAISE:34:85 9.914838617000006
-['9c', 'Jh', 'Qc', '4c']
-['CALL:player1', 'DEAL:TURN', 'BET:17:test2']
-['FOLD', 'CALL', 'RAISE:34:85']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 68 5 9c Jh Qc 4c Qs 3 CALL:player1 DEAL:RIVER CHECK:test2 2 CHECK BET:2:68 9.914662157000006
-['9c', 'Jh', 'Qc', '4c', 'Qs']
-['CALL:player1', 'DEAL:RIVER', 'CHECK:test2']
-['CHECK', 'BET:2:68']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-HANDOVER 602 -602 5 9c Jh Qc 4c Qs 4 CHECK:player1 SHOW:9h:7d:6c:7c:player1 SHOW:6s:9s:Ah:Jd:test2 WIN:68:player1 9.914510598000005
-NEWHAND 100 false 3c Jh 6d 9d 602 -602 9.914511
-['3c', 'Jh', '6d', '9d']
-5
-GETACTION 7 0 3 POST:1:test2 POST:2:player1 RAISE:5:test2 3 FOLD CALL RAISE:8:15 9.914510598000005
-[]
-['POST:1:test2', 'POST:2:player1', 'RAISE:5:test2']
-['FOLD', 'CALL', 'RAISE:8:15']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 10 3 3d 7c 9c 2 CALL:player1 DEAL:FLOP 2 CHECK BET:2:10 9.914318208000005
-['3d', '7c', '9c']
-['CALL:player1', 'DEAL:FLOP']
-['CHECK', 'BET:2:10']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-GETACTION 19 3 3d 7c 9c 2 CHECK:player1 BET:9:test2 3 FOLD CALL RAISE:18:37 9.914129689000005
-['3d', '7c', '9c']
-['CHECK:player1', 'BET:9:test2']
-['FOLD', 'CALL', 'RAISE:18:37']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 28 4 3d 7c 9c Ts 2 CALL:player1 DEAL:TURN 2 CHECK BET:2:28 9.913983103000005
-['3d', '7c', '9c', 'Ts']
-['CALL:player1', 'DEAL:TURN']
-['CHECK', 'BET:2:28']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-GETACTION 40 4 3d 7c 9c Ts 2 CHECK:player1 BET:12:test2 3 FOLD CALL RAISE:24:64 9.913831354000004
-['3d', '7c', '9c', 'Ts']
-['CHECK:player1', 'BET:12:test2']
-['FOLD', 'CALL', 'RAISE:24:64']
-{'FOLD': True, 'CALL': True, 'RAISE': True, 'BET': False, 'CHECK': False}
-GETACTION 52 5 3d 7c 9c Ts Jd 2 CALL:player1 DEAL:RIVER 2 CHECK BET:2:52 9.913656927000005
-['3d', '7c', '9c', 'Ts', 'Jd']
-['CALL:player1', 'DEAL:RIVER']
-['CHECK', 'BET:2:52']
-{'FOLD': False, 'CALL': False, 'RAISE': False, 'BET': True, 'CHECK': True}
-HANDOVER 576 -576 5 3d 7c 9c Ts Jd 5 CHECK:player1 CHECK:test2 SHOW:Qd:Ac:8c:9h:test2 SHOW:3c:Jh:6d:9d:player1 WIN:52:test2 9.913473272000004
+HANDOVER -74 74 0 3 FOLD:player1 REFUND:2:test2 WIN:4:test2 9.906269683000009
 REQUESTKEYVALUES 2000
 Gameover, engine disconnected.

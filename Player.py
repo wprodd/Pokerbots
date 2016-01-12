@@ -73,11 +73,28 @@ class Player:
                 points = points + 9 - 2*numSuits[i]
         
         return points
-            
+
+    #Fix these    
+    def sizeToValue(self,size,pot):
+        return size*pot
+
+    def valueToSize(self,value,pot):
+        trueSize = float(value)/pot
+        closest = 0
+        closestDifference = trueSize
+        for size in inCallThreshold:
+            difference = abs(trueSize-size)
+            if difference<=closestDifference:
+                closest = size
+                closestDifference = difference
+        return closest
+
     def run(self, input_socket):
-        outThreshold = 5
-        inThreshold = 2
-        betThreshold = 10
+        outCallThreshold = [{.5: 150, 1: 175, 2: 200, 3: 250, 4: 350},{.5: 150, 1: 175, 2: 200, 3: 250, 4: 350},{.5: 150, 1: 175, 2: 200, 3: 250, 4: 350},{.5: 150, 1: 175, 2: 200, 3: 250, 4: 350}]
+        outBetThreshold = [{.5: 175, 1: 200, 2: 250, 3: 350, 4: 450},{.5: 175, 1: 200, 2: 250, 3: 350, 4: 450},{.5: 175, 1: 200, 2: 250, 3: 350, 4: 450},{.5: 175, 1: 200, 2: 250, 3: 350, 4: 450}]
+        inCallThreshold = [{.5: 50, 1: 75, 2: 100, 3: 150, 4: 250},{.5: 50, 1: 75, 2: 100, 3: 150, 4: 250},{.5: 50, 1: 75, 2: 100, 3: 150, 4: 250},{.5: 50, 1: 75, 2: 100, 3: 150, 4: 250}]
+        inBetThreshold = [{.5: 75, 1: 100, 2: 150, 3: 250, 4: 350},{.5: 75, 1: 100, 2: 150, 3: 250, 4: 350},{.5: 75, 1: 100, 2: 150, 3: 250, 4: 350},{.5: 75, 1: 100, 2: 150, 3: 250, 4: 350}]
+
         # Get a file-object for reading packets from the socket.
         # Using this ensures that you get exactly one packet per read.
         f_in = input_socket.makefile()
@@ -111,7 +128,7 @@ class Player:
                 handValue = self.handEvaluator(myHand)
                 print myHand
                 print handValue
-
+                n = handValue
             # When appropriate, reply to the engine with a legal action.
             # The engine will ignore all spurious responses.
             # The engine will also check/fold for you if you return an
@@ -122,7 +139,7 @@ class Player:
                 can = {"BET": False, "RAISE": False, "CALL": False, "CHECK": False, "FOLD": False}
                 minBet = 0
                 maxBet = myBank
-                pot = dataList[1]
+                pot = int(dataList[1])
                 #Reads board cards into a list
                 boardCards = []
                 numCards = int(dataList[2])
@@ -147,52 +164,122 @@ class Player:
                     if dataList[action][:5]=='RAISE':
                         actionList = dataList[action].split(':')
                         can["RAISE"] = True
-                        minBet = actionList[1]
-                        maxBet = actionList[2]
+                        minBet = int(actionList[1])
+                        maxBet = int(actionList[2])
                     elif dataList[action][:3]=='BET':
                         actionList = dataList[action].split(':')
                         can["BET"] = True
-                        minBet = actionList[1]
-                        maxBet = actionList[2]
+                        minBet = int(actionList[1])
+                        maxBet = int(actionList[2])
+                    elif dataList[action][:4]=='CALL':
+                        can["CALL"] = True
+                        print minBet
+                        print maxBet
+                        
                     else:
                         can[dataList[action]] = True
+                callValue = maxBet-pot
                 print legalActions
                 print can
                 timeRemaining = dataList[-1]
-                if numCards==0:
-                    if ((not button and handValue>=outThreshold) or (handValue>=inThreshold)):
-                        if button and handValue>=betThreshold:
-                            if can["BET"]:
-                                s.send("BET:"+maxBet+"\n")
-                            elif can["RAISE"]:
-                                s.send("RAISE:"+maxBet+"\n")
-                            else:
-                                if can["CHECK"]:
-                                    s.send("CHECK\n")
-                                else:
-                                    print "FOLDING"
-                                    s.send("FOLD\n")
-                        elif not button and handValue<outThreshold:
-                            if can["CHECK"]:
-                                s.send("CHECK\n")
-                            else:
-                                s.send("FOLD\n")
+                # if numCards==0:
+                #     if ((not button and handValue>=outThreshold) or (handValue>=inThreshold)):
+                #         if button and handValue>=betThreshold:
+                #             if can["BET"]:
+                #                 s.send("BET:"+maxBet+"\n")
+                #             elif can["RAISE"]:
+                #                 s.send("RAISE:"+maxBet+"\n")
+                #             else:
+                #                 if can["CHECK"]:
+                #                     s.send("CHECK\n")
+                #                 else:
+                #                     print "FOLDING"
+                #                     s.send("FOLD\n")
+                #         elif not button and handValue<outThreshold:
+                #             if can["CHECK"]:
+                #                 s.send("CHECK\n")
+                #             else:
+                #                 s.send("FOLD\n")
                             
-                        else:
-                            if can["CALL"]:
-                                s.send("CALL\n")
-                            else:
-                                s.send("CHECK\n")
-                    else:
+                #         else:
+                #             if can["CALL"]:
+                #                 s.send("CALL\n")
+                #             else:
+                #                 s.send("CHECK\n")
+                #     else:
+                #         if can["CHECK"]:
+                #             s.send("CHECK\n")
+                #         else:
+                #             s.send("FOLD\n")
+                # else:
+                #     if can["CHECK"]:
+                #         s.send("CHECK\n")
+                #     else:
+                #         s.send("FOLD\n")
+
+                actionNumber = numCards%3+numCards/3
+                hasNotActed = True
+                if button:
+                    if can["BET"]:
+                        bet = 0
+                        for betSize in inBetThreshold[actionNumber]:
+                            if inBetThreshold[actionNumber][betSize]<=n:
+                                bet = self.sizeToValue(betSize,pot)
+                        if bet!=0 and bet>=minBet:
+                            s.send("BET:"+str(min(bet,maxBet))+"\n")
+                            hasNotActed = False
+
+                    elif can["RAISE"]:
+                        bet = 0
+                        for betSize in inBetThreshold[actionNumber]:
+                            if inBetThreshold[actionNumber][betSize]<=n:
+                                bet = self.sizeToValue(betSize,pot)
+                        if bet!=0 and bet>=minBet:
+                            s.send("RAISE:"+str(min(bet,maxBet))+"\n")
+                            hasNotActed = False
+
+                    elif can["CALL"]:
+                        betSize = self.valueToSize(callValue,pot)
+                        if betSize>0 and inCallThreshold[actionNumber][betSize]<=n:
+                            s.send("CALL\n")
+                            hasNotActed = False
+
+                    if hasNotActed:
                         if can["CHECK"]:
                             s.send("CHECK\n")
                         else:
                             s.send("FOLD\n")
                 else:
-                    if can["CHECK"]:
-                        s.send("CHECK\n")
-                    else:
-                        s.send("FOLD\n")
+                    if can["BET"]:
+                        bet = 0
+                        for betSize in outBetThreshold[actionNumber]:
+                            if outBetThreshold[actionNumber][betSize]<=n:
+                                bet = self.sizeToValue(betSize,pot)
+                        if bet!=0 and bet>=minBet:
+                            s.send("BET:"+str(min(bet,minBet))+"\n")
+                            hasNotActed = False
+
+                    elif can["RAISE"]:
+                        bet = 0
+                        for betSize in outBetThreshold[actionNumber]:
+                            if outBetThreshold[actionNumber][betSize]<=n:
+                                bet = self.sizeToValue(betSize,pot)
+                        if bet!=0 and bet>=minBet:
+                            s.send("RAISE:"+str(min(bet,maxBet))+"\n")
+                            hasNotActed = False
+
+                    elif can["CALL"]:
+                        betSize = self.valueToSize(callValue,pot)
+                        if betSize>0 and outCallThreshold[actionNumber][betSize]<=n:
+                            s.send("CALL\n")
+                            hasNotActed = False
+
+                    if hasNotActed:
+                        if can["CHECK"]:
+                            s.send("CHECK\n")
+                        else:
+                            s.send("FOLD\n")
+
 
             elif dataType == "REQUESTKEYVALUES":
                 # At the end, the engine will allow your bot save key/value pairs.
