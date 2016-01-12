@@ -249,7 +249,7 @@ class Player:
                             s.send("CHECK\n")
                         else:
                             s.send("FOLD\n")
-                else:
+                else: 
                     if can["BET"]:
                         bet = 0
                         for betSize in outBetThreshold[actionNumber]:
