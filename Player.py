@@ -257,23 +257,26 @@ class Player:
                         else:
                             s.send("FOLD\n")
                 else:
-                    if(len(lastActions) > 0):
-                        bbHistorian.update(pot, currentStage, lastActions[0])
-                    reactionProb = bbHistorian.exploitProbability(pot, currentStage, legalActions, lastActions)
-                    #incorporate hand probabilities here
-                    value = random.random()
-                    prefixSum = 0
-                    for k in prob.keys():
-                        if(value >= prefixSum and value < prefixSum + prob[k]):
-                            if(k == 'RAISE' or k == 'BET'):
-                                s.send(k + ":" + str(maxBet) + "\n") #decide what to bet
-                                bbHistorian.raised()
-                                break
-                            else:
-                                s.send(k + "\n")
-                                break
-                        prefixSum = prefixSum + prob[k]
-                    """if can["BET"]:
+                    # if(len(lastActions) > 0):
+                    #     bbHistorian.update(pot, currentStage, lastActions[0])
+                    # reactionProb = bbHistorian.exploitProbability(pot, currentStage, legalActions, lastActions)
+                    # #incorporate hand probabilities here
+                    # value = random.random()
+                    # prefixSum = 0
+                    # for k in prob.keys():
+                    #     if(value >= prefixSum and value < prefixSum + prob[k]):
+                    #         if(k == 'RAISE' or k == 'BET'):
+                    #             s.send(k + ":" + str(maxBet) + "\n") #decide what to bet
+                    #             bbHistorian.raised()
+                    #             break
+                    #         else:
+                    #             s.send(k + "\n")
+                    #             break
+                    #     prefixSum = prefixSum + prob[k]
+                    constant = {"FOLD": -100, "CHECK": -50, "CALL": 50, "BET": 100, "CALL": 100}
+                    for action in reactionProb:
+                        n += constant[action]*reactionProb[action]*75/n
+                    if can["BET"]:
                         bet = 0
                         for betSize in outBetThreshold[actionNumber]:
                             if outBetThreshold[actionNumber][betSize]<=n:
@@ -301,7 +304,7 @@ class Player:
                         if can["CHECK"]:
                             s.send("CHECK\n")
                         else:
-                            s.send("FOLD\n")"""
+                            s.send("FOLD\n")
 
 
             elif dataType == "REQUESTKEYVALUES":

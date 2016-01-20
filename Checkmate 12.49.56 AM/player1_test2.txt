@@ -1,0 +1,1326 @@
+6.176 MIT Pokerbots - player1 vs test2 (stack=200, bb=2)
+Hand #1, player1 (0), test2 (0)
+player1 posts the blind of 1
+test2 posts the blind of 2
+Dealt to player1 [7c 2s 6s 2c]
+Dealt to test2 [Jh Kc Qs Ad]
+player1 raises to 6
+test2 calls
+*** FLOP *** (12) [Ts Ks 9h]
+test2 checks
+player1 bets 12
+test2 calls
+*** TURN *** (36) [Ts Ks 9h] [7d]
+test2 bets 20
+player1 raises to 96
+test2 folds
+Uncalled bet of 76 returned to player1
+player1 wins the pot (76)
+
+Hand #2, test2 (-38), player1 (38)
+test2 posts the blind of 1
+player1 posts the blind of 2
+Dealt to test2 [5h 3d 9d Ac]
+Dealt to player1 [Qh Qd 4h Jh]
+test2 calls
+player1 raises to 6
+test2 folds
+Uncalled bet of 4 returned to player1
+player1 wins the pot (4)
+
+Hand #3, player1 (40), test2 (-40)
+player1 posts the blind of 1
+test2 posts the blind of 2
+Dealt to player1 [3h 5h 9s 2h]
+Dealt to test2 [Td 4s 7c 5d]
+player1 raises to 6
+test2 calls
+*** FLOP *** (12) [Qd 4h 2d]
+test2 checks
+player1 bets 12
+test2 raises to 26
+player1 raises to 90
+test2 folds
+Uncalled bet of 64 returned to player1
+player1 wins the pot (64)
+
+Hand #4, test2 (-72), player1 (72)
+test2 posts the blind of 1
+player1 posts the blind of 2
+Dealt to test2 [9h 4h Qs Qc]
+Dealt to player1 [5s 8h 6c 3d]
+test2 calls
+player1 checks
+*** FLOP *** (4) [6d 7c 6h]
+player1 checks
+test2 checks
+*** TURN *** (4) [6d 7c 6h] [Ad]
+player1 checks
+test2 checks
+*** RIVER *** (4) [6d 7c 6h Ad] [8c]
+player1 checks
+test2 bets 2
+player1 folds
+Uncalled bet of 2 returned to test2
+test2 wins the pot (4)
+
+Hand #5, player1 (70), test2 (-70)
+player1 posts the blind of 1
+test2 posts the blind of 2
+Dealt to player1 [Qh 9h 8h Jd]
+Dealt to test2 [Tc Td Ts 4s]
+player1 raises to 6
+test2 raises to 15
+player1 raises to 45
+test2 folds
+Uncalled bet of 30 returned to player1
+player1 wins the pot (30)
+
+Hand #6, test2 (-85), player1 (85)
+test2 posts the blind of 1
+player1 posts the blind of 2
+Dealt to test2 [9d As 2h Qd]
+Dealt to player1 [6s Jh Jc 8c]
+test2 folds
+player1 wins the pot (3)
+
+Hand #7, player1 (86), test2 (-86)
+player1 posts the blind of 1
+test2 posts the blind of 2
+Dealt to player1 [8c 7s 7c 5d]
+Dealt to test2 [2c Qs 2d 5s]
+player1 raises to 6
+test2 calls
+*** FLOP *** (12) [Ac Th 6s]
+test2 bets 8
+player1 raises to 36
+test2 raises to 69
+player1 raises to 158
+test2 raises to 125
+player1 raises to 36
+test2 folds
+Uncalled bet of -89 returned to player1
+player1 wins the pot (262)
+
+Hand #8, test2 (-217), player1 (217)
+test2 posts the blind of 1
+player1 posts the blind of 2
+Dealt to test2 [9c 8c 2s Qc]
+Dealt to player1 [Ac Jd 6h 5d]
+test2 calls
+player1 raises to 6
+test2 folds
+Uncalled bet of 4 returned to player1
+player1 wins the pot (4)
+
+Hand #9, player1 (219), test2 (-219)
+player1 posts the blind of 1
+test2 posts the blind of 2
+Dealt to player1 [4c 6c 4h Qc]
+Dealt to test2 [9c 7d 2d Qh]
+player1 raises to 6
+test2 folds
+Uncalled bet of 4 returned to player1
+player1 wins the pot (4)
+
+Hand #10, test2 (-221), player1 (221)
+test2 posts the blind of 1
+player1 posts the blind of 2
+Dealt to test2 [9c 3h Qc 4c]
+Dealt to player1 [3s 7c 7s Qs]
+test2 calls
+player1 raises to 6
+test2 calls
+*** FLOP *** (12) [2h Ad 9s]
+player1 bets 12
+test2 raises to 38
+player1 raises to 124
+test2 raises to 156
+player1 raises to 70
+test2 raises to 1
+player1 raises to 15
+test2 raises to 34
+player1 raises to 114
+test2 raises to 160
+player1 raises to 80
+test2 raises to 22
+player1 raises to 78
+test2 folds
+Uncalled bet of 56 returned to player1
+player1 wins the pot (56)
+
+Hand #11, player1 (249), test2 (-249)
+player1 posts the blind of 1
+test2 posts the blind of 2
+Dealt to player1 [4c 8s 3s 8c]
+Dealt to test2 [2s 3c Qh 2c]
+player1 raises to 6
+test2 raises to 16
+player1 raises to 48
+test2 folds
+Uncalled bet of 32 returned to player1
+player1 wins the pot (32)
+
+Hand #12, test2 (-265), player1 (265)
+test2 posts the blind of 1
+player1 posts the blind of 2
+Dealt to test2 [Ks 4h Qd 7s]
+Dealt to player1 [Qh 6h Js 7d]
+test2 calls
+player1 raises to 6
+test2 raises to 16
+player1 raises to 48
+test2 calls
+*** FLOP *** (96) [9s Tc 8s]
+player1 bets 96
+test2 raises to 152
+player1 folds
+Uncalled bet of 56 returned to test2
+test2 wins the pot (288)
+
+Hand #13, player1 (121), test2 (-121)
+player1 posts the blind of 1
+test2 posts the blind of 2
+Dealt to player1 [Jc 4d 9s 7d]
+Dealt to test2 [8h 4s 4h Ah]
+player1 raises to 6
+test2 folds
+Uncalled bet of 4 returned to player1
+player1 wins the pot (4)
+
+Hand #14, test2 (-123), player1 (123)
+test2 posts the blind of 1
+player1 posts the blind of 2
+Dealt to test2 [5d 2h 6c 4h]
+Dealt to player1 [Th 2c 9d Kc]
+test2 raises to 4
+player1 raises to 12
+test2 raises to 21
+player1 raises to 63
+test2 folds
+Uncalled bet of 42 returned to player1
+player1 wins the pot (42)
+
+Hand #15, player1 (144), test2 (-144)
+player1 posts the blind of 1
+test2 posts the blind of 2
+Dealt to player1 [Tc 9c 4c Jc]
+Dealt to test2 [Kc 8s 7d Qs]
+player1 raises to 6
+test2 folds
+Uncalled bet of 4 returned to player1
+player1 wins the pot (4)
+
+Hand #16, test2 (-146), player1 (146)
+test2 posts the blind of 1
+player1 posts the blind of 2
+Dealt to test2 [7c 4d 3h Ac]
+Dealt to player1 [8d 5c Qh As]
+test2 raises to 4
+player1 folds
+Uncalled bet of 2 returned to test2
+test2 wins the pot (4)
+
+Hand #17, player1 (144), test2 (-144)
+player1 posts the blind of 1
+test2 posts the blind of 2
+Dealt to player1 [2d 7d 9h 5d]
+Dealt to test2 [2c 7c 9s Qs]
+player1 raises to 6
+test2 raises to 11
+player1 raises to 33
+test2 folds
+Uncalled bet of 22 returned to player1
+player1 wins the pot (22)
+
+Hand #18, test2 (-155), player1 (155)
+test2 posts the blind of 1
+player1 posts the blind of 2
+Dealt to test2 [6c 8s 2c 8h]
+Dealt to player1 [7h Ac Ah Qs]
+test2 folds
+player1 wins the pot (3)
+
+Hand #19, player1 (156), test2 (-156)
+player1 posts the blind of 1
+test2 posts the blind of 2
+Dealt to player1 [Kh 4c 4h Ad]
+Dealt to test2 [Th 9s 8c 9h]
+player1 raises to 6
+test2 folds
+Uncalled bet of 4 returned to player1
+player1 wins the pot (4)
+
+Hand #20, test2 (-158), player1 (158)
+test2 posts the blind of 1
+player1 posts the blind of 2
+Dealt to test2 [9d Jh Td Jd]
+Dealt to player1 [Js 8d 8h 5s]
+test2 raises to 5
+player1 raises to 14
+test2 calls
+*** FLOP *** (28) [9c 2c 3h]
+player1 bets 28
+test2 raises to 111
+player1 raises to 158
+test2 raises to 75
+player1 raises to 28
+test2 calls
+*** TURN *** (84) [9c 2c 3h] [6s]
+player1 bets 84
+test2 raises to 158
+player1 folds
+Uncalled bet of 74 returned to test2
+test2 wins the pot (252)
+
+Hand #21, player1 (32), test2 (-32)
+player1 posts the blind of 1
+test2 posts the blind of 2
+Dealt to player1 [Kh 8h 7h Qc]
+Dealt to test2 [7d Kd Ks 8d]
+player1 raises to 6
+test2 folds
+Uncalled bet of 4 returned to player1
+player1 wins the pot (4)
+
+Hand #22, test2 (-34), player1 (34)
+test2 posts the blind of 1
+player1 posts the blind of 2
+Dealt to test2 [6d Th Jh 5h]
+Dealt to player1 [9s 5d 4c Kd]
+test2 calls
+player1 raises to 6
+test2 calls
+*** FLOP *** (12) [8h Qc Td]
+player1 bets 12
+test2 calls
+*** TURN *** (36) [8h Qc Td] [Ts]
+player1 bets 36
+test2 raises to 98
+player1 raises to 146
+test2 calls
+*** RIVER *** (328) [8h Qc Td Ts] [Qd]
+player1 bets 36
+test2 calls
+test2 shows [6d Th Jh 5h]
+player1 shows [9s 5d 4c Kd]
+test2 wins the pot (400)
+
+Hand #23, player1 (-166), test2 (166)
+player1 posts the blind of 1
+test2 posts the blind of 2
+Dealt to player1 [Kc 5s Jh 8d]
+Dealt to test2 [4h Qs Th 5c]
+player1 folds
+test2 wins the pot (3)
+
+Hand #24, test2 (167), player1 (-167)
+test2 posts the blind of 1
+player1 posts the blind of 2
+Dealt to test2 [Js Jd 9s 3h]
+Dealt to player1 [4d Qc 3s Td]
+test2 raises to 4
+player1 raises to 12
+test2 folds
+Uncalled bet of 8 returned to player1
+player1 wins the pot (8)
+
+Hand #25, player1 (-163), test2 (163)
+player1 posts the blind of 1
+test2 posts the blind of 2
+Dealt to player1 [4c Qc 9s Kc]
+Dealt to test2 [6s 6h 4d 4h]
+player1 raises to 6
+test2 calls
+*** FLOP *** (12) [6c 7c Ks]
+test2 bets 4
+player1 raises to 24
+test2 raises to 67
+player1 raises to 170
+test2 raises to 127
+player1 raises to 24
+test2 calls
+*** TURN *** (60) [6c 7c Ks] [5c]
+test2 checks
+player1 bets 60
+test2 raises to 143
+player1 raises to 110
+test2 folds
+Uncalled bet of -33 returned to player1
+player1 wins the pot (346)
+
+Hand #26, test2 (-10), player1 (10)
+test2 posts the blind of 1
+player1 posts the blind of 2
+Dealt to test2 [5h Qs 7h 2s]
+Dealt to player1 [Kc Kd 2h Ts]
+test2 calls
+player1 raises to 6
+test2 calls
+*** FLOP *** (12) [8d 2c Ks]
+player1 bets 12
+test2 raises to 42
+player1 raises to 138
+test2 raises to 152
+player1 raises to 56
+test2 raises to -17
+player1 raises to -39
+test2 calls
+*** TURN *** (-66) [8d 2c Ks] [6d]
+player1 checks
+test2 checks
+*** RIVER *** (-66) [8d 2c Ks 6d] [As]
+player1 checks
+test2 checks
+test2 shows [5h Qs 7h 2s]
+player1 shows [Kc Kd 2h Ts]
+player1 wins the pot (-66)
+
+Hand #27, player1 (-23), test2 (23)
+player1 posts the blind of 1
+test2 posts the blind of 2
+Dealt to player1 [6s Jh 2s 3c]
+Dealt to test2 [7c 3s 5h 5d]
+player1 raises to 6
+test2 folds
+Uncalled bet of 4 returned to player1
+player1 wins the pot (4)
+
+Hand #28, test2 (21), player1 (-21)
+test2 posts the blind of 1
+player1 posts the blind of 2
+Dealt to test2 [Jd 6h Ah 9d]
+Dealt to player1 [5h 8s 8h 7c]
+test2 folds
+player1 wins the pot (3)
+
+Hand #29, player1 (-20), test2 (20)
+player1 posts the blind of 1
+test2 posts the blind of 2
+Dealt to player1 [5s Ad 2d Qs]
+Dealt to test2 [Th 5c 6h 4c]
+player1 raises to 6
+test2 folds
+Uncalled bet of 4 returned to player1
+player1 wins the pot (4)
+
+Hand #30, test2 (18), player1 (-18)
+test2 posts the blind of 1
+player1 posts the blind of 2
+Dealt to test2 [8h 8s Th 4c]
+Dealt to player1 [5c 9d Ks 7h]
+test2 folds
+player1 wins the pot (3)
+
+Hand #31, player1 (-17), test2 (17)
+player1 posts the blind of 1
+test2 posts the blind of 2
+Dealt to player1 [5h 3d Tc Qs]
+Dealt to test2 [Ah 9h 9s Qh]
+player1 folds
+test2 wins the pot (3)
+
+Hand #32, test2 (18), player1 (-18)
+test2 posts the blind of 1
+player1 posts the blind of 2
+Dealt to test2 [4s 2d Ks 4c]
+Dealt to player1 [Jd 7h 4h Qc]
+test2 raises to 5
+player1 raises to 15
+test2 folds
+Uncalled bet of 10 returned to player1
+player1 wins the pot (10)
+
+Hand #33, player1 (-13), test2 (13)
+player1 posts the blind of 1
+test2 posts the blind of 2
+Dealt to player1 [Ac 5c Kc 3d]
+Dealt to test2 [5s Jc 9c Js]
+player1 raises to 6
+test2 raises to 16
+player1 raises to 44
+test2 folds
+Uncalled bet of 28 returned to player1
+player1 wins the pot (32)
+
+Hand #34, test2 (-3), player1 (3)
+test2 posts the blind of 1
+player1 posts the blind of 2
+Dealt to test2 [Kh 8c 5h Qd]
+Dealt to player1 [5d Th Jd Tc]
+test2 calls
+player1 raises to 6
+test2 folds
+Uncalled bet of 4 returned to player1
+player1 wins the pot (4)
+
+Hand #35, player1 (5), test2 (-5)
+player1 posts the blind of 1
+test2 posts the blind of 2
+Dealt to player1 [8s Ts 7c 2s]
+Dealt to test2 [Kd 7s 9s 6h]
+player1 raises to 6
+test2 raises to 13
+player1 raises to 38
+test2 calls
+*** FLOP *** (76) [5s 5d 6d]
+test2 bets 27
+player1 raises to 157
+test2 folds
+Uncalled bet of 130 returned to player1
+player1 wins the pot (130)
+
+Hand #36, test2 (-70), player1 (70)
+test2 posts the blind of 1
+player1 posts the blind of 2
+Dealt to test2 [9s 4s Tc 8d]
+Dealt to player1 [As Kd Ac Jh]
+test2 raises to 5
+player1 raises to 15
+test2 calls
+*** FLOP *** (30) [Qd 4h 7h]
+player1 bets 30
+test2 calls
+*** TURN *** (90) [Qd 4h 7h] [5c]
+player1 bets 90
+test2 folds
+Uncalled bet of 90 returned to player1
+player1 wins the pot (90)
+
+Hand #37, player1 (115), test2 (-115)
+player1 posts the blind of 1
+test2 posts the blind of 2
+Dealt to player1 [7c 6s Ks Ah]
+Dealt to test2 [Kh Jh 6d Qs]
+player1 raises to 6
+test2 raises to 13
+player1 raises to 39
+test2 folds
+Uncalled bet of 26 returned to player1
+player1 wins the pot (26)
+
+Hand #38, test2 (-128), player1 (128)
+test2 posts the blind of 1
+player1 posts the blind of 2
+Dealt to test2 [Js Qc Ac 8d]
+Dealt to player1 [9s As Jc 5h]
+test2 calls
+player1 raises to 6
+test2 calls
+*** FLOP *** (12) [6h Ts 6d]
+player1 bets 12
+test2 raises to 46
+player1 raises to 140
+test2 folds
+Uncalled bet of 94 returned to player1
+player1 wins the pot (104)
+
+Hand #39, player1 (180), test2 (-180)
+player1 posts the blind of 1
+test2 posts the blind of 2
+Dealt to player1 [2h 3c 8c 6h]
+Dealt to test2 [Td 4c 2d Ad]
+player1 raises to 6
+test2 calls
+*** FLOP *** (12) [Kc Tc Jd]
+test2 bets 9
+player1 raises to 39
+test2 folds
+Uncalled bet of 30 returned to player1
+player1 wins the pot (30)
+
+Hand #40, test2 (-195), player1 (195)
+test2 posts the blind of 1
+player1 posts the blind of 2
+Dealt to test2 [Ah Kc 3h 7d]
+Dealt to player1 [Js 7h Qh Td]
+test2 raises to 5
+player1 raises to 15
+test2 folds
+Uncalled bet of 10 returned to player1
+player1 wins the pot (10)
+
+Hand #41, player1 (200), test2 (-200)
+player1 posts the blind of 1
+test2 posts the blind of 2
+Dealt to player1 [Th 4s As 3d]
+Dealt to test2 [6s 9s 7c Ts]
+player1 raises to 6
+test2 raises to 13
+player1 raises to 39
+test2 folds
+Uncalled bet of 26 returned to player1
+player1 wins the pot (26)
+
+Hand #42, test2 (-213), player1 (213)
+test2 posts the blind of 1
+player1 posts the blind of 2
+Dealt to test2 [2d 3c 2s 6c]
+Dealt to player1 [Ts 2h Kc As]
+test2 raises to 5
+player1 raises to 15
+test2 raises to 32
+player1 raises to 96
+test2 raises to 165
+player1 raises to 104
+test2 folds
+Uncalled bet of -61 returned to player1
+player1 wins the pot (330)
+
+Hand #43, player1 (378), test2 (-378)
+player1 posts the blind of 1
+test2 posts the blind of 2
+Dealt to player1 [8d Kh 7d 3d]
+Dealt to test2 [Jc Ad 2d Ac]
+player1 raises to 6
+test2 folds
+Uncalled bet of 4 returned to player1
+player1 wins the pot (4)
+
+Hand #44, test2 (-380), player1 (380)
+test2 posts the blind of 1
+player1 posts the blind of 2
+Dealt to test2 [4c 3d Qs 6d]
+Dealt to player1 [Kh 6s 6h Ks]
+test2 folds
+player1 wins the pot (3)
+
+Hand #45, player1 (381), test2 (-381)
+player1 posts the blind of 1
+test2 posts the blind of 2
+Dealt to player1 [3h 6c 2s Kd]
+Dealt to test2 [3s 5d Td 5s]
+player1 folds
+test2 wins the pot (3)
+
+Hand #46, test2 (-380), player1 (380)
+test2 posts the blind of 1
+player1 posts the blind of 2
+Dealt to test2 [8s 3c Jc Ts]
+Dealt to player1 [As 9s 7d 3d]
+test2 folds
+player1 wins the pot (3)
+
+Hand #47, player1 (381), test2 (-381)
+player1 posts the blind of 1
+test2 posts the blind of 2
+Dealt to player1 [As Js Ts Qs]
+Dealt to test2 [8d 2c Tc Td]
+player1 raises to 6
+test2 raises to 10
+player1 raises to 30
+test2 raises to 79
+player1 raises to 170
+test2 folds
+Uncalled bet of 91 returned to player1
+player1 wins the pot (158)
+
+Hand #48, test2 (-460), player1 (460)
+test2 posts the blind of 1
+player1 posts the blind of 2
+Dealt to test2 [7c Th Qs As]
+Dealt to player1 [6c 4d Td 5c]
+test2 calls
+player1 raises to 6
+test2 raises to 13
+player1 raises to 39
+test2 folds
+Uncalled bet of 26 returned to player1
+player1 wins the pot (26)
+
+Hand #49, player1 (473), test2 (-473)
+player1 posts the blind of 1
+test2 posts the blind of 2
+Dealt to player1 [7d 4h Jh 5h]
+Dealt to test2 [6c 2h As Kh]
+player1 raises to 6
+test2 calls
+*** FLOP *** (12) [4c 8c 4s]
+test2 checks
+player1 bets 12
+test2 folds
+Uncalled bet of 12 returned to player1
+player1 wins the pot (12)
+
+Hand #50, test2 (-479), player1 (479)
+test2 posts the blind of 1
+player1 posts the blind of 2
+Dealt to test2 [9c 5d Ad Jd]
+Dealt to player1 [2s 2c 8h Kh]
+test2 calls
+player1 raises to 6
+test2 raises to 15
+player1 raises to 42
+test2 calls
+*** FLOP *** (84) [7c Kd 6h]
+player1 bets 84
+test2 folds
+Uncalled bet of 84 returned to player1
+player1 wins the pot (84)
+
+Hand #51, player1 (521), test2 (-521)
+player1 posts the blind of 1
+test2 posts the blind of 2
+Dealt to player1 [5c 7h Ts 4c]
+Dealt to test2 [Ah Kh 4d 7d]
+player1 raises to 6
+test2 calls
+*** FLOP *** (12) [Tc 4s Jd]
+test2 checks
+player1 bets 12
+test2 folds
+Uncalled bet of 12 returned to player1
+player1 wins the pot (12)
+
+Hand #52, test2 (-527), player1 (527)
+test2 posts the blind of 1
+player1 posts the blind of 2
+Dealt to test2 [4s 3c Ad 7h]
+Dealt to player1 [6d 2c 3h Js]
+test2 folds
+player1 wins the pot (3)
+
+Hand #53, player1 (528), test2 (-528)
+player1 posts the blind of 1
+test2 posts the blind of 2
+Dealt to player1 [Ah Qd 7s 9d]
+Dealt to test2 [Ks Kc 2h 5s]
+player1 raises to 6
+test2 raises to 10
+player1 raises to 30
+test2 calls
+*** FLOP *** (60) [8c 3h 6d]
+test2 bets 2
+player1 raises to 66
+test2 folds
+Uncalled bet of 64 returned to player1
+player1 wins the pot (64)
+
+Hand #54, test2 (-560), player1 (560)
+test2 posts the blind of 1
+player1 posts the blind of 2
+Dealt to test2 [9d 2d Qh 9h]
+Dealt to player1 [Ts 8c Tc 4c]
+test2 calls
+player1 raises to 6
+test2 raises to 13
+player1 raises to 38
+test2 raises to 64
+player1 raises to 162
+test2 folds
+Uncalled bet of 98 returned to player1
+player1 wins the pot (128)
+
+Hand #55, player1 (624), test2 (-624)
+player1 posts the blind of 1
+test2 posts the blind of 2
+Dealt to player1 [Kh 3d Th 7c]
+Dealt to test2 [9c 9d Jd 4c]
+player1 raises to 6
+test2 folds
+Uncalled bet of 4 returned to player1
+player1 wins the pot (4)
+
+Hand #56, test2 (-626), player1 (626)
+test2 posts the blind of 1
+player1 posts the blind of 2
+Dealt to test2 [Kd Ks 7s 5s]
+Dealt to player1 [2s As 9s 4h]
+test2 calls
+player1 raises to 6
+test2 folds
+Uncalled bet of 4 returned to player1
+player1 wins the pot (4)
+
+Hand #57, player1 (628), test2 (-628)
+player1 posts the blind of 1
+test2 posts the blind of 2
+Dealt to player1 [2d Kh 3h Td]
+Dealt to test2 [5h 4c 7h Qc]
+player1 raises to 6
+test2 folds
+Uncalled bet of 4 returned to player1
+player1 wins the pot (4)
+
+Hand #58, test2 (-630), player1 (630)
+test2 posts the blind of 1
+player1 posts the blind of 2
+Dealt to test2 [9c Ac 6c Qh]
+Dealt to player1 [Qc Jc 7c Kh]
+test2 folds
+player1 wins the pot (3)
+
+Hand #59, player1 (631), test2 (-631)
+player1 posts the blind of 1
+test2 posts the blind of 2
+Dealt to player1 [9d 5c 7c Kd]
+Dealt to test2 [8h 7d Tc 2s]
+player1 raises to 6
+test2 folds
+Uncalled bet of 4 returned to player1
+player1 wins the pot (4)
+
+Hand #60, test2 (-633), player1 (633)
+test2 posts the blind of 1
+player1 posts the blind of 2
+Dealt to test2 [Td 6h 9d 3s]
+Dealt to player1 [Kc 2d 6d 7s]
+test2 folds
+player1 wins the pot (3)
+
+Hand #61, player1 (634), test2 (-634)
+player1 posts the blind of 1
+test2 posts the blind of 2
+Dealt to player1 [6s 4h 8d 9h]
+Dealt to test2 [3s 8c 4s 7c]
+player1 raises to 6
+test2 folds
+Uncalled bet of 4 returned to player1
+player1 wins the pot (4)
+
+Hand #62, test2 (-636), player1 (636)
+test2 posts the blind of 1
+player1 posts the blind of 2
+Dealt to test2 [6c 5h Ah 2c]
+Dealt to player1 [Kc 6s 9c 5c]
+test2 raises to 4
+player1 raises to 12
+test2 folds
+Uncalled bet of 8 returned to player1
+player1 wins the pot (8)
+
+Hand #63, player1 (640), test2 (-640)
+player1 posts the blind of 1
+test2 posts the blind of 2
+Dealt to player1 [Kd 2h 3h Qs]
+Dealt to test2 [As Ts 7d Js]
+player1 raises to 6
+test2 calls
+*** FLOP *** (12) [7h 4h 5c]
+test2 checks
+player1 bets 12
+test2 raises to 31
+player1 raises to 105
+test2 calls
+*** TURN *** (222) [7h 4h 5c] [4c]
+test2 bets 50
+player1 raises to 89
+test2 folds
+Uncalled bet of 39 returned to player1
+player1 wins the pot (322)
+
+Hand #64, test2 (-801), player1 (801)
+test2 posts the blind of 1
+player1 posts the blind of 2
+Dealt to test2 [Js Qc Tc Jh]
+Dealt to player1 [7c 7d Qd 2c]
+test2 raises to 4
+player1 raises to 12
+test2 calls
+*** FLOP *** (24) [3s 9h 6c]
+player1 bets 24
+test2 calls
+*** TURN *** (72) [3s 9h 6c] [6d]
+player1 bets 72
+test2 folds
+Uncalled bet of 72 returned to player1
+player1 wins the pot (72)
+
+Hand #65, player1 (837), test2 (-837)
+player1 posts the blind of 1
+test2 posts the blind of 2
+Dealt to player1 [Th 9h 3c Td]
+Dealt to test2 [Qd 2s Ac 5s]
+player1 raises to 6
+test2 raises to 13
+player1 raises to 39
+test2 raises to 89
+player1 raises to 161
+test2 raises to 111
+player1 raises to 39
+test2 raises to -25
+player1 raises to -75
+test2 folds
+Uncalled bet of -50 returned to player1
+player1 wins the pot (-50)
+
+Hand #66, test2 (-812), player1 (812)
+test2 posts the blind of 1
+player1 posts the blind of 2
+Dealt to test2 [5c Ac 8d Qs]
+Dealt to player1 [8s 7c Qh Ts]
+test2 folds
+player1 wins the pot (3)
+
+Hand #67, player1 (813), test2 (-813)
+player1 posts the blind of 1
+test2 posts the blind of 2
+Dealt to player1 [9d 8c Ac Th]
+Dealt to test2 [8h 3c Qh 9h]
+player1 raises to 6
+test2 calls
+*** FLOP *** (12) [5s 6s Qc]
+test2 bets 4
+player1 raises to 24
+test2 calls
+*** TURN *** (60) [5s 6s Qc] [4d]
+test2 bets 7
+player1 raises to 81
+test2 raises to 157
+player1 raises to 89
+test2 folds
+Uncalled bet of -68 returned to player1
+player1 wins the pot (374)
+
+Hand #68, test2 (-1000), player1 (1000)
+test2 posts the blind of 1
+player1 posts the blind of 2
+Dealt to test2 [Js 7d 2d 6d]
+Dealt to player1 [9s 5s Qd Td]
+test2 folds
+player1 wins the pot (3)
+
+Hand #69, player1 (1001), test2 (-1001)
+player1 posts the blind of 1
+test2 posts the blind of 2
+Dealt to player1 [5s 4s Ks 2s]
+Dealt to test2 [Qs Js Kc 5d]
+player1 raises to 6
+test2 calls
+*** FLOP *** (12) [Kd 4c 7h]
+test2 bets 6
+player1 raises to 30
+test2 folds
+Uncalled bet of 24 returned to player1
+player1 wins the pot (24)
+
+Hand #70, test2 (-1013), player1 (1013)
+test2 posts the blind of 1
+player1 posts the blind of 2
+Dealt to test2 [Jh Td 9s 9h]
+Dealt to player1 [9c Kc 9d Qd]
+test2 raises to 5
+player1 raises to 15
+test2 calls
+*** FLOP *** (30) [4s Qs 4c]
+player1 bets 30
+test2 raises to 60
+player1 raises to 155
+test2 folds
+Uncalled bet of 95 returned to player1
+player1 wins the pot (150)
+
+Hand #71, player1 (1088), test2 (-1088)
+player1 posts the blind of 1
+test2 posts the blind of 2
+Dealt to player1 [5c 4s 5d Qs]
+Dealt to test2 [Kh Ah 8c 9d]
+player1 raises to 6
+test2 calls
+*** FLOP *** (12) [9h Ad 7s]
+test2 checks
+player1 bets 12
+test2 raises to 26
+player1 raises to 90
+test2 raises to 162
+player1 raises to 104
+test2 raises to 32
+player1 raises to 90
+test2 calls
+*** TURN *** (192) [9h Ad 7s] [3h]
+test2 checks
+player1 bets 104
+test2 folds
+Uncalled bet of 104 returned to player1
+player1 wins the pot (192)
+
+Hand #72, test2 (-1184), player1 (1184)
+test2 posts the blind of 1
+player1 posts the blind of 2
+Dealt to test2 [Jd 4d Kc 3c]
+Dealt to player1 [2s 3h Td 6s]
+test2 raises to 5
+player1 raises to 15
+test2 raises to 38
+player1 raises to 114
+test2 folds
+Uncalled bet of 76 returned to player1
+player1 wins the pot (76)
+
+Hand #73, player1 (1222), test2 (-1222)
+player1 posts the blind of 1
+test2 posts the blind of 2
+Dealt to player1 [5h 4s Qc 7s]
+Dealt to test2 [6s Kh Ad Qs]
+player1 raises to 6
+test2 raises to 11
+player1 raises to 33
+test2 calls
+*** FLOP *** (66) [4c 3s 2c]
+test2 bets 35
+player1 raises to 167
+test2 calls
+*** TURN *** (400) [4c 3s 2c] [Jh]
+*** RIVER *** (400) [4c 3s 2c Jh] [8d]
+player1 shows [5h 4s Qc 7s]
+test2 shows [6s Kh Ad Qs]
+player1 wins the pot (400)
+
+Hand #74, test2 (-1422), player1 (1422)
+test2 posts the blind of 1
+player1 posts the blind of 2
+Dealt to test2 [Qh 9s Th Js]
+Dealt to player1 [Ad 9c Kc 3d]
+test2 calls
+player1 raises to 6
+test2 raises to 16
+player1 raises to 48
+test2 raises to 107
+player1 raises to 152
+test2 folds
+Uncalled bet of 45 returned to player1
+player1 wins the pot (214)
+
+Hand #75, player1 (1529), test2 (-1529)
+player1 posts the blind of 1
+test2 posts the blind of 2
+Dealt to player1 [2c 8h Td 2h]
+Dealt to test2 [5d 3c 5s 5h]
+player1 raises to 6
+test2 raises to 13
+player1 raises to 38
+test2 raises to 88
+player1 raises to 162
+test2 folds
+Uncalled bet of 74 returned to player1
+player1 wins the pot (176)
+
+Hand #76, test2 (-1617), player1 (1617)
+test2 posts the blind of 1
+player1 posts the blind of 2
+Dealt to test2 [Qh Kd Ah 3h]
+Dealt to player1 [6h 3d 8d Qd]
+test2 calls
+player1 raises to 6
+test2 calls
+*** FLOP *** (12) [Kh 9d 5h]
+player1 bets 12
+test2 folds
+Uncalled bet of 12 returned to player1
+player1 wins the pot (12)
+
+Hand #77, player1 (1623), test2 (-1623)
+player1 posts the blind of 1
+test2 posts the blind of 2
+Dealt to player1 [7c 2c 5c 2h]
+Dealt to test2 [9c 3h 8d 7d]
+player1 raises to 6
+test2 calls
+*** FLOP *** (12) [2s 2d Kh]
+test2 checks
+player1 bets 12
+test2 raises to 37
+player1 raises to 122
+test2 folds
+Uncalled bet of 85 returned to player1
+player1 wins the pot (86)
+
+Hand #78, test2 (-1666), player1 (1666)
+test2 posts the blind of 1
+player1 posts the blind of 2
+Dealt to test2 [2h Jc Ks Jd]
+Dealt to player1 [Td 3c Kc Ac]
+test2 raises to 5
+player1 raises to 14
+test2 folds
+Uncalled bet of 9 returned to player1
+player1 wins the pot (10)
+
+Hand #79, player1 (1671), test2 (-1671)
+player1 posts the blind of 1
+test2 posts the blind of 2
+Dealt to player1 [Th Ac Kh 8c]
+Dealt to test2 [9c Ts As Ks]
+player1 raises to 6
+test2 raises to 15
+player1 raises to 45
+test2 folds
+Uncalled bet of 30 returned to player1
+player1 wins the pot (30)
+
+Hand #80, test2 (-1686), player1 (1686)
+test2 posts the blind of 1
+player1 posts the blind of 2
+Dealt to test2 [Jh 4h 6c Th]
+Dealt to player1 [5d Qd Ts Td]
+test2 raises to 5
+player1 raises to 14
+test2 raises to 32
+player1 raises to 92
+test2 calls
+*** FLOP *** (184) [Jd 9s 2s]
+player1 bets 108
+test2 folds
+Uncalled bet of 108 returned to player1
+player1 wins the pot (184)
+
+Hand #81, player1 (1778), test2 (-1778)
+player1 posts the blind of 1
+test2 posts the blind of 2
+Dealt to player1 [3h Ts 5c 4h]
+Dealt to test2 [9d 6h 4d 8h]
+player1 raises to 6
+test2 folds
+Uncalled bet of 4 returned to player1
+player1 wins the pot (4)
+
+Hand #82, test2 (-1780), player1 (1780)
+test2 posts the blind of 1
+player1 posts the blind of 2
+Dealt to test2 [9c 3c Js 4c]
+Dealt to player1 [4d 9h 8c Qh]
+test2 folds
+player1 wins the pot (3)
+
+Hand #83, player1 (1781), test2 (-1781)
+player1 posts the blind of 1
+test2 posts the blind of 2
+Dealt to player1 [Kd Ah 3d 5s]
+Dealt to test2 [7d 8s Qd 3c]
+player1 raises to 6
+test2 folds
+Uncalled bet of 4 returned to player1
+player1 wins the pot (4)
+
+Hand #84, test2 (-1783), player1 (1783)
+test2 posts the blind of 1
+player1 posts the blind of 2
+Dealt to test2 [Ks Jh Jc 7h]
+Dealt to player1 [5h Qd 4c 8h]
+test2 calls
+player1 raises to 6
+test2 calls
+*** FLOP *** (12) [Kh Jd Tc]
+player1 bets 12
+test2 raises to 43
+player1 raises to 141
+test2 calls
+*** TURN *** (294) [Kh Jd Tc] [Kc]
+player1 bets 53
+test2 calls
+*** RIVER *** (400) [Kh Jd Tc Kc] [Ad]
+test2 shows [Ks Jh Jc 7h]
+player1 shows [5h Qd 4c 8h]
+test2 wins the pot (400)
+
+Hand #85, player1 (1583), test2 (-1583)
+player1 posts the blind of 1
+test2 posts the blind of 2
+Dealt to player1 [4c Ks Qc Jd]
+Dealt to test2 [3h Ah 7s 9d]
+player1 raises to 6
+test2 folds
+Uncalled bet of 4 returned to player1
+player1 wins the pot (4)
+
+Hand #86, test2 (-1585), player1 (1585)
+test2 posts the blind of 1
+player1 posts the blind of 2
+Dealt to test2 [2h 4h Ks Qd]
+Dealt to player1 [Kc Qs Ah 3h]
+test2 calls
+player1 raises to 6
+test2 raises to 11
+player1 raises to 33
+test2 raises to 78
+player1 raises to 167
+test2 raises to 122
+player1 raises to 33
+test2 calls
+*** FLOP *** (66) [7h Kd 9c]
+player1 bets 66
+test2 raises to 152
+player1 raises to 101
+test2 raises to 15
+player1 raises to 66
+test2 calls
+*** TURN *** (198) [7h Kd 9c] [8c]
+player1 bets 101
+test2 folds
+Uncalled bet of 101 returned to player1
+player1 wins the pot (198)
+
+Hand #87, player1 (1684), test2 (-1684)
+player1 posts the blind of 1
+test2 posts the blind of 2
+Dealt to player1 [Ah 3h Ks 6c]
+Dealt to test2 [8s Jh Ac Ad]
+player1 raises to 6
+test2 folds
+Uncalled bet of 4 returned to player1
+player1 wins the pot (4)
+
+Hand #88, test2 (-1686), player1 (1686)
+test2 posts the blind of 1
+player1 posts the blind of 2
+Dealt to test2 [Ks 6s 3c 7s]
+Dealt to player1 [3d 2h 9d Js]
+test2 raises to 5
+player1 raises to 15
+test2 folds
+Uncalled bet of 10 returned to player1
+player1 wins the pot (10)
+
+Hand #89, player1 (1691), test2 (-1691)
+player1 posts the blind of 1
+test2 posts the blind of 2
+Dealt to player1 [5s 7d As 3h]
+Dealt to test2 [5d Tc 6s 8d]
+player1 raises to 6
+test2 raises to 12
+player1 raises to 36
+test2 folds
+Uncalled bet of 24 returned to player1
+player1 wins the pot (24)
+
+Hand #90, test2 (-1703), player1 (1703)
+test2 posts the blind of 1
+player1 posts the blind of 2
+Dealt to test2 [2h Jh As 4s]
+Dealt to player1 [3h 5h 9d 9h]
+test2 folds
+player1 wins the pot (3)
+
+Hand #91, player1 (1704), test2 (-1704)
+player1 posts the blind of 1
+test2 posts the blind of 2
+Dealt to player1 [Ad 9c 5h 6c]
+Dealt to test2 [4d 7s 8d 6d]
+player1 raises to 6
+test2 raises to 17
+player1 raises to 51
+test2 raises to 136
+player1 raises to 149
+test2 calls
+*** FLOP *** (298) [Ah 2h 9d]
+test2 bets 50
+player1 raises to 51
+test2 folds
+Uncalled bet of 1 returned to player1
+player1 wins the pot (398)
+
+Hand #92, test2 (-1903), player1 (1903)
+test2 posts the blind of 1
+player1 posts the blind of 2
+Dealt to test2 [Th 2d 6h 5d]
+Dealt to player1 [8h 5h Qh 2h]
+test2 folds
+player1 wins the pot (3)
+
+Hand #93, player1 (1904), test2 (-1904)
+player1 posts the blind of 1
+test2 posts the blind of 2
+Dealt to player1 [8h Qc 4c As]
+Dealt to test2 [Ts 6h 9s Kd]
+player1 raises to 6
+test2 raises to 12
+player1 raises to 36
+test2 folds
+Uncalled bet of 24 returned to player1
+player1 wins the pot (24)
+
+Hand #94, test2 (-1916), player1 (1916)
+test2 posts the blind of 1
+player1 posts the blind of 2
+Dealt to test2 [6c 9s 8s 4h]
+Dealt to player1 [7h 8h 8c Th]
+test2 calls
+player1 raises to 6
+test2 calls
+*** FLOP *** (12) [9c Kh Qc]
+player1 bets 12
+test2 calls
+*** TURN *** (36) [9c Kh Qc] [Qh]
+player1 bets 36
+test2 folds
+Uncalled bet of 36 returned to player1
+player1 wins the pot (36)
+
+Hand #95, player1 (1934), test2 (-1934)
+player1 posts the blind of 1
+test2 posts the blind of 2
+Dealt to player1 [As 4d Qc 8d]
+Dealt to test2 [7d Kd Qd 2d]
+player1 raises to 6
+test2 calls
+*** FLOP *** (12) [7s 8c 6h]
+test2 bets 8
+player1 raises to 36
+test2 folds
+Uncalled bet of 28 returned to player1
+player1 wins the pot (28)
+
+Hand #96, test2 (-1948), player1 (1948)
+test2 posts the blind of 1
+player1 posts the blind of 2
+Dealt to test2 [As 4d 9c 6h]
+Dealt to player1 [5d 4s Qc Jh]
+test2 calls
+player1 raises to 4
+test2 folds
+Uncalled bet of 2 returned to player1
+player1 wins the pot (4)
+
+Hand #97, player1 (1950), test2 (-1950)
+player1 posts the blind of 1
+test2 posts the blind of 2
+Dealt to player1 [Qc Tc 7s Kc]
+Dealt to test2 [5d 5h 9h 2h]
+player1 raises to 6
+test2 raises to 14
+player1 raises to 40
+test2 raises to 77
+player1 raises to 160
+test2 folds
+Uncalled bet of 83 returned to player1
+player1 wins the pot (154)
+
+Hand #98, test2 (-2027), player1 (2027)
+test2 posts the blind of 1
+player1 posts the blind of 2
+Dealt to test2 [2s Ks Js 4d]
+Dealt to player1 [Kd Qd Kc 5s]
+test2 calls
+player1 raises to 6
+test2 calls
+*** FLOP *** (12) [2c 3c 6c]
+player1 bets 12
+test2 folds
+Uncalled bet of 12 returned to player1
+player1 wins the pot (12)
+
+Hand #99, player1 (2033), test2 (-2033)
+player1 posts the blind of 1
+test2 posts the blind of 2
+Dealt to player1 [5c Ac Qs 2c]
+Dealt to test2 [4h 3h Qc 5s]
+player1 raises to 6
+test2 calls
+*** FLOP *** (12) [Ts Th Qh]
+test2 bets 9
+player1 raises to 39
+test2 folds
+Uncalled bet of 30 returned to player1
+player1 wins the pot (30)
+
+Hand #100, test2 (-2048), player1 (2048)
+test2 posts the blind of 1
+player1 posts the blind of 2
+Dealt to test2 [8s 8h 5s Kh]
+Dealt to player1 [Ks 9c 7h 5c]
+test2 raises to 4
+player1 raises to 12
+test2 folds
+Uncalled bet of 8 returned to player1
+player1 wins the pot (8)
+
