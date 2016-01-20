@@ -1,6 +1,8 @@
 import argparse
 import socket
 import sys
+import BBHistorian
+import random
 
 """
 Simple example pokerbot, written in python.
@@ -33,26 +35,26 @@ class Player:
         if(numRanks[12] == 2):
             points = points + 10000
         if(numRanks[11] == 2):
-            points = points + 7
+            points = points + 500
         if(numRanks[10] == 2):
-            points = points + 4
+            points = points + 250
         if(numRanks[9] == 2):
-            points = points + 2
+            points = points + 100
             
         #counting triples
         if(numRanks[12] == 3):
-            points = points + 4
+            points = points + 100
         if(numRanks[11] == 3):
-            points = points + 1
+            points = points + 50
         
         #counting four of a kind
         if(numRanks[12] == 4):
-            points = points + 1
+            points = points + 50
             
         #counting consecutive numbers
         for i in range(0, 13):
             if(numRanks[i] > 0 and numRanks[(i + 1)%13] > 0):
-                points = points + 5*(min(numRanks[i], numRanks[(i + 1)%13]))
+                points = points + 50*(min(numRanks[i], numRanks[(i + 1)%13]))
         
         numSuits = []
         for i in range(0, 4):
@@ -70,7 +72,7 @@ class Player:
         #counting suits
         for i in range(0, 4):
             if(numSuits[i] >= 2):
-                points = points + 9 - 2*numSuits[i]
+                points = points + 150 - 25*numSuits[i]
         
         return points
 
@@ -78,7 +80,7 @@ class Player:
     def sizeToValue(self,size,pot):
         return size*pot
 
-    def valueToSize(self,value,pot):
+    def valueToSize(self,value,pot,inCallThreshold):
         trueSize = float(value)/pot
         closest = 0
         closestDifference = trueSize
@@ -118,7 +120,8 @@ class Player:
                 totalHands = dataList[5]
                 bb = dataList[4]
                 timeRemaining = dataList[6]
-            if dataType=="NEWHAND":
+                bbHistorian = BBHistorian.BBHistorian()
+            if dataType=="NEWHAND":    
                 handId = dataList[1]
                 button = dataList[2]
                 myHand = [dataList[3],dataList[4],dataList[5],dataList[6]]
@@ -148,10 +151,14 @@ class Player:
                 print boardCards
 
                 #Read lastActions into a list
+                currentStage = 0 #0 is pre-flop, 1 is flop, etc.
+                
                 lastActions = []
                 numLastActionsIndex = int(dataList[2])+3
                 numLastActions = int(dataList[numLastActionsIndex])
                 for action in range(numLastActionsIndex+1,numLastActionsIndex+numLastActions+1):
+                    if(dataList[action].split(':')[0] == 'DEAL'):
+                        currentStage = currentStage + 1
                     lastActions.append(dataList[action])
                 print lastActions
 
@@ -178,7 +185,7 @@ class Player:
                         
                     else:
                         can[dataList[action]] = True
-                callValue = maxBet-pot
+                callValue = int(maxBet)-int(pot)
                 print legalActions
                 print can
                 timeRemaining = dataList[-1]
@@ -239,7 +246,7 @@ class Player:
                             hasNotActed = False
 
                     elif can["CALL"]:
-                        betSize = self.valueToSize(callValue,pot)
+                        betSize = self.valueToSize(callValue,pot,inCallThreshold[actionNumber])
                         if betSize>0 and inCallThreshold[actionNumber][betSize]<=n:
                             s.send("CALL\n")
                             hasNotActed = False
@@ -249,8 +256,24 @@ class Player:
                             s.send("CHECK\n")
                         else:
                             s.send("FOLD\n")
-                else: 
-                    if can["BET"]:
+                else:
+                    if(len(lastActions) > 0):
+                        bbHistorian.update(pot, currentStage, lastActions[0])
+                    reactionProb = bbHistorian.exploitProbability(pot, currentStage, legalActions, lastActions)
+                    #incorporate hand probabilities here
+                    value = random.random()
+                    prefixSum = 0
+                    for k in prob.keys():
+                        if(value >= prefixSum and value < prefixSum + prob[k]):
+                            if(k == 'RAISE' or k == 'BET'):
+                                s.send(k + ":" + str(maxBet) + "\n") #decide what to bet
+                                bbHistorian.raised()
+                                break
+                            else:
+                                s.send(k + "\n")
+                                break
+                        prefixSum = prefixSum + prob[k]
+                    """if can["BET"]:
                         bet = 0
                         for betSize in outBetThreshold[actionNumber]:
                             if outBetThreshold[actionNumber][betSize]<=n:
@@ -278,7 +301,7 @@ class Player:
                         if can["CHECK"]:
                             s.send("CHECK\n")
                         else:
-                            s.send("FOLD\n")
+                            s.send("FOLD\n")"""
 
 
             elif dataType == "REQUESTKEYVALUES":
