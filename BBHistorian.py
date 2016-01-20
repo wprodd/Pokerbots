@@ -52,12 +52,14 @@ class BBHistorian:
             if(can[k]):
                 prob[k] = 1.0
         prob["FOLD"] = 0.0
+        lastDetails = lastActions[0].split(':')
+        if(len(lastActions) > 0 and (lastDetails[0] == 'BET' or lastDetails[1] == 'RAISE')):
+            prob["FOLD"] = 1.0
         if(currentStage == 0):
-            lastDetails = lastActions[0].split(':')
-            if(lastDetails[0] == 'CALL'):
+            if(len(lastActions) > 0 and lastDetails[0] == 'CALL'):
                 prob["BET"] = prob["BET"]*(1.0/(self.limp + 0.01))
                 #prob["CHECK"] = prob["CHECK"]*(1.0 - (1.0/(self.limp + 0.01)))
-            elif(lastDetails[0] == 'BET' or lastDetails[1] == 'RAISE'):
+            elif(len(lastActions) > 0 and (lastDetails[0] == 'BET' or lastDetails[1] == 'RAISE')):
                 preFlopRaiseProb = float(self.preFlopRaiseCount)/self.numPreFlopActions
                 proportion = float(lastDetails[1])/pot
                 prob["RAISE"] = prob["RAISE"]*preFlopRaiseProb*(10.0**(self.preFlopRaiseProportion - proportion))
