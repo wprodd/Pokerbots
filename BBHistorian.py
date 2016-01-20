@@ -10,7 +10,7 @@ class BBHistorian:
         self.foldToPreFlopRaise = 0.0
         self.timesRaised = 0
         self.currentStage = 0
-    def update(self, pot, currentStage, lastActions):
+    def update(self, pot, currentStage, action):
         details = action.split(":")
         if(currentStage == 0):
             if(details[0] == 'RAISE' or details[0] == 'BET'):
@@ -66,8 +66,8 @@ class BBHistorian:
                 prob["FOLD"] = 0.5
                 if(proportion >= self.preFlopRaiseProportion):
                     prob["FOLD"] = prob["FOLD"]*(1.0 - preFlopRaiseProb)*(10.0**(proportion - self.preFlopRaiseProportion))
-                prob["CALL"] = prob["CALL"] + (1.0 - (2.0**(-1*timesRaised)))*prob["RAISE"];
-                prob["RAISE"] = prob["RAISE"]*(2.0**(-1*timesRaised))
+                prob["CALL"] = prob["CALL"] + (1.0 - (1.2**(-1*timesRaised)))*prob["RAISE"];
+                prob["RAISE"] = prob["RAISE"]*(1.2**(-1*timesRaised))
         """if(handValue < outThreshold[currentStage]):
             if(can["CHECK"]):
                 prob["CHECK"] = 1.0
