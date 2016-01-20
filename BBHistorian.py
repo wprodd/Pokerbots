@@ -30,8 +30,8 @@ class BBHistorian:
     def raised(): #call when this bot actually raises
         self.timesRaised = self.timesRaised + 1
     def exploitProbability(self, pot, currentStage, legalActions, lastActions):
-        outThreshold = [10, 15, 17, 19]
-        betThreshold = [20, 30, 40, 50]
+        #outThreshold = [10, 15, 17, 19]
+        #betThreshold = [20, 30, 40, 50]
         can = {"BET": False, "RAISE": False, "CALL": False, "CHECK": False, "FOLD": False}
         minBet = 0
         maxBet = 0
